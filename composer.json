@@ -1,5 +1,6 @@
 {
     "require": {
-        "ruflin/elastica" : "*"
+        "ruflin/elastica" : "*",
+        "psr/log": "*"
     }
 }
