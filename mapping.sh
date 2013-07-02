@@ -10,7 +10,6 @@ curl -XPOST "${ELASTICA_URL}cw" -d '{
   "mappings": {
     "chat": {
       "properties": {
-        "id": {"type": "integer"},
         "message": {"type": "string", "index": "analyzed"},
         "create_date" : {"type": "date", "format" : "YYYY-MM-dd HH:mm:ss"},
         "rid": {"type": "integer"},
