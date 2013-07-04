@@ -32,14 +32,14 @@ if (! empty($param['message'])) {
 }
 
 if (! empty($param['rid'])) {
-	$rid_filter = new Elastica\Filter\Term();
+	$rid_filter = new Elastica\Filter\Terms();
 	$rid = explode(',', $param['rid']);
 	$rid_filter->setTerms('rid', $rid);
 	$filter_list[] = $rid_filter;
 }
 
 if (! empty($param['aid'])) {
-	$aid_filter = new Elastica\Filter\Term();
+	$aid_filter = new Elastica\Filter\Terms();
 	$aid = explode(',', $param['aid']);
 	$aid_filter->setTerms('aid', $aid);
 	$filter_list[] = $aid_filter;
@@ -52,8 +52,11 @@ if (!empty($filter_list)) {
 
 $query = new Elastica\Query($query);
 $query->setSort(array(array('create_date' => array('order' => 'desc'))));
+$query->setSize(5000);
 
+$start_time = microtime(true);
 $result_set = $chat_type->search($query);
+$end_time = microtime(true);
 
 $data = array();
 while ($result = $result_set->current()) {
@@ -66,6 +69,7 @@ while ($result = $result_set->current()) {
 $response = array(
 	'count'=> $result_set->count(),
 	'data' => $data,
+	'time' => $end_time - $start_time,
 );
 
 header("Content-Type: application/json; charset=utf-8");

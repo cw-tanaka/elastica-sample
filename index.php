@@ -22,6 +22,7 @@ $(function() {
 				html += '</ul>';
 				$('#chat-list').html(html);
 				$('#chat-count').text(response.count || 0);
+				$('#chat-response-time').text(response.time || 0);
 			},
 			error: function(err) {
 				console.log(err);
@@ -81,6 +82,7 @@ $(function() {
 		</div>
 		<div id="chat-info">
 			<p>Hit: <span id="chat-count">0</span></p>
+			<p>Time: <span id="chat-response-time"></span> (msec)</p>
 		</div>
 		<div id="chat-list">
 		</div>

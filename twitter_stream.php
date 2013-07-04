@@ -4,8 +4,12 @@ require './vendor/autoload.php';
 $client = new Elastica\Client(array(
 	'url' => 'http://localhost:9200/',
 ));
-$chat_type = $client->getIndex('cw')->getType('chat');
-
+$client->setConfig(array('log' => true));
+$client->setConfig(array('timeout' => 10));
+$client->setConfig(array('connections' => array(
+    'timeout' => 10
+)));
+$chat_type = $client->getIndex('cw')->getType('chat'); 
 
 $consumer_key       = 'IoatSl870Tb4E4VgIk9A';
 $consumer_secret    = 'cJzqoHVjn4MwlTy4GTgfJEjFWmzD5a9Wa5HZ1YDCWU';
@@ -43,23 +47,46 @@ $oauth_parameters['oauth_signature'] = base64_encode(hash_hmac('sha1', $base_str
  
 // 接続＆データ取得
 // $fp = stream_socket_client("ssl://stream.twitter.com:443/"); でもよい
-$fp = fsockopen("ssl://stream.twitter.com", 443);
-if ($fp) {
-    fwrite($fp, "GET " . $url . ($get_parameters ? '?' . http_build_query($get_parameters) : '') . " HTTP/1.0\r\n"
-                . "Host: stream.twitter.com\r\n"
-                . 'Authorization: OAuth ' . str_replace('+', '%20', http_build_query($oauth_parameters, '', ','))  . "\r\n"
-                . "\r\n");
-    while (!feof($fp)) {
-        $tweet = json_decode(fgets($fp));
-        $data = array(
-            'message' => $tweet->text,
-            'rid' => rand(1, 30),
-            'aid' => rand(1, 50),
-            'create_date' => date('Y-m-d H:i:s')
-        );
-        $chat_type->addDocument(new Elastica\Document('', $data));
+$cnt = 5;
+while($cnt--) {
+    $fp = fsockopen("ssl://stream.twitter.com", 443);
+    if ($fp) {
+        fwrite($fp, "GET " . $url . ($get_parameters ? '?' . http_build_query($get_parameters) : '') . " HTTP/1.0\r\n"
+                    . "Host: stream.twitter.com\r\n"
+                    . 'Authorization: OAuth ' . str_replace('+', '%20', http_build_query($oauth_parameters, '', ','))  . "\r\n"
+                    . "\r\n");
+        $documents = array();
+        while (!feof($fp)) {
+            $tweet = json_decode(fgets($fp));
+            if (!isset($tweet->text)) {
+                continue;
+            }
+            $data = array(
+                'message' => $tweet->text,
+                'rid' => rand(1, 30),
+                'aid' => rand(1, 50),
+                'create_date' => date('Y-m-d H:i:s')
+            );
+            $documents[] = new Elastica\Document('', $data);
+            echo print_r($data, true);
+            if (count($documents) >= 20) {
+                break;
+            }
+        }
+        if (count($documents) > 0) {
+            echo "Trying to put documents.....\n";
+            try {
+                $start_time = microtime(true);
+                $chat_type->addDocuments($documents);
+                $end_time = microtime(true);
 
-		echo print_r($data, true);
+                echo "###### Time : " . ($end_time - $start_time) . "\n";
+                echo "###### (insert " . count($documents) . " data) \n";
+            } catch (\Exception $e) {
+                echo $e . "\n";
+            }
+        }
+        sleep(1);
+        fclose($fp);
     }
-    fclose($fp);
 }
