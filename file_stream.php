@@ -33,20 +33,18 @@ if ($fp) {
         $documents[] = new Elastica\Document('', $data);
         echo print_r($data, true);
         if (count($documents) >= 20) {
-            break;
-        }
-    }
-    if (count($documents) > 0) {
-        echo "Trying to put documents.....\n";
-        try {
-            $start_time = microtime(true);
-            $chat_type->addDocuments($documents);
-            $end_time = microtime(true);
+            echo "Trying to put documents.....\n";
+            try {
+                $start_time = microtime(true);
+                $chat_type->addDocuments($documents);
+                $end_time = microtime(true);
 
-            echo "###### Time : " . ($end_time - $start_time) . "\n";
-            echo "###### (insert " . count($documents) . " data) \n";
-        } catch (\Exception $e) {
-            echo $e . "\n";
+                echo "###### Time : " . ($end_time - $start_time) . "\n";
+                echo "###### (insert " . count($documents) . " data) \n";
+            } catch (\Exception $e) {
+                echo $e . "\n";
+            }
+            $documents = array();
         }
     }
     fclose($fp);
