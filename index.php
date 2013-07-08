@@ -37,8 +37,7 @@
 		</div><!-- /#container -->
 		<script type="text/template" id="chat-list-template">
 			<li>
-				<b>(id, aid, rid) = (<%= _id %>, <%= aid %>, <%= rid %>)</b>:&nbsp;
-				<%= message %>
+				<b>(id, aid, rid) = (<%= _id %>, <%= aid %>, <%= rid %>)</b>:&nbsp;<%= message %>
 			</li>
 		</script>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>

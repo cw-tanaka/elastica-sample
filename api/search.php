@@ -72,7 +72,7 @@ try {
 	$response['time'] = $end_time - $start_time;
 } catch (\Exception $e) {
 	header("HTTP/1.1 500 Internal Server Error");
-	$response['message'] = $e;
+	$response['message'] = $e->__toString();
 }
 
 header("Content-Type: application/json; charset=utf-8");
