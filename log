@@ -1,0 +1,4796 @@
+
+Warning: fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): unable to connect to ssl://stream.twitter.com:443 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): unable to connect to ssl://stream.twitter.com:443 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): unable to connect to ssl://stream.twitter.com:443 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): unable to connect to ssl://stream.twitter.com:443 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): unable to connect to ssl://stream.twitter.com:443 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): unable to connect to ssl://stream.twitter.com:443 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): unable to connect to ssl://stream.twitter.com:443 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): unable to connect to ssl://stream.twitter.com:443 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+
+Warning: fsockopen(): unable to connect to ssl://stream.twitter.com:443 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Users/tanaka/workspace/elastica-sample/twitter_stream.php on line 52
+Array
+(
+    [message] => 納豆マヨネーズトースト http://t.co/QpIEhfPlvv
+    [rid] => 2
+    [aid] => 44
+    [create_date] => 2013-07-08 09:32:01
+)
+Array
+(
+    [message] => I'm at セブンイレブン牛久南店 http://t.co/wXUl2YwvGC
+    [rid] => 6
+    [aid] => 6
+    [create_date] => 2013-07-08 09:32:02
+)
+Array
+(
+    [message] => 【確定情報】8日9時27分頃に茨城県北部で震度1(M2.9)の地震が発生。震源の深さは10km。 http://t.co/cXnug5K9s7 #jishin #earthquake #eqjp
+    [rid] => 10
+    [aid] => 39
+    [create_date] => 2013-07-08 09:32:02
+)
+Array
+(
+    [message] => 昨日、蓮の花の写真撮りに行った最寄り駅。「こなん駅」だと思ってたら、「しょうなんえき」と読むんだね。 @ 沼南駅 (Shonan Sta.) http://t.co/B81eqYgkT4
+    [rid] => 2
+    [aid] => 23
+    [create_date] => 2013-07-08 09:32:03
+)
+Array
+(
+    [message] => I'm at イオン 富士宮店 http://t.co/3Dk5Gfif3F
+    [rid] => 28
+    [aid] => 41
+    [create_date] => 2013-07-08 09:32:03
+)
+Array
+(
+    [message] => @m_t0101 
+
+あいつが俺を待っている、、、！笑
+    [rid] => 2
+    [aid] => 38
+    [create_date] => 2013-07-08 09:32:03
+)
+Array
+(
+    [message] => ［気象庁情報］08日　09時27分頃　茨城県北部（N36.7/E140.7）にて　最大震度1（M2.9）の地震が発生。　震源の深さは10km。( http://t.co/a2zUvCyKr1 ) #saigai #jishin #earthquake
+    [rid] => 21
+    [aid] => 13
+    [create_date] => 2013-07-08 09:32:03
+)
+Array
+(
+    [message] => @wuc_tadaneko38 死んでもいいからねさせてください〜
+クソネミのバナナ
+　　　┌┐ 
+　　 ／ / 
+　 ／　/｜ 
+　｜( ˘ω˘ ) 
+　｜(ﾉi　|） 
+　｜　i　i 
+　 ＼_ヽ_ゝ 
+　　 ∪∪
+    [rid] => 30
+    [aid] => 40
+    [create_date] => 2013-07-08 09:32:04
+)
+Array
+(
+    [message] => 今日はテンションMAX
+    [rid] => 24
+    [aid] => 8
+    [create_date] => 2013-07-08 09:32:05
+)
+Array
+(
+    [message] => やってまいりました。恒例介護通院。 @ 千里つくも医療ビル http://t.co/TGf8vW7C1Z
+    [rid] => 8
+    [aid] => 23
+    [create_date] => 2013-07-08 09:32:05
+)
+Array
+(
+    [message] => おじいちゃんたちの集会所みたいになってんな…ｗ
+    [rid] => 24
+    [aid] => 14
+    [create_date] => 2013-07-08 09:32:05
+)
+Array
+(
+    [message] => それにしても暑いし暇い
+    [rid] => 12
+    [aid] => 31
+    [create_date] => 2013-07-08 09:32:05
+)
+Array
+(
+    [message] => ひまぽょ〜(*´ω｀*)ゞ
+テラスでまったり中〜 http://t.co/w9eep8Oq81  ( GOOD MORNING CAFE http://t.co/fdw9CodcJE ) #tspot
+    [rid] => 11
+    [aid] => 18
+    [create_date] => 2013-07-08 09:32:06
+)
+Array
+(
+    [message] => Beast mode! (@ GOLD'S GYM 横浜馬車道プールアネックス) [pic]: http://t.co/yHY3NKmEqo
+    [rid] => 24
+    [aid] => 50
+    [create_date] => 2013-07-08 09:32:06
+)
+Array
+(
+    [message] => 京急本線 品川駅にタッチ！ http://t.co/vGMkiYkP0q
+    [rid] => 17
+    [aid] => 47
+    [create_date] => 2013-07-08 09:32:07
+)
+Array
+(
+    [message] => しばらく外でれないなー。
+    [rid] => 2
+    [aid] => 32
+    [create_date] => 2013-07-08 09:32:08
+)
+Array
+(
+    [message] => とりま煙草臭い
+    [rid] => 24
+    [aid] => 13
+    [create_date] => 2013-07-08 09:32:08
+)
+Array
+(
+    [message] => これ仕事かよ！
+
+ 毛呂と嵐山の現調行って親方の家の庭でぐだってる！兄貴サッカーしてるし！
+    [rid] => 22
+    [aid] => 5
+    [create_date] => 2013-07-08 09:32:08
+)
+Array
+(
+    [message] => 闘え...
+    [rid] => 1
+    [aid] => 40
+    [create_date] => 2013-07-08 09:32:10
+)
+Array
+(
+    [message] => @Gantai_usagi 余ったご飯ちょうだいっ！土下座
+    [rid] => 16
+    [aid] => 48
+    [create_date] => 2013-07-08 09:32:11
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(551): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...', Array)
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#6 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#7 {main}
+Array
+(
+    [message] => 今日午前授業らしー。うれしいけどひまだよね(笑)
+とりあえずひまちん。
+    [rid] => 19
+    [aid] => 29
+    [create_date] => 2013-07-08 09:32:13
+)
+Array
+(
+    [message] => @mimocha418 やったー♡じゃあそうしましょ！偉いね♡って言おうとしてたよ！（笑）大変だよね(&gt;_&lt;)お仕事の話しとかまた色々聞かせてー♡
+    [rid] => 22
+    [aid] => 14
+    [create_date] => 2013-07-08 09:32:13
+)
+Array
+(
+    [message] => @Rodo_Warrior 大丈夫だといいね
+    [rid] => 25
+    [aid] => 36
+    [create_date] => 2013-07-08 09:32:13
+)
+Array
+(
+    [message] => 電話待ち…。 (@ 都庁前駅 (Tochōmae Sta.) (E28) w/ 2 others) http://t.co/blW9OSxfqr
+    [rid] => 3
+    [aid] => 31
+    [create_date] => 2013-07-08 09:32:14
+)
+Array
+(
+    [message] => 32分発 (@ 武蔵中原駅 (Musashi-Nakahara Sta.) w/ 7 others) http://t.co/3as2B800O6
+    [rid] => 26
+    [aid] => 16
+    [create_date] => 2013-07-08 09:32:14
+)
+Array
+(
+    [message] => 2013/07/08朝の体重は100.4kg。
+    [rid] => 2
+    [aid] => 33
+    [create_date] => 2013-07-08 09:32:14
+)
+Array
+(
+    [message] => 前 (@ 松山城 天守閣) [pic]: http://t.co/BCprObgATe
+    [rid] => 18
+    [aid] => 22
+    [create_date] => 2013-07-08 09:32:15
+)
+Array
+(
+    [message] => @Black_Yukki 大きすぎて驚く
+    [rid] => 8
+    [aid] => 47
+    [create_date] => 2013-07-08 09:32:15
+)
+Array
+(
+    [message] => @erina_nya627 二週間働きっぱなし！！！きついですね(°_°)ゆっくり休むんですよ！
+    [rid] => 24
+    [aid] => 3
+    [create_date] => 2013-07-08 09:32:15
+)
+Array
+(
+    [message] => (´-ω-｀)
+    [rid] => 28
+    [aid] => 17
+    [create_date] => 2013-07-08 09:32:16
+)
+Array
+(
+    [message] => おはようございマッス‼
+かしら屋ランチメニューです！
+玉ねぎザクザク塩たん定食750円
+気魄のレバニラ炒め定食650円
+定番もつマニア丼650円
+はらみのサイコロステーキ定食750円
+ご飯大盛り無料、漬物取り放題 http://t.co/R16uZutD2B
+    [rid] => 30
+    [aid] => 49
+    [create_date] => 2013-07-08 09:32:17
+)
+Array
+(
+    [message] => あーはらいてーーってことでうんこうぃる
+    [rid] => 29
+    [aid] => 38
+    [create_date] => 2013-07-08 09:32:17
+)
+Array
+(
+    [message] => @uik0709 そんなの決まってねーよ(-_-)
+    [rid] => 7
+    [aid] => 35
+    [create_date] => 2013-07-08 09:32:18
+)
+Array
+(
+    [message] => よかった…
+    [rid] => 26
+    [aid] => 13
+    [create_date] => 2013-07-08 09:32:18
+)
+Array
+(
+    [message] => 08日09時27分頃地震がありました。最大震度１です。震源地は茨城県北部（北緯36.7度、東経140.7度）で、震源の深さは約10km、地震の規模はM2.9と推定されます。 http://t.co/NSYyZzFyYh
+    [rid] => 15
+    [aid] => 19
+    [create_date] => 2013-07-08 09:32:19
+)
+Array
+(
+    [message] => 到着。東京暑いね… (@ 成田国際空港 (Narita International Airport) (NRT) w/ 35 others) http://t.co/uzMdjRY88I
+    [rid] => 7
+    [aid] => 4
+    [create_date] => 2013-07-08 09:32:19
+)
+Array
+(
+    [message] => @bosuterijet 
+イヤお尻です（笑）お尻(@_@)
+振らないですか？凄いですよ（笑）
+うちのベティーは（笑）
+初代のピンキーは凄かったんです。
+パンチもやります。
+今度タイミングよく撮れたらアップします。
+    [rid] => 29
+    [aid] => 47
+    [create_date] => 2013-07-08 09:32:19
+)
+Array
+(
+    [message] => @mayu_81 
+頑張るんだぞ（＾Ｏ＾）♥
+    [rid] => 11
+    [aid] => 39
+    [create_date] => 2013-07-08 09:32:20
+)
+Array
+(
+    [message] => ダンスがうますぎるって笑わせんなw http://t.co/4vhwpszskg
+    [rid] => 20
+    [aid] => 22
+    [create_date] => 2013-07-08 09:32:21
+)
+Array
+(
+    [message] => クラーク食堂からのお知らせ！
+本日、クラーク食堂限定で300円丼フェア開催！
+今日の300円丼は豚キムチ丼！
+いつも利用している人もそうでない人も今週の
+昼食はクラ食で！
+営業時間は11：00～19：00です。 http://t.co/GwcChGBh9o
+    [rid] => 11
+    [aid] => 25
+    [create_date] => 2013-07-08 09:32:22
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => @coji821 無意識ってこわいねww私も気づかんうちになんか漏れとるかも(^q^)ww
+    [rid] => 23
+    [aid] => 21
+    [create_date] => 2013-07-08 09:32:24
+)
+Array
+(
+    [message] => 英語45分寝てた
+    [rid] => 5
+    [aid] => 16
+    [create_date] => 2013-07-08 09:32:25
+)
+Array
+(
+    [message] => @KawamotoSae お金渡したいんだけど、どーしたらいい??
+    [rid] => 26
+    [aid] => 21
+    [create_date] => 2013-07-08 09:32:25
+)
+Array
+(
+    [message] => @matsushita_miho おはみほぉ。(^_^)
+    [rid] => 7
+    [aid] => 31
+    [create_date] => 2013-07-08 09:32:25
+)
+Array
+(
+    [message] => バスなうー  涼しいｗ
+    [rid] => 14
+    [aid] => 7
+    [create_date] => 2013-07-08 09:32:26
+)
+Array
+(
+    [message] => あそびてーな
+    [rid] => 29
+    [aid] => 22
+    [create_date] => 2013-07-08 09:32:26
+)
+Array
+(
+    [message] => ４日ぶりのツイートなう
+    [rid] => 4
+    [aid] => 46
+    [create_date] => 2013-07-08 09:32:28
+)
+Array
+(
+    [message] => あ、あつ  ( 神戸医院 http://t.co/nIl4xKTqc8 ) #tspot
+    [rid] => 6
+    [aid] => 17
+    [create_date] => 2013-07-08 09:32:28
+)
+Array
+(
+    [message] => @Koh_Iwaki あら、いわきさんも（笑）
+    [rid] => 19
+    [aid] => 2
+    [create_date] => 2013-07-08 09:32:28
+)
+Array
+(
+    [message] => なんかモンスター飲んだら腹にきたわー
+    [rid] => 18
+    [aid] => 4
+    [create_date] => 2013-07-08 09:32:29
+)
+Array
+(
+    [message] => 参議院がなくなってもいいと思ってるのは私だけではないはずだ。
+    [rid] => 13
+    [aid] => 41
+    [create_date] => 2013-07-08 09:32:30
+)
+Array
+(
+    [message] => 今日はきんぴらごぼうの混ぜご飯おにぎりと、牛肉とレタスの中華風スープ。いよいよこの暑さでおにぎりが腐りはしないか、本気で心配や (||ﾟДﾟ)ﾋｨｨｨ!
+    [rid] => 5
+    [aid] => 18
+    [create_date] => 2013-07-08 09:32:30
+)
+Array
+(
+    [message] => @zyk_Medicine ういっす
+    [rid] => 22
+    [aid] => 26
+    [create_date] => 2013-07-08 09:32:31
+)
+Array
+(
+    [message] => 勝手に緊急なんのやめてくれ。また警察から折り返し電話きた。3回目や
+    [rid] => 4
+    [aid] => 19
+    [create_date] => 2013-07-08 09:32:31
+)
+Array
+(
+    [message] => I'm at 松戸駅 (Matsudo Sta.) (松戸市, 千葉県) w/ 3 others http://t.co/yW01bkb1yb
+    [rid] => 29
+    [aid] => 24
+    [create_date] => 2013-07-08 09:32:32
+)
+Array
+(
+    [message] => @Nachupy 好きな時間に行けるやん！遠いと電車の時間とかだるいやん(-_-)
+    [rid] => 26
+    [aid] => 34
+    [create_date] => 2013-07-08 09:32:32
+)
+Array
+(
+    [message] => さてと、今週は静養の一週間 orz
+    [rid] => 27
+    [aid] => 1
+    [create_date] => 2013-07-08 09:32:32
+)
+Array
+(
+    [message] => @mika_hagi 出雲大社だよ(@^▽^@)
+    [rid] => 30
+    [aid] => 37
+    [create_date] => 2013-07-08 09:32:32
+)
+Array
+(
+    [message] => @tigusa0r3x 
+おれほとんどねてないんで研究室終わったら寝てるかもw
+まぁ体力余ってたらクランキー打ちますわー
+    [rid] => 13
+    [aid] => 11
+    [create_date] => 2013-07-08 09:32:36
+)
+Array
+(
+    [message] => おらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらおらヾ(･д･｀ )
+RT拡散希望ヾ(･д･｀ )
+    [rid] => 11
+    [aid] => 43
+    [create_date] => 2013-07-08 09:32:36
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => @shokoc 暑いから寝苦しいけど、クーラー入れて寝ると朝体がだるいよね。今朝は大丈夫かな？
+    [rid] => 11
+    [aid] => 16
+    [create_date] => 2013-07-08 09:32:38
+)
+Array
+(
+    [message] => きはらに嫌われたらTwitterやめたくなる
+    [rid] => 9
+    [aid] => 23
+    [create_date] => 2013-07-08 09:32:39
+)
+Array
+(
+    [message] => I'm at 中目黒駅 (Naka-meguro Sta.) (目黒区, 東京都) http://t.co/Hcmw5lVJrJ
+    [rid] => 7
+    [aid] => 24
+    [create_date] => 2013-07-08 09:32:39
+)
+Array
+(
+    [message] => @pechin610 お疲れ～(*^^*)
+最高の大作戦行けて良かったね！
+ツアーはどこ遠征するの？
+私は鹿児島  福岡は行くよ
+会えるといいね(o＾・＾o)
+    [rid] => 24
+    [aid] => 42
+    [create_date] => 2013-07-08 09:32:39
+)
+Array
+(
+    [message] => JR横浜駅 3・4番線(京浜東北・根岸線、横浜線)ホームにタッチ！ http://t.co/zRXnCDLqOR
+    [rid] => 15
+    [aid] => 19
+    [create_date] => 2013-07-08 09:32:39
+)
+Array
+(
+    [message] => I'm at 近鉄四日市駅(Kintetsu-Yokkaichi Sta.) (四日市市, 三重県) w/ 2 others http://t.co/OuGWoOzFxN
+    [rid] => 28
+    [aid] => 45
+    [create_date] => 2013-07-08 09:32:40
+)
+Array
+(
+    [message] => I'm at 前橋駅 (Maebashi Sta.) (前橋市, 群馬県) http://t.co/A9TaifAF4Z
+    [rid] => 5
+    [aid] => 4
+    [create_date] => 2013-07-08 09:32:40
+)
+Array
+(
+    [message] => マズローさん、眠いので僕はだめだよ。
+    [rid] => 8
+    [aid] => 45
+    [create_date] => 2013-07-08 09:32:41
+)
+Array
+(
+    [message] => @lisxile00 いきたいんだが
+    [rid] => 18
+    [aid] => 18
+    [create_date] => 2013-07-08 09:32:42
+)
+Array
+(
+    [message] => TAMPOCO HE DADO TANTO FAV :(
+    [rid] => 8
+    [aid] => 26
+    [create_date] => 2013-07-08 09:32:44
+)
+Array
+(
+    [message] => あくあくの前で使ってもないNi(acac)とか連呼するか
+    [rid] => 25
+    [aid] => 6
+    [create_date] => 2013-07-08 09:32:44
+)
+Array
+(
+    [message] => @masachika1904 
+奥のでけぇマンションに元カノが住んでいる
+    [rid] => 6
+    [aid] => 37
+    [create_date] => 2013-07-08 09:32:45
+)
+Array
+(
+    [message] => 季節外れのスキー場は
+恋の香りがします… http://t.co/HIMEcT8W8B
+    [rid] => 4
+    [aid] => 8
+    [create_date] => 2013-07-08 09:32:46
+)
+Array
+(
+    [message] => @mmoko731 あ、そっか!!!!!!!!!
+今日中島さん休みなのか！
+羨ましい……くそが╰(*´︶`*)╯！w
+    [rid] => 14
+    [aid] => 27
+    [create_date] => 2013-07-08 09:32:46
+)
+Array
+(
+    [message] => 士別駅にタッチ！ http://t.co/njigODGYjl
+    [rid] => 11
+    [aid] => 41
+    [create_date] => 2013-07-08 09:32:46
+)
+Array
+(
+    [message] => I'm at シモジマ 浅草橋5号館 (台東区, 東京都) http://t.co/CANg0KSHXG
+    [rid] => 12
+    [aid] => 35
+    [create_date] => 2013-07-08 09:32:48
+)
+Array
+(
+    [message] => @1209aipocha 
+
+帰る頃にゎ体の芯から冷ぇてるから
+だぃぢょーぶだょ。
+    [rid] => 4
+    [aid] => 34
+    [create_date] => 2013-07-08 09:32:49
+)
+Array
+(
+    [message] => 京都らしいものとか 今回全然食べてないし観光もしてないし仕事に間に合うべく新幹線駆け込み乗車だったけど。笑 京都大作戦、たのしかったー！ありがとー京都。 @ JR 京都駅 新幹線ホーム http://t.co/h24agiIM1o
+    [rid] => 5
+    [aid] => 18
+    [create_date] => 2013-07-08 09:32:49
+)
+Array
+(
+    [message] => そして学校ついてトイレなう
+    [rid] => 5
+    [aid] => 46
+    [create_date] => 2013-07-08 09:32:50
+)
+Array
+(
+    [message] => @zzzuuummmaaa やはりしゅんやと働けば良かったわ！
+この会社まだアシスタントからスタイリストになった人いないらしいわ。
+なれないわ！笑
+    [rid] => 6
+    [aid] => 32
+    [create_date] => 2013-07-08 09:32:50
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => I'm at 東京国際空港 / 羽田空港 (Tokyo-Haneda International Airport - HND/RJTT) (大田区, 東京都) w/ 30 others http://t.co/3TvxiwZ7IW
+    [rid] => 9
+    [aid] => 4
+    [create_date] => 2013-07-08 09:32:53
+)
+Array
+(
+    [message] => なんか、電車止まってるんですけど(｡-_-｡)
+    [rid] => 16
+    [aid] => 22
+    [create_date] => 2013-07-08 09:32:53
+)
+Array
+(
+    [message] => @hime6996 マミさんかわいーです！
+    [rid] => 5
+    [aid] => 39
+    [create_date] => 2013-07-08 09:32:53
+)
+Array
+(
+    [message] => I'm at 調布駅 (Chōfu Sta.) (調布市, 東京都) w/ 6 others http://t.co/3iv0lhSEMw
+    [rid] => 10
+    [aid] => 36
+    [create_date] => 2013-07-08 09:32:54
+)
+Array
+(
+    [message] => @0720harukichi 電話なに？
+    [rid] => 4
+    [aid] => 30
+    [create_date] => 2013-07-08 09:32:54
+)
+Array
+(
+    [message] => レギュラー満タン。 (@ エッソExpress 川越南SS) http://t.co/nIOnIjmKzw
+    [rid] => 7
+    [aid] => 48
+    [create_date] => 2013-07-08 09:32:55
+)
+Array
+(
+    [message] => マイクの持ち方がムカつくわーw
+    [rid] => 22
+    [aid] => 21
+    [create_date] => 2013-07-08 09:32:57
+)
+Array
+(
+    [message] => 暑いぞ！
+    [rid] => 21
+    [aid] => 42
+    [create_date] => 2013-07-08 09:32:58
+)
+Array
+(
+    [message] => てか名前がど変態のままじゃんwww本当に変態になるww
+    [rid] => 17
+    [aid] => 7
+    [create_date] => 2013-07-08 09:32:59
+)
+Array
+(
+    [message] => 朝シャンしてドライヤーで髪乾かすとドライヤーの暑さでまた汗かく罠
+    [rid] => 11
+    [aid] => 47
+    [create_date] => 2013-07-08 09:32:59
+)
+Array
+(
+    [message] => @yxx_tommy1985 そぉいやきたん？？
+    [rid] => 29
+    [aid] => 38
+    [create_date] => 2013-07-08 09:32:59
+)
+Array
+(
+    [message] => @mazytsu ほんますか！？ありがとう＼(^o^)／
+    [rid] => 19
+    [aid] => 3
+    [create_date] => 2013-07-08 09:33:00
+)
+Array
+(
+    [message] => I'm at セブンイレブン 上目黒2丁目店 (目黒区, 東京都) http://t.co/a1UHpq8m8g
+    [rid] => 13
+    [aid] => 38
+    [create_date] => 2013-07-08 09:33:00
+)
+Array
+(
+    [message] => 京都ほんま暑い！
+なれてないけん、死ねる
+    [rid] => 12
+    [aid] => 28
+    [create_date] => 2013-07-08 09:33:00
+)
+Array
+(
+    [message] => @akanenpipipi あっ！お土産頼むわ。
+    [rid] => 20
+    [aid] => 29
+    [create_date] => 2013-07-08 09:33:01
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => water lily
+おはようございます😃
+今日も頑張りましょう @ 北海道大学 植物園 http://t.co/vBVGpsbhMM
+    [rid] => 19
+    [aid] => 45
+    [create_date] => 2013-07-08 09:33:02
+)
+Array
+(
+    [message] => 勘弁してよ、この渋滞。まだ、着かないしf(^_^; http://t.co/9PbF7VglOP
+    [rid] => 26
+    [aid] => 23
+    [create_date] => 2013-07-08 09:33:02
+)
+Array
+(
+    [message] => I'm at 赤羽駅 (Akabane Sta.) (北区, 東京都) w/ 3 others http://t.co/dIpqXCbZOP
+    [rid] => 22
+    [aid] => 50
+    [create_date] => 2013-07-08 09:33:02
+)
+Array
+(
+    [message] => 帰宅なう(￣▽￣)
+帰ったのはいいが、暇。
+    [rid] => 15
+    [aid] => 30
+    [create_date] => 2013-07-08 09:33:03
+)
+Array
+(
+    [message] => 頂上到達(^o^)v http://t.co/T4GyJoImf7
+    [rid] => 10
+    [aid] => 35
+    [create_date] => 2013-07-08 09:33:03
+)
+Array
+(
+    [message] => @Rikku009 されたとてなんくるないさぁ〜
+    [rid] => 13
+    [aid] => 34
+    [create_date] => 2013-07-08 09:33:03
+)
+Array
+(
+    [message] => 南向き信号待ちなうなうo(｀ω´ )o @ 新町南交差点に写真つきタッチ！ http://t.co/4kZ95IxkXw http://t.co/f8V44GB6IT
+    [rid] => 23
+    [aid] => 43
+    [create_date] => 2013-07-08 09:33:03
+)
+Array
+(
+    [message] => @mamimami1217 お前がギターしょってダッシュでタオルで汗拭きながらギリ遅刻で教室にはいって来るのを思い出した。
+    [rid] => 1
+    [aid] => 38
+    [create_date] => 2013-07-08 09:33:04
+)
+Array
+(
+    [message] => @kimukou_26 @bevel_gear こういうのを純粋に遊びで楽しんで作ったらたのしいだろうなあ
+    [rid] => 13
+    [aid] => 17
+    [create_date] => 2013-07-08 09:33:04
+)
+Array
+(
+    [message] => わ、わかった。敗北の少年はさっきみた。 かっこよかった♪───Ｏ（≧∇≦）Ｏ────♪
+    [rid] => 22
+    [aid] => 2
+    [create_date] => 2013-07-08 09:33:04
+)
+Array
+(
+    [message] => 【地震情報】8日09:27頃、茨城県北部でM2.9の地震発生(最大震度1)。震源の深さは約10km。この地震による津波の心配はありません。 #地震 #茨城 #日立市 #高萩市 #jishin http://t.co/HPmuISamM0
+    [rid] => 24
+    [aid] => 21
+    [create_date] => 2013-07-08 09:33:06
+)
+Array
+(
+    [message] => @shirooouu いつにしようか〜
+7月28日とか？
+    [rid] => 7
+    [aid] => 41
+    [create_date] => 2013-07-08 09:33:06
+)
+Array
+(
+    [message] => うわぁぁぁぉ
+楽しみがなくなっちまったぁぁぁ
+    [rid] => 28
+    [aid] => 27
+    [create_date] => 2013-07-08 09:33:06
+)
+Array
+(
+    [message] => 暑いんだ。 (@ 明治神宮前〈原宿〉駅 (Meiji-jingumae'Harajuku' Sta.) w/ 2 others) http://t.co/krIkGCVK19
+    [rid] => 29
+    [aid] => 26
+    [create_date] => 2013-07-08 09:33:06
+)
+Array
+(
+    [message] => @gs_0214 眠い。。。（笑）
+    [rid] => 26
+    [aid] => 40
+    [create_date] => 2013-07-08 09:33:08
+)
+Array
+(
+    [message] => @bechan0104 純粋だったww 知り合いと話すときは、ちゃんと玉木さん。だよwww
+    [rid] => 26
+    [aid] => 23
+    [create_date] => 2013-07-08 09:33:09
+)
+Array
+(
+    [message] => @Mallets_hitomi 変なメール来たよ。あー乗っ取られたと思ってた。
+    [rid] => 21
+    [aid] => 36
+    [create_date] => 2013-07-08 09:33:09
+)
+Array
+(
+    [message] => 後ろが木村ってことが暑苦しい
+    [rid] => 27
+    [aid] => 19
+    [create_date] => 2013-07-08 09:33:09
+)
+Array
+(
+    [message] => バス停なう。なぜか今日も、バスと電車で都心へ向かう。う〜む。。 (@ 二宮神社バス停) http://t.co/K5OYDdw4EQ
+    [rid] => 21
+    [aid] => 19
+    [create_date] => 2013-07-08 09:33:09
+)
+Array
+(
+    [message] => @aaairin1212 http://t.co/Uray1xQruu
+    [rid] => 29
+    [aid] => 50
+    [create_date] => 2013-07-08 09:33:11
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(551): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...', Array)
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#6 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#7 {main}
+Array
+(
+    [message] => @tigusa0r3x 
+とりあえず、頑張って下さい(^.^)
+    [rid] => 2
+    [aid] => 18
+    [create_date] => 2013-07-08 09:33:13
+)
+Array
+(
+    [message] => I'm at ANAラウンジ 本館北 (ANA Lounge - Main Bldg. North) (大田区, 東京都) http://t.co/fWsoMJxQHM
+    [rid] => 21
+    [aid] => 41
+    [create_date] => 2013-07-08 09:33:13
+)
+Array
+(
+    [message] => Twitter中に講義
+    [rid] => 7
+    [aid] => 34
+    [create_date] => 2013-07-08 09:33:15
+)
+Array
+(
+    [message] => @akicchoo_ しかも今日はめっちゃ天気いいから暑いよ(´･ω･｀)ww んまぁ一応持って行った方がいいと思うよー♪
+    [rid] => 17
+    [aid] => 32
+    [create_date] => 2013-07-08 09:33:15
+)
+Array
+(
+    [message] => 激暑!!!マスク激暑!!!｡･*･:≡(　ε:) しかも妊婦ボディ➕体重増wに合うボトムス無いし、シルエットが無様!!!!!朝からイヤー｡･*･:≡(　ε:)
+    [rid] => 1
+    [aid] => 14
+    [create_date] => 2013-07-08 09:33:15
+)
+Array
+(
+    [message] => 一限もあと一回干したら落ちるんダアアア
+    [rid] => 20
+    [aid] => 40
+    [create_date] => 2013-07-08 09:33:15
+)
+Array
+(
+    [message] => I'm at 西国分寺駅 (Nishi-Kokubunji Sta.) (国分寺市, 東京都) http://t.co/kii8e8n8S5
+    [rid] => 21
+    [aid] => 44
+    [create_date] => 2013-07-08 09:33:16
+)
+Array
+(
+    [message] => やってられん
+    [rid] => 19
+    [aid] => 31
+    [create_date] => 2013-07-08 09:33:16
+)
+Array
+(
+    [message] => ｳﾘｳﾘﾔｰﾔｰｳｫｰﾙｳｴｪｰｲ
+    [rid] => 12
+    [aid] => 30
+    [create_date] => 2013-07-08 09:33:16
+)
+Array
+(
+    [message] => @Emi_emem なんなんまじで
+    [rid] => 4
+    [aid] => 12
+    [create_date] => 2013-07-08 09:33:17
+)
+Array
+(
+    [message] => ▂▅▇█▓▒░(’ω’)░▒▓█▇▅▂うわああああああああああああ
+    [rid] => 12
+    [aid] => 50
+    [create_date] => 2013-07-08 09:33:17
+)
+Array
+(
+    [message] => あとぅい
+    [rid] => 21
+    [aid] => 3
+    [create_date] => 2013-07-08 09:33:18
+)
+Array
+(
+    [message] => #ま さの
+    [rid] => 21
+    [aid] => 29
+    [create_date] => 2013-07-08 09:33:19
+)
+Array
+(
+    [message] => そーいえば、
+知らないアドから悪女ってメールきた夢見た。。。(笑)本文その二文字だけ(笑)悪女て。。。(笑)なんか、怖いｗｗｗ
+    [rid] => 13
+    [aid] => 19
+    [create_date] => 2013-07-08 09:33:19
+)
+Array
+(
+    [message] => 今日暑すぎる…どうしたん
+    [rid] => 29
+    [aid] => 19
+    [create_date] => 2013-07-08 09:33:20
+)
+Array
+(
+    [message] => ليا زمان ما ركبت سيارة حاسة نفسي زي الغلبانين 😪💔
+    [rid] => 11
+    [aid] => 1
+    [create_date] => 2013-07-08 09:33:20
+)
+Array
+(
+    [message] => @MaAKo_SPsuki あうってなにwだいたいあたしは祝日じゃなければ月金休みだよ☆
+    [rid] => 23
+    [aid] => 2
+    [create_date] => 2013-07-08 09:33:20
+)
+Array
+(
+    [message] => たかさき〜♪( ´θ｀)ノぐんま*\(^o^)/* @ 高崎駅に写真つきタッチ！ http://t.co/4HbfEg8A7D http://t.co/cQGcezutNt
+    [rid] => 25
+    [aid] => 47
+    [create_date] => 2013-07-08 09:33:22
+)
+Array
+(
+    [message] => 事っていいかわいいいいかわいいいいかわいいいいかわいいいいかわいいいいかわいいなのよ。
+    [rid] => 22
+    [aid] => 20
+    [create_date] => 2013-07-08 09:33:22
+)
+Array
+(
+    [message] => @tmp57g4a ということで、夏あそぼーぜ＼(^o^)／
+    [rid] => 17
+    [aid] => 36
+    [create_date] => 2013-07-08 09:33:23
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => iTuneCard (@ セブンイレブン 十日町下島店) http://t.co/piEDDe1Ip4
+    [rid] => 20
+    [aid] => 11
+    [create_date] => 2013-07-08 09:33:25
+)
+Array
+(
+    [message] => @rkt0319 まさよは、時間帯がちがう(´Д⊂ヽ
+
+隣に異臭を放つ人が乗ってきたから耐えてるなう
+    [rid] => 16
+    [aid] => 18
+    [create_date] => 2013-07-08 09:33:27
+)
+Array
+(
+    [message] => 昨日車の定期点検した時に、まだ自動車税を払っていない事にきづいたので銀行に行って、今日は少し遅く会社に。やばかった。
+    [rid] => 3
+    [aid] => 7
+    [create_date] => 2013-07-08 09:33:28
+)
+Array
+(
+    [message] => I'm at 常陸多賀駅 (Hitachi-Taga Sta.) (日立市, 茨城県) http://t.co/QXspI8H9TF
+    [rid] => 29
+    [aid] => 24
+    [create_date] => 2013-07-08 09:33:28
+)
+Array
+(
+    [message] => ランボルギーニ残ってた (@ サークルK 那古野二丁目店) http://t.co/YkohAzoyGE
+    [rid] => 22
+    [aid] => 4
+    [create_date] => 2013-07-08 09:33:28
+)
+Array
+(
+    [message] => I'm at 近鉄 鶴橋駅 (Kintetsu Tsuruhashi Sta.) (大阪市生野区, 大阪府) http://t.co/cgVkeS5wG1
+    [rid] => 22
+    [aid] => 4
+    [create_date] => 2013-07-08 09:33:29
+)
+Array
+(
+    [message] => @NMFN_official 一度はあきらめたNMFNですがやっぱりあきらめきれません！どなたかチケット🎫余ってませんか？どうかよろしくお願い致しますm(__)m
+    [rid] => 2
+    [aid] => 20
+    [create_date] => 2013-07-08 09:33:30
+)
+Array
+(
+    [message] => I'm at JR 水道橋駅 東口 (千代田区, 東京都) http://t.co/r8vNHFar3t
+    [rid] => 4
+    [aid] => 37
+    [create_date] => 2013-07-08 09:33:30
+)
+Array
+(
+    [message] => まずはお詣り @ 善光寺 (Zenko-ji Temple) http://t.co/1fD5CRFcjc
+    [rid] => 29
+    [aid] => 27
+    [create_date] => 2013-07-08 09:33:30
+)
+Array
+(
+    [message] => あー、体調回復せず
+    [rid] => 4
+    [aid] => 45
+    [create_date] => 2013-07-08 09:33:31
+)
+Array
+(
+    [message] => 今日眠すぎ。準備する気なれなかったけどもう渋谷つく(;_;)走ったからすごく貧血気味！つら〜
+    [rid] => 28
+    [aid] => 24
+    [create_date] => 2013-07-08 09:33:31
+)
+Array
+(
+    [message] => スマートテレビ視聴免許とか作れば天下り先増やせるね！（笑） "@sasakitoshinao: シニアが多く「テレビに映し出されたニコ動をテレビの放送と勘違いしてクレームを入れるという可能性も」と。／スマートビエラCMを拒否され http://t.co/pDKIMcautb"
+    [rid] => 28
+    [aid] => 33
+    [create_date] => 2013-07-08 09:33:31
+)
+Array
+(
+    [message] => I'm at ハイアット リージェンシー 東京 (Hyatt Regency Tokyo) - @hyattregencytyo (新宿区, 東京都) http://t.co/HfYMoCRNYN
+    [rid] => 15
+    [aid] => 37
+    [create_date] => 2013-07-08 09:33:31
+)
+Array
+(
+    [message] => 中指たてとこ✌(’ω’✌ )三✌(’ω’)✌三( ✌’ω’)✌ http://t.co/oaZ022JZUz
+    [rid] => 18
+    [aid] => 10
+    [create_date] => 2013-07-08 09:33:32
+)
+Array
+(
+    [message] => @stomo0922 なんも
+お願いしてない(ノД`)w
+    [rid] => 4
+    [aid] => 7
+    [create_date] => 2013-07-08 09:33:33
+)
+Array
+(
+    [message] => I'm at 京王永山駅 (Keiō-nagayama Sta.) (KO40) (多摩市, 東京都) http://t.co/AE7PBocBaw
+    [rid] => 27
+    [aid] => 39
+    [create_date] => 2013-07-08 09:33:33
+)
+Array
+(
+    [message] => “@itsHannahAke: @Alan_K_Banks 😭😭😭😭😭😭” my feelings exactly
+    [rid] => 11
+    [aid] => 21
+    [create_date] => 2013-07-08 09:33:34
+)
+Array
+(
+    [message] => 気象: 茨城県北部 震度1 茨城県 M2.9 10km N36.7/E140.7  http://t.co/waf2CA44am / 地震情報 20130708 09:27 #jishin #earthquake
+    [rid] => 4
+    [aid] => 22
+    [create_date] => 2013-07-08 09:33:35
+)
+Array
+(
+    [message] => アベノシネマの会員になったので1000円です...お得っす  ( アポロシネマ8 http://t.co/pwhlUr4o5a ) #tspot
+    [rid] => 16
+    [aid] => 3
+    [create_date] => 2013-07-08 09:33:36
+)
+Array
+(
+    [message] => おかんに起こされて時計みたら8時15分で逆ギレしたら9時15分でしたw
+完全に遅刻( ་ ⍸ ་ )
+    [rid] => 28
+    [aid] => 12
+    [create_date] => 2013-07-08 09:33:37
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => 茨城県北部 2013/07/08 09:27:08.75 36.674N 140.643E 6.9km M2.7
+    [rid] => 4
+    [aid] => 31
+    [create_date] => 2013-07-08 09:33:42
+)
+Array
+(
+    [message] => 軒先に並ぶアサヒスーパードライ…
+    [rid] => 10
+    [aid] => 9
+    [create_date] => 2013-07-08 09:33:43
+)
+Array
+(
+    [message] => @kaeren35 え？俺(笑)
+    [rid] => 1
+    [aid] => 22
+    [create_date] => 2013-07-08 09:33:44
+)
+Array
+(
+    [message] => かずー氏は情報系の大学生みたいな顏してる
+    [rid] => 28
+    [aid] => 48
+    [create_date] => 2013-07-08 09:33:45
+)
+Array
+(
+    [message] => 年齢も詐称してるところだよｗあほくせぇぇぇ　（今彼女とこれ書いてます＾＾
+    [rid] => 29
+    [aid] => 1
+    [create_date] => 2013-07-08 09:33:45
+)
+Array
+(
+    [message] => 【悲報】留年の可能性が40%まで跳ね上がる
+    [rid] => 26
+    [aid] => 44
+    [create_date] => 2013-07-08 09:33:46
+)
+Array
+(
+    [message] => 1人で電車乗ってるのに、朝から渡辺咲紀が笑わせてくる(;_;)ニヤニヤしちゃって辛いよーーー。咲紀ちゃんは友達ではない。死ぬまで！！！
+    [rid] => 14
+    [aid] => 39
+    [create_date] => 2013-07-08 09:33:47
+)
+Array
+(
+    [message] => @nsnsiosio やはり会わなきゃな。ふふ
+    [rid] => 16
+    [aid] => 48
+    [create_date] => 2013-07-08 09:33:48
+)
+Array
+(
+    [message] => 野球応援～ʕ*̫͡*ʔ那珂がんばれぇ♡ http://t.co/tNY8NybMn7
+    [rid] => 15
+    [aid] => 5
+    [create_date] => 2013-07-08 09:33:49
+)
+Array
+(
+    [message] => 難波に着いたら、一番に修理さがすか？
+それともバーゲンで新しいの買うか？
+さぁ。どっち？
+    [rid] => 5
+    [aid] => 30
+    [create_date] => 2013-07-08 09:33:49
+)
+Array
+(
+    [message] => 二院制の弊害が目立ちつつあるので第三院を設立して三院選やろう
+    [rid] => 7
+    [aid] => 3
+    [create_date] => 2013-07-08 09:33:50
+)
+Array
+(
+    [message] => 誰かLINEつなご(#^.^#)
+    [rid] => 11
+    [aid] => 30
+    [create_date] => 2013-07-08 09:33:50
+)
+Array
+(
+    [message] => @aikonly @masaki_love0822 同じくバイト前なら！^_^ヤマト掛け持ちしよっかな給料いいし笑
+    [rid] => 14
+    [aid] => 24
+    [create_date] => 2013-07-08 09:33:51
+)
+Array
+(
+    [message] => おはようございます、名古屋V(^_^)V good morning, Nagoya! @ ANAクラウンプラザホテル グランコート名古屋 http://t.co/UhQtcfhHQz
+    [rid] => 1
+    [aid] => 49
+    [create_date] => 2013-07-08 09:33:51
+)
+Array
+(
+    [message] => I'm at 千歳橋 (山形市, 山形県) http://t.co/YSL8wKWmSw
+    [rid] => 16
+    [aid] => 47
+    [create_date] => 2013-07-08 09:33:51
+)
+Array
+(
+    [message] => @yoshiyuki_0324 　まー確実にそうでしょうね。。　アニメだけで完結しないことを祈る！　したら制作会社駆逐してやる
+    [rid] => 6
+    [aid] => 33
+    [create_date] => 2013-07-08 09:33:51
+)
+Array
+(
+    [message] => @asaka0803 ありがとう！
+    [rid] => 17
+    [aid] => 25
+    [create_date] => 2013-07-08 09:33:52
+)
+Array
+(
+    [message] => @mikasai0807 みしょー！土曜ありがとう♪
+    [rid] => 25
+    [aid] => 28
+    [create_date] => 2013-07-08 09:33:52
+)
+Array
+(
+    [message] => @soudannorio 明日はこれにあうソース開発をおこないます(^o^)
+    [rid] => 28
+    [aid] => 37
+    [create_date] => 2013-07-08 09:33:54
+)
+Array
+(
+    [message] => だれか花火しようか（笑）
+花火したいよ〜
+    [rid] => 16
+    [aid] => 44
+    [create_date] => 2013-07-08 09:33:54
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => @miyapansan なかなか強いよね
+
+今年は長野県に加えて
+群馬県も応援するよ(≧∀≦)
+    [rid] => 22
+    [aid] => 19
+    [create_date] => 2013-07-08 09:33:56
+)
+Array
+(
+    [message] => 今週もランチ営業いたします。お寿司・チラシ寿司のセットが850円からご用意しています。そして本日の日替わり丼(1500円)の中身はサーモンといくらの親子丼です。セットにはサラダ・味噌汁がついてます。営業は11：30分からです。#utsunomiya ＃宇都宮
+    [rid] => 23
+    [aid] => 10
+    [create_date] => 2013-07-08 09:33:56
+)
+Array
+(
+    [message] => I'm at 大和西大寺駅 (Yamato Saidaiji Sta.) (奈良市, 奈良県) http://t.co/2LaCKszo01
+    [rid] => 5
+    [aid] => 13
+    [create_date] => 2013-07-08 09:33:58
+)
+Array
+(
+    [message] => 今回の交通まとめ☆
+
+新幹線・岡山⇄東京
+値段☆3万円
+時間☆3時間半
+乗り心地☆非常によい
+景色☆ほとんどトンネル
+
+らくだ@鳥取砂丘
+値段☆1800円
+時間☆5分（笑）
+乗り心地☆最悪（笑）油断すると落ちる
+景色☆一面の砂丘、それから日本海。
+
+らくだ、乗りづらい。ほんと
+    [rid] => 5
+    [aid] => 32
+    [create_date] => 2013-07-08 09:33:58
+)
+Array
+(
+    [message] => I'm at ユナイテッド・シネマ ウニクス南古谷 (川越市, 埼玉県) http://t.co/7FrHoaXZHm
+    [rid] => 11
+    [aid] => 15
+    [create_date] => 2013-07-08 09:33:58
+)
+Array
+(
+    [message] => @Jukiyakun 
+あっ！ドミか！(￣▽￣)❤w
+めちゃかっこよなかった？\(//∇//)\
+    [rid] => 7
+    [aid] => 29
+    [create_date] => 2013-07-08 09:33:59
+)
+Array
+(
+    [message] => I'm at 郡山駅 (Koriyama Sta.) (郡山市, 福島県) http://t.co/puw4U6YqPu
+    [rid] => 10
+    [aid] => 30
+    [create_date] => 2013-07-08 09:34:00
+)
+Array
+(
+    [message] => 地獄の時間NOW
+(テスト)
+    [rid] => 5
+    [aid] => 39
+    [create_date] => 2013-07-08 09:34:00
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => @0407_yuji_ ええなぁ！集まろか！！
+    [rid] => 16
+    [aid] => 44
+    [create_date] => 2013-07-08 09:34:01
+)
+Array
+(
+    [message] => @1030mmk 見たいけどレポート優先！(^_-)
+    [rid] => 16
+    [aid] => 37
+    [create_date] => 2013-07-08 09:34:01
+)
+Array
+(
+    [message] => しかし朝のパン屋はウケた笑
+    [rid] => 2
+    [aid] => 29
+    [create_date] => 2013-07-08 09:34:02
+)
+Array
+(
+    [message] => 模擬授業やーーーーー(　ﾟдﾟ)やばい*･゜ﾟ･*:.｡..｡.:*･'(*ﾟ▽ﾟ*)'･*:.｡. .｡.:*･゜ﾟ･*
+    [rid] => 3
+    [aid] => 9
+    [create_date] => 2013-07-08 09:34:02
+)
+Array
+(
+    [message] => おーつり球ポスターまだある
+    [rid] => 25
+    [aid] => 42
+    [create_date] => 2013-07-08 09:34:03
+)
+Array
+(
+    [message] => クソ暑いんやで  ( 警視庁 http://t.co/xjpOPC3a93 ) #tspot
+    [rid] => 10
+    [aid] => 22
+    [create_date] => 2013-07-08 09:34:03
+)
+Array
+(
+    [message] => キンタマ
+    [rid] => 29
+    [aid] => 46
+    [create_date] => 2013-07-08 09:34:05
+)
+Array
+(
+    [message] => なんで電車急停車とかやめてよー＿○／|＿
+    [rid] => 6
+    [aid] => 19
+    [create_date] => 2013-07-08 09:34:05
+)
+Array
+(
+    [message] => なんということでしょう。おんぼろ駅舎が取り壊されってぃー。 (@ 富山地方鉄道 電鉄魚津駅) http://t.co/fIc2ovU9nv
+    [rid] => 1
+    [aid] => 38
+    [create_date] => 2013-07-08 09:34:05
+)
+Array
+(
+    [message] => I'm at 茅場町駅 (Kayabacho Sta.) (中央区, 東京都) w/ 4 others http://t.co/APaRqU0FzV
+    [rid] => 17
+    [aid] => 6
+    [create_date] => 2013-07-08 09:34:06
+)
+Array
+(
+    [message] => @metahum 事…形
+    [rid] => 23
+    [aid] => 16
+    [create_date] => 2013-07-08 09:34:06
+)
+Array
+(
+    [message] => んー、色々考えたけどやっぱ昨日
+閉店間際のスタバおいしかったししあわせやったしまーいーや♡
+なんやかんやで綺麗にでけたし！
+七夕やったんやしな〜
+もやもやもあるけどお互いがほんまに幸せになれますように。
+    [rid] => 28
+    [aid] => 26
+    [create_date] => 2013-07-08 09:34:07
+)
+Array
+(
+    [message] => 必修取れずに撃沈パターンだわ
+    [rid] => 9
+    [aid] => 50
+    [create_date] => 2013-07-08 09:34:07
+)
+Array
+(
+    [message] => ごめんなさい
+    [rid] => 10
+    [aid] => 47
+    [create_date] => 2013-07-08 09:34:11
+)
+Array
+(
+    [message] => やばい空腹
+    [rid] => 5
+    [aid] => 46
+    [create_date] => 2013-07-08 09:34:11
+)
+Array
+(
+    [message] => あさって焼けたくないことを最優先に考えたらあほらしい格好になりそうで
+    [rid] => 30
+    [aid] => 34
+    [create_date] => 2013-07-08 09:34:12
+)
+Array
+(
+    [message] => ダイヤきたーー、次はスナイパーでも目指すか？ http://t.co/BSUll7DW8h
+    [rid] => 24
+    [aid] => 25
+    [create_date] => 2013-07-08 09:34:13
+)
+Array
+(
+    [message] => @uuu_qht  
+笑笑笑笑
+    [rid] => 13
+    [aid] => 42
+    [create_date] => 2013-07-08 09:34:13
+)
+Array
+(
+    [message] => さらば東京！
+    [rid] => 2
+    [aid] => 25
+    [create_date] => 2013-07-08 09:34:14
+)
+Array
+(
+    [message] => 親にＰＣとスマホ取り上げられてたが隙をついて奪還
+    [rid] => 1
+    [aid] => 45
+    [create_date] => 2013-07-08 09:34:14
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(551): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...', Array)
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#6 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#7 {main}
+Array
+(
+    [message] => ほんとごめんなさい
+    [rid] => 10
+    [aid] => 17
+    [create_date] => 2013-07-08 09:34:16
+)
+Array
+(
+    [message] => 竹取物語ってなんなんやろー。竹から生まれてるのに、月の天女さんって。
+    [rid] => 10
+    [aid] => 13
+    [create_date] => 2013-07-08 09:34:18
+)
+Array
+(
+    [message] => @1chinpan おまえが？
+    [rid] => 8
+    [aid] => 25
+    [create_date] => 2013-07-08 09:34:19
+)
+Array
+(
+    [message] => 日本史中間、期末足して45テン
+赤点テケテン(´д｀|||)
+    [rid] => 19
+    [aid] => 13
+    [create_date] => 2013-07-08 09:34:19
+)
+Array
+(
+    [message] => I'm at 中目黒駅 (Naka-meguro Sta.) (目黒区, 東京都) w/ 2 others http://t.co/nf6lINyKGC
+    [rid] => 8
+    [aid] => 8
+    [create_date] => 2013-07-08 09:34:20
+)
+Array
+(
+    [message] => そうそうきょうは、新月１６時１４分精神高揚に気をつけましょう。冷静に
+    [rid] => 12
+    [aid] => 50
+    [create_date] => 2013-07-08 09:34:20
+)
+Array
+(
+    [message] => まぁ、何をしようが俺には関係ない業界で、関係のない人だから、どうでもいいのだけれど。
+    [rid] => 14
+    [aid] => 16
+    [create_date] => 2013-07-08 09:34:21
+)
+Array
+(
+    [message] => I'm at 六本木駅 (Roppongi Sta.) (港区, 東京都) w/ 8 others http://t.co/5ylAg1XseK
+    [rid] => 15
+    [aid] => 37
+    [create_date] => 2013-07-08 09:34:22
+)
+Array
+(
+    [message] => みーちゃんとお留守番なぅ(￣^￣)ゞ
+昼から市役所いって本籍のんとりにいかな。あっついやんけー(￣^￣)ゞ http://t.co/Ap3KOLl4AE
+    [rid] => 9
+    [aid] => 41
+    [create_date] => 2013-07-08 09:34:22
+)
+Array
+(
+    [message] => @acnc12 ラボメンさすがにあくあく錯体ぐらい知ってるよな？
+    [rid] => 20
+    [aid] => 23
+    [create_date] => 2013-07-08 09:34:23
+)
+Array
+(
+    [message] => A layer of fog is covering kashima island,
+Fantastic! http://t.co/vromiEsows
+    [rid] => 22
+    [aid] => 32
+    [create_date] => 2013-07-08 09:34:25
+)
+Array
+(
+    [message] => 米子到着( ´ ▽ ` )ﾉ
+電車乗り換えて出雲市まで。
+電車のドアが手動でびっくり！ http://t.co/S3fRWvk5nr
+    [rid] => 4
+    [aid] => 26
+    [create_date] => 2013-07-08 09:34:25
+)
+Array
+(
+    [message] => @k19970601 んだね
+    [rid] => 4
+    [aid] => 26
+    [create_date] => 2013-07-08 09:34:25
+)
+Array
+(
+    [message] => I'm at 名古屋駅 (Nagoya Sta.) w/ @qualia____ http://t.co/vkAvffAjkt
+    [rid] => 11
+    [aid] => 9
+    [create_date] => 2013-07-08 09:34:26
+)
+Array
+(
+    [message] => @itarouu なんて言ってたかあとでリプお願いね
+    [rid] => 30
+    [aid] => 18
+    [create_date] => 2013-07-08 09:34:26
+)
+Array
+(
+    [message] => 今日頑張ったら 明日休みや（￣+ー￣）
+    [rid] => 2
+    [aid] => 16
+    [create_date] => 2013-07-08 09:34:26
+)
+Array
+(
+    [message] => @siihappy 島根県(@^▽^@)
+    [rid] => 21
+    [aid] => 19
+    [create_date] => 2013-07-08 09:34:27
+)
+Array
+(
+    [message] => ごーりき、歌手デビューなの？？嘘でしょ(´･_･`)？
+    [rid] => 17
+    [aid] => 48
+    [create_date] => 2013-07-08 09:34:27
+)
+Array
+(
+    [message] => @satoru_1019 土曜日アウトレットいこーよー(´･Д･)」
+    [rid] => 26
+    [aid] => 10
+    [create_date] => 2013-07-08 09:34:27
+)
+Array
+(
+    [message] => I'm at JR新大阪駅 (大阪市淀川区, 大阪府) w/ 4 others http://t.co/8TkaIGxZ46
+    [rid] => 7
+    [aid] => 5
+    [create_date] => 2013-07-08 09:34:28
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => @wonderboy_tys 
+最近レッズ行きまくってるよー(^O^)／
+    [rid] => 11
+    [aid] => 29
+    [create_date] => 2013-07-08 09:34:32
+)
+Array
+(
+    [message] => あれ？名古屋会場きたのに列がありません。
+
+みんなどこ？
+    [rid] => 3
+    [aid] => 40
+    [create_date] => 2013-07-08 09:34:32
+)
+Array
+(
+    [message] => ＿人人人人人人人人＿
+＞    もろこし太郎  ＜
+￣Y^Y^Y^Y^Y^Y^Y￣
+    [rid] => 27
+    [aid] => 29
+    [create_date] => 2013-07-08 09:34:32
+)
+Array
+(
+    [message] => これからハローワーク。宝塚にはないから西宮まで…暑いし焦ってるしでぐったり。そんなこんなで最近はツバメが超気になる存在。
+    [rid] => 16
+    [aid] => 10
+    [create_date] => 2013-07-08 09:34:33
+)
+Array
+(
+    [message] => ｲﾏｺｺ(携帯)! L:岡山県岡山市北区御津高津 #imacoconow [ImacocoNow! Android]
+    [rid] => 12
+    [aid] => 10
+    [create_date] => 2013-07-08 09:34:34
+)
+Array
+(
+    [message] => @takarazukahayat 
+俺もしりたい。
+    [rid] => 19
+    [aid] => 6
+    [create_date] => 2013-07-08 09:34:34
+)
+Array
+(
+    [message] => やぁん、りかおめでと
+たまらんねーなんなん😡💓
+けいたいかえてきた(/ _ ; )
+たまらん！学校きたらいつも
+いらいら笑★ぁーほんと嫌い
+    [rid] => 25
+    [aid] => 37
+    [create_date] => 2013-07-08 09:34:34
+)
+Array
+(
+    [message] => あれ程電力不足になると言っていた電力会社は原発が殆ど止まっているのに値上げは盛んにアピールしたが計画停電の計画さえしてない。いらないと思われるのが困るのだろう。
+    [rid] => 19
+    [aid] => 48
+    [create_date] => 2013-07-08 09:34:35
+)
+Array
+(
+    [message] => まあふぇざーで必修取れるくらいなら（（
+    [rid] => 8
+    [aid] => 48
+    [create_date] => 2013-07-08 09:34:36
+)
+Array
+(
+    [message] => 本日教習二日目～暑い～初乗車～
+    [rid] => 4
+    [aid] => 13
+    [create_date] => 2013-07-08 09:34:37
+)
+Array
+(
+    [message] => 前半の都心部30kmと後半の郊外30kmでかかる時間がほとんど同じとは予想外だった。
+    [rid] => 10
+    [aid] => 10
+    [create_date] => 2013-07-08 09:34:38
+)
+Array
+(
+    [message] => @kuroryun1 この時間にそんなけいるとか！学生になりたーーい！わら
+    [rid] => 17
+    [aid] => 50
+    [create_date] => 2013-07-08 09:34:38
+)
+Array
+(
+    [message] => 南加木屋でぴーもりに会ったで今日は楽勝だわ！笑
+    [rid] => 17
+    [aid] => 7
+    [create_date] => 2013-07-08 09:34:38
+)
+Array
+(
+    [message] => ねむーつらー
+    [rid] => 29
+    [aid] => 20
+    [create_date] => 2013-07-08 09:34:39
+)
+Array
+(
+    [message] => カルテの共有無しって、無責任やな…
+    [rid] => 10
+    [aid] => 8
+    [create_date] => 2013-07-08 09:34:40
+)
+Array
+(
+    [message] => @itsHannahAke 😭
+    [rid] => 15
+    [aid] => 33
+    [create_date] => 2013-07-08 09:34:40
+)
+Array
+(
+    [message] => I'm at クイック羽生 (羽生市, 埼玉県) http://t.co/tYu6jCtvHp
+    [rid] => 22
+    [aid] => 28
+    [create_date] => 2013-07-08 09:34:42
+)
+Array
+(
+    [message] => カラオケに行きたい。 "@2_kotori_elt: "@ponko33: 白いパラソル夏を感じる〜
+持田香織さんにカバーしてほしい〜
+
+松田聖子／白いパラソル
+作詞:松本隆 作曲:財津和夫
+ http://t.co/TEk5Kp16AA""
+    [rid] => 14
+    [aid] => 31
+    [create_date] => 2013-07-08 09:34:42
+)
+Array
+(
+    [message] => 充電減るの早い(ToT)
+    [rid] => 4
+    [aid] => 49
+    [create_date] => 2013-07-08 09:34:42
+)
+Array
+(
+    [message] => 暑すぎわろえない
+    [rid] => 24
+    [aid] => 25
+    [create_date] => 2013-07-08 09:34:43
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => なんか皆「暑い」しか言ってないから俺は「寒い」っていっとこうかな！暑さに対して反逆しとこうかな！
+    [rid] => 5
+    [aid] => 21
+    [create_date] => 2013-07-08 09:34:45
+)
+Array
+(
+    [message] => @demepika07 
+お幸せに(((o(*ﾟ▽ﾟ*)o)))
+    [rid] => 18
+    [aid] => 49
+    [create_date] => 2013-07-08 09:34:46
+)
+Array
+(
+    [message] => お早うございます。今朝の深川は快晴です。本日は暦の上では、赤口、乙亥、大潮。『温風至』暑気に入り温かな風が吹いてくる頃。
+    [rid] => 5
+    [aid] => 11
+    [create_date] => 2013-07-08 09:34:46
+)
+Array
+(
+    [message] => 文フリ行った時、いい小説も手に入ったんですよ？姉系のやつとか。でもそれ以上にね。無料で渡された小説を後日家で読んで見たところ、シモ系、しかも結構な度合いすぎてトラウマができた。
+    [rid] => 28
+    [aid] => 21
+    [create_date] => 2013-07-08 09:34:46
+)
+Array
+(
+    [message] => 今朝の朝日新聞掲載の広告の内容です。安室奈美恵さいたまスーパーアリーナ全席指定8,500円、サザン・オールスターズ宮城スタジアム全席指定8,800円、ボン・ジョヴィ東京ドームVIPシート50,000円。これに比べるとクラシック音楽の公演入場料はとてもお買い得だと思うのです。
+    [rid] => 5
+    [aid] => 3
+    [create_date] => 2013-07-08 09:34:46
+)
+Array
+(
+    [message] => @bass_yukai 
+ほんとそれだよね(´･_･`)ｗｗうちは置きっぱなしだけどりょうくんは練習しなきゃだもんねヽ(；▽；)ノ
+    [rid] => 20
+    [aid] => 23
+    [create_date] => 2013-07-08 09:34:46
+)
+Array
+(
+    [message] => がっつり寝たので幸先イイ週始め (@ TULLY'S COFFEE 新宿コクーンタワー店 - @tullys_jp) http://t.co/Mf9nYgEXmI
+    [rid] => 7
+    [aid] => 12
+    [create_date] => 2013-07-08 09:34:48
+)
+Array
+(
+    [message] => 組合仕入れ少量 
+タバコ第7戦法
+    [rid] => 14
+    [aid] => 39
+    [create_date] => 2013-07-08 09:34:48
+)
+Array
+(
+    [message] => ビアガーデンの準備をしてる。 @ 大通公園 西5丁目 http://t.co/sfz5AUvRPd
+    [rid] => 11
+    [aid] => 20
+    [create_date] => 2013-07-08 09:34:48
+)
+Array
+(
+    [message] => 《ティーズバーT's BAR　ビリヤード＆ダーツ　》2drink+おつまみ付き1500円 
+ http://t.co/kArRhuVhgy #nagoya
+    [rid] => 5
+    [aid] => 34
+    [create_date] => 2013-07-08 09:34:48
+)
+Array
+(
+    [message] => いやや今日ばいと長い日や😭
+いやや。
+    [rid] => 17
+    [aid] => 33
+    [create_date] => 2013-07-08 09:34:48
+)
+Array
+(
+    [message] => 可愛いんだから黙っとけよってヽ(´o｀；
+    [rid] => 10
+    [aid] => 14
+    [create_date] => 2013-07-08 09:34:48
+)
+Array
+(
+    [message] => クール気取っておりやすw
+    [rid] => 7
+    [aid] => 38
+    [create_date] => 2013-07-08 09:34:49
+)
+Array
+(
+    [message] => @yuuk11111111 なんでわかったん？(°_°)
+やばあ、ストーカー？わら
+    [rid] => 27
+    [aid] => 17
+    [create_date] => 2013-07-08 09:34:49
+)
+Array
+(
+    [message] => きつねかわいい！！！(1374回目)
+    [rid] => 22
+    [aid] => 34
+    [create_date] => 2013-07-08 09:34:51
+)
+Array
+(
+    [message] => @Nyon55 気になる！
+    [rid] => 25
+    [aid] => 44
+    [create_date] => 2013-07-08 09:34:51
+)
+Array
+(
+    [message] => @UyaPande
+    [rid] => 3
+    [aid] => 21
+    [create_date] => 2013-07-08 09:34:51
+)
+Array
+(
+    [message] => 冊子提出するのか…。
+    [rid] => 26
+    [aid] => 13
+    [create_date] => 2013-07-08 09:34:52
+)
+Array
+(
+    [message] => @chakakin 夏はやっぱ黒肌だね*\(^o^)/*！笑 祐一くん笑った！！！笑
+    [rid] => 19
+    [aid] => 39
+    [create_date] => 2013-07-08 09:34:53
+)
+Array
+(
+    [message] => @acnc12 は？
+    [rid] => 20
+    [aid] => 39
+    [create_date] => 2013-07-08 09:34:53
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => @Kzks69 今日休みなんですね！
+
+またあそびたいですね！
+髪もそめたいですね！わら
+    [rid] => 25
+    [aid] => 16
+    [create_date] => 2013-07-08 09:34:55
+)
+Array
+(
+    [message] => TOKYO到着ー(*^^*)暑いー天気よいーYEAH(´ε｀ )www http://t.co/PDXfZHx8Ib
+    [rid] => 7
+    [aid] => 3
+    [create_date] => 2013-07-08 09:34:55
+)
+Array
+(
+    [message] => おはようございます。ただいまより通常通り営業を開始します。本日もよろしくお願いします。
+    [rid] => 17
+    [aid] => 34
+    [create_date] => 2013-07-08 09:34:56
+)
+Array
+(
+    [message] => ブラッドラッドついにきたなw
+    [rid] => 25
+    [aid] => 46
+    [create_date] => 2013-07-08 09:34:56
+)
+Array
+(
+    [message] => すしでぶ「寿司は、気持ちで食う」
+    [rid] => 2
+    [aid] => 50
+    [create_date] => 2013-07-08 09:34:56
+)
+Array
+(
+    [message] => @reonaaaarudo どこに？
+    [rid] => 17
+    [aid] => 30
+    [create_date] => 2013-07-08 09:34:57
+)
+Array
+(
+    [message] => ブラックゆうな “@snsd9pp: 今日全体的に黒くなった（；＿；）ブラックゆうなとでも呼んでくれ”
+    [rid] => 20
+    [aid] => 44
+    [create_date] => 2013-07-08 09:34:57
+)
+Array
+(
+    [message] => キッシュあったよキッシュキッシュww @ Starbucks Coffee 新橋駅前店 http://t.co/JIdegqdxpK
+    [rid] => 26
+    [aid] => 42
+    [create_date] => 2013-07-08 09:34:58
+)
+Array
+(
+    [message] => ちょうどいいミスだ…
+    [rid] => 19
+    [aid] => 37
+    [create_date] => 2013-07-08 09:34:59
+)
+Array
+(
+    [message] => “@sleepytako: Today's Roswell Google Doodle is awesome... .”  mini adv game, nice!
+    [rid] => 5
+    [aid] => 17
+    [create_date] => 2013-07-08 09:34:59
+)
+Array
+(
+    [message] => @Kobato_E233 俺と同じ手法だなwww
+    [rid] => 13
+    [aid] => 49
+    [create_date] => 2013-07-08 09:35:00
+)
+Array
+(
+    [message] => さいごのたまや やばい。 これとかようにあうっちゃね？ いやいやそれはないやろって 合わないセンス ( ^ω^ )笑
+    [rid] => 6
+    [aid] => 25
+    [create_date] => 2013-07-08 09:35:00
+)
+Array
+(
+    [message] => 【豊橋近郊消防本部の動向】7月8日09時00分頃発生した、豊橋市西岩田2丁目の救命支援救急は活動を終了しました。  （確認日時：07月08日 09時35分） http://t.co/IOIVAf22uS
+    [rid] => 12
+    [aid] => 2
+    [create_date] => 2013-07-08 09:35:01
+)
+Array
+(
+    [message] => あおちゃんの見たらめーっちゃいきたくなったよ！ディズニー♥♥あーあーあー
+    [rid] => 22
+    [aid] => 1
+    [create_date] => 2013-07-08 09:35:01
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => タバコ少量 暑い
+    [rid] => 12
+    [aid] => 50
+    [create_date] => 2013-07-08 09:35:01
+)
+Array
+(
+    [message] => わぁいロック　ゆうきロック大好き
+    [rid] => 1
+    [aid] => 4
+    [create_date] => 2013-07-08 09:35:02
+)
+Array
+(
+    [message] => http://t.co/rRB6OA55wr
+    [rid] => 8
+    [aid] => 28
+    [create_date] => 2013-07-08 09:35:03
+)
+Array
+(
+    [message] => [岩手県] 広域振興局ナビ！ vol34 http://t.co/RQwgnbJ49F
+    [rid] => 7
+    [aid] => 45
+    [create_date] => 2013-07-08 09:35:04
+)
+Array
+(
+    [message] => I'm at 富士急ハイランド (Fujikyu Highland) - @fujiqnow (富士吉田市, 山梨県) http://t.co/MazxNEGzwc
+    [rid] => 2
+    [aid] => 45
+    [create_date] => 2013-07-08 09:35:04
+)
+Array
+(
+    [message] => @tomooomil それ！みんなでビアガーデン行きたい（＾ω＾）！
+    [rid] => 7
+    [aid] => 44
+    [create_date] => 2013-07-08 09:35:04
+)
+Array
+(
+    [message] => めちゃめちゃ蒸し暑いし眠い(´･_･`)
+でもむりやりにでも頑張らなければ！
+    [rid] => 3
+    [aid] => 12
+    [create_date] => 2013-07-08 09:35:05
+)
+Array
+(
+    [message] => まみー１日遅れてごめんねー(/_;)お誕生日おめでとう(〃ω〃)20歳の君に早く会いたいよ。(笑)早く帰ってこい。
+    [rid] => 18
+    [aid] => 42
+    [create_date] => 2013-07-08 09:35:05
+)
+Array
+(
+    [message] => @SakuranXxu まーちげぇね！
+    [rid] => 16
+    [aid] => 47
+    [create_date] => 2013-07-08 09:35:06
+)
+Array
+(
+    [message] => @5t_miyu まあーいいんぢゃないー？(^○^)
+    [rid] => 17
+    [aid] => 7
+    [create_date] => 2013-07-08 09:35:06
+)
+Array
+(
+    [message] => @juri950726 笑 踏まれることしたんぢゃ
+ないんすか？笑
+    [rid] => 14
+    [aid] => 37
+    [create_date] => 2013-07-08 09:35:07
+)
+Array
+(
+    [message] => あーあ。乗り遅れたくそ。
+
+また多治見から通う生活(´･_･`)
+久々の運転ふわふわしたーw
+    [rid] => 22
+    [aid] => 21
+    [create_date] => 2013-07-08 09:35:08
+)
+Array
+(
+    [message] => 健康のための駅までウォーキング、この暑さの中では逆効果なのかなあ。熱中症対策や日焼け対策が必要だな。
+    [rid] => 13
+    [aid] => 25
+    [create_date] => 2013-07-08 09:35:09
+)
+Array
+(
+    [message] => I'm at 鉄道博物館 (THE RAILWAY MUSEUM) (さいたま市大宮区, 埼玉県) http://t.co/DqgJ4ChSlP
+    [rid] => 19
+    [aid] => 45
+    [create_date] => 2013-07-08 09:35:10
+)
+Array
+(
+    [message] => 今年終わるまでに将来結婚できるような女に出会いたいわ(笑)
+    [rid] => 28
+    [aid] => 13
+    [create_date] => 2013-07-08 09:35:10
+)
+Array
+(
+    [message] => ごーりきーまさかのタメ…!?
+    [rid] => 18
+    [aid] => 15
+    [create_date] => 2013-07-08 09:35:10
+)
+Array
+(
+    [message] => はあ…
+    [rid] => 8
+    [aid] => 30
+    [create_date] => 2013-07-08 09:35:11
+)
+Array
+(
+    [message] => @1996_k_k_0829 かわいいなぁ♡
+    [rid] => 11
+    [aid] => 25
+    [create_date] => 2013-07-08 09:35:13
+)
+Array
+(
+    [message] => I'm at 森崎人道橋 (横須賀市, 神奈川県) http://t.co/hLIEd230UK
+    [rid] => 5
+    [aid] => 29
+    [create_date] => 2013-07-08 09:35:14
+)
+Array
+(
+    [message] => 暑いよ～
+    [rid] => 12
+    [aid] => 11
+    [create_date] => 2013-07-08 09:35:15
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(551): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...', Array)
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#6 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#7 {main}
+Array
+(
+    [message] => 樹里ちゃんのパリ祭、相手は誰？
+、、、おー、あすかちゃんだ！やっばりね。
+    [rid] => 14
+    [aid] => 30
+    [create_date] => 2013-07-08 09:35:17
+)
+Array
+(
+    [message] => とかなんとか、楽しい事を考えてバスに乗り、新しいタオルに変更し、びしょびしょタオルをしまったら…スイカまでしまっちゃって…降りる時に慌てたもんで見つからなくて、現金払い…運転手のおっちゃんにため息つかれた…そりゃそうだ！ごめんよおっゃん〜
+てへ、今日も楽しい日になりそうだ。
+    [rid] => 3
+    [aid] => 27
+    [create_date] => 2013-07-08 09:35:18
+)
+Array
+(
+    [message] => @m25uhsds医師会やめるのー?
+    [rid] => 25
+    [aid] => 33
+    [create_date] => 2013-07-08 09:35:18
+)
+Array
+(
+    [message] => @Whatever324 マジで、私と同じだ。眠い時に何回も何回もあくびしてる授業も寝ちゃう（笑）じゃあいっぱい寝よう。
+    [rid] => 11
+    [aid] => 17
+    [create_date] => 2013-07-08 09:35:19
+)
+Array
+(
+    [message] => I'm at 大街道 (Okaido / 伊予鉄道 電車停留所) (松山市, 愛媛県) http://t.co/S9186fC8LZ
+    [rid] => 17
+    [aid] => 46
+    [create_date] => 2013-07-08 09:35:20
+)
+Array
+(
+    [message] => @marudaip それ！！！サーファーになりたい！！！笑
+    [rid] => 15
+    [aid] => 2
+    [create_date] => 2013-07-08 09:35:20
+)
+Array
+(
+    [message] => @Maisuke0814 でしょでしょ(●´ー｀●)
+    [rid] => 19
+    [aid] => 9
+    [create_date] => 2013-07-08 09:35:20
+)
+Array
+(
+    [message] => I'm at 点園 新小杉駅 (Shin-Kosugi Sta.) http://t.co/hB1S7BWydF
+    [rid] => 14
+    [aid] => 2
+    [create_date] => 2013-07-08 09:35:20
+)
+Array
+(
+    [message] => 今日遅刻したら確実に怒られるw
+    [rid] => 21
+    [aid] => 4
+    [create_date] => 2013-07-08 09:35:20
+)
+Array
+(
+    [message] => 液晶がめっちゃ近未来
+    [rid] => 28
+    [aid] => 30
+    [create_date] => 2013-07-08 09:35:20
+)
+Array
+(
+    [message] => 昨日充実してたな 〜 ♡ 余韻 。
+    [rid] => 10
+    [aid] => 26
+    [create_date] => 2013-07-08 09:35:21
+)
+Array
+(
+    [message] => なんでこんなにも湘南は波がないのm(_ _)mあー…バリ行きたいバリに住みたい
+    [rid] => 27
+    [aid] => 29
+    [create_date] => 2013-07-08 09:35:21
+)
+Array
+(
+    [message] => あついな
+死んだわ
+とりま寝たい
+    [rid] => 4
+    [aid] => 12
+    [create_date] => 2013-07-08 09:35:21
+)
+Array
+(
+    [message] => コクリコ坂初めて見る(*^◯^*)
+    [rid] => 2
+    [aid] => 14
+    [create_date] => 2013-07-08 09:35:21
+)
+Array
+(
+    [message] => 羽田空港ラウンジナウシカ。
+朝の山の手線激混み。
+派手色パンツ履いてるからか、ものすごい勢いでガン見される。
+空港着くとそこそこになるな〜
+本当にさ、コレ金になれば良いのに。
+
+ガン見されたら理由を聞いてみよう
+そうしよう
+今日も頑張るぞー！
+いってきまーす！
+    [rid] => 25
+    [aid] => 22
+    [create_date] => 2013-07-08 09:35:21
+)
+Array
+(
+    [message] => @JhazPerey TANGNANG CAPS YAN KATAKOT, BES HAHAHAHA :( DIBA EH YUN PINAKA UNA KO NA ISIP EH JHAZ PA?! DEJK! XD MORNING, BES I LOVE YOU!!! :*
+    [rid] => 15
+    [aid] => 14
+    [create_date] => 2013-07-08 09:35:22
+)
+Array
+(
+    [message] => 長島へレッゴー(о´∀`о)
+    [rid] => 1
+    [aid] => 28
+    [create_date] => 2013-07-08 09:35:22
+)
+Array
+(
+    [message] => @yxx_tommy1985 おもんな！！笑
+    [rid] => 24
+    [aid] => 42
+    [create_date] => 2013-07-08 09:35:22
+)
+Array
+(
+    [message] => ツバメの巣が家に作られたら金持ちになるらしい！家内安全とかいいことがあるんだって〜
+    [rid] => 6
+    [aid] => 8
+    [create_date] => 2013-07-08 09:35:24
+)
+Array
+(
+    [message] => @56392862 (￣ー￣)
+    [rid] => 5
+    [aid] => 38
+    [create_date] => 2013-07-08 09:35:24
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => ツイ廃の基準：４日ぶりのツイート＝４か月ぶりのツイート
+    [rid] => 2
+    [aid] => 32
+    [create_date] => 2013-07-08 09:35:27
+)
+Array
+(
+    [message] => 南向き信号待ちなうなうo(｀ω´ )o @ 喜志交差点に写真つきタッチ！ http://t.co/A6ZZGE3GqM http://t.co/SbtH4HcTxn
+    [rid] => 24
+    [aid] => 34
+    [create_date] => 2013-07-08 09:35:27
+)
+Array
+(
+    [message] => @Higuma9999 行ってきま～す。
+    [rid] => 25
+    [aid] => 12
+    [create_date] => 2013-07-08 09:35:27
+)
+Array
+(
+    [message] => @ysk_mixt_vo その態勢で言われるとムカつくぜ！
+    [rid] => 22
+    [aid] => 25
+    [create_date] => 2013-07-08 09:35:28
+)
+Array
+(
+    [message] => では、行ってきます(^^) http://t.co/7KTn2PJRRD
+    [rid] => 9
+    [aid] => 31
+    [create_date] => 2013-07-08 09:35:28
+)
+Array
+(
+    [message] => よくなる時もあるよ？RT @takuuoozora2: 病んでる奴がついった来ると悪化するっていう罠
+    [rid] => 2
+    [aid] => 32
+    [create_date] => 2013-07-08 09:35:28
+)
+Array
+(
+    [message] => Доброе утро http://t.co/fCZGHjGbSv
+    [rid] => 4
+    [aid] => 47
+    [create_date] => 2013-07-08 09:35:28
+)
+Array
+(
+    [message] => @u_honggi 
+呼ばれたんですよー泣
+でもあとは復学願いとかだしたらあとはもぉ休みのはず！！笑笑
+    [rid] => 6
+    [aid] => 12
+    [create_date] => 2013-07-08 09:35:28
+)
+Array
+(
+    [message] => うおおおおおお！！！！寒いいいいいいいい！！！！！
+    [rid] => 6
+    [aid] => 13
+    [create_date] => 2013-07-08 09:35:29
+)
+Array
+(
+    [message] => ขอบคุณที่ลายมาปลุก55
+    [rid] => 16
+    [aid] => 50
+    [create_date] => 2013-07-08 09:35:30
+)
+Array
+(
+    [message] => 若泉第一公園に写真つきタッチ！ http://t.co/3hf0Jak5Fu http://t.co/iVagSN1vXw
+    [rid] => 21
+    [aid] => 50
+    [create_date] => 2013-07-08 09:35:31
+)
+Array
+(
+    [message] => 香里奈可愛い〜‼
+    [rid] => 8
+    [aid] => 35
+    [create_date] => 2013-07-08 09:35:31
+)
+Array
+(
+    [message] => ｲﾏｺｺ! L:東京都江東区大島６丁目 #imacoconow [ImacocoNow! Android]
+    [rid] => 16
+    [aid] => 3
+    [create_date] => 2013-07-08 09:35:32
+)
+Array
+(
+    [message] => すしでぶ「寿司は、一皿一皿が勝負」
+    [rid] => 16
+    [aid] => 37
+    [create_date] => 2013-07-08 09:35:32
+)
+Array
+(
+    [message] => @tmp57g4a もしや、カラオケオールか！？わらわら
+    [rid] => 7
+    [aid] => 35
+    [create_date] => 2013-07-08 09:35:32
+)
+Array
+(
+    [message] => 海いきた～っ( ￣▽￣)♡笑 http://t.co/N6hqO33dIV
+    [rid] => 15
+    [aid] => 13
+    [create_date] => 2013-07-08 09:35:32
+)
+Array
+(
+    [message] => @pinotoniq 
+いちおー選択必修で統計（もどき）とっとるけんなw
+どやぁ(￣▽￣)←
+    [rid] => 10
+    [aid] => 14
+    [create_date] => 2013-07-08 09:35:35
+)
+Array
+(
+    [message] => @shuu0228 袖も切っちゃおうぜ！！ワイルドしゅうちゃん！！
+    [rid] => 28
+    [aid] => 8
+    [create_date] => 2013-07-08 09:35:35
+)
+Array
+(
+    [message] => @Redocean154 うちもー( ; _ ; )
+繋がれてよかった♡
+そーなんや(´ω｀*)
+ウネのリリイべ行った？
+    [rid] => 15
+    [aid] => 32
+    [create_date] => 2013-07-08 09:35:35
+)
+Array
+(
+    [message] => ちゃんと昨日のうちにごろごろしたのだぜ
+    [rid] => 19
+    [aid] => 40
+    [create_date] => 2013-07-08 09:35:35
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => @minekouww ファイトw
+    [rid] => 8
+    [aid] => 35
+    [create_date] => 2013-07-08 09:35:37
+)
+Array
+(
+    [message] => I'm at 橿原市役所 (橿原市, 奈良県) [pic]: http://t.co/Hu4cTKlhOd
+    [rid] => 13
+    [aid] => 19
+    [create_date] => 2013-07-08 09:35:37
+)
+Array
+(
+    [message] => ﾁｬﾘｺｺ! L:愛知県日進市米野木町南山 #imacoconow [ImacocoNow! Android＠SC-06D+JellyBeer]
+    [rid] => 19
+    [aid] => 31
+    [create_date] => 2013-07-08 09:35:38
+)
+Array
+(
+    [message] => 美容室行きたい衝動やぁ！まだ3週間しか経ってへんのに(笑)
+    [rid] => 19
+    [aid] => 40
+    [create_date] => 2013-07-08 09:35:38
+)
+Array
+(
+    [message] => @shirooouu おっけ！28日で企画するかも！
+しろくんのこと怖いって言ってたもん笑
+    [rid] => 26
+    [aid] => 6
+    [create_date] => 2013-07-08 09:35:38
+)
+Array
+(
+    [message] => (｀・ω・´)ﾑﾌｰ
+    [rid] => 24
+    [aid] => 27
+    [create_date] => 2013-07-08 09:35:39
+)
+Array
+(
+    [message] => くそあち (@ 富山地方鉄道 南富山駅・南富山駅前電停) http://t.co/top8gxucGF
+    [rid] => 3
+    [aid] => 2
+    [create_date] => 2013-07-08 09:35:39
+)
+Array
+(
+    [message] => あれ？
+iPhone から 192.168.13.1 (router) にログイン出来るのに、MBAからは出来ない？
+サーバが応答しません、って。なんで？
+    [rid] => 7
+    [aid] => 32
+    [create_date] => 2013-07-08 09:35:39
+)
+Array
+(
+    [message] => 横田歯科医院にタッチ！ http://t.co/tIMQDukQJ7
+    [rid] => 3
+    [aid] => 38
+    [create_date] => 2013-07-08 09:35:39
+)
+Array
+(
+    [message] => 14
+    [rid] => 11
+    [aid] => 15
+    [create_date] => 2013-07-08 09:35:40
+)
+Array
+(
+    [message] => 東京に限っては民主と維新にちょっと頑張って欲しい
+    [rid] => 14
+    [aid] => 42
+    [create_date] => 2013-07-08 09:35:40
+)
+Array
+(
+    [message] => 第8戦法 メンソール系2倍
+    [rid] => 17
+    [aid] => 39
+    [create_date] => 2013-07-08 09:35:42
+)
+Array
+(
+    [message] => @lionknocker おはようございます！以前呟いてた「シェフに、フランス製の鉛筆は〜」のくだりがインパクトありました（苦笑）ママン繋がりで改めましてよろしくお願いします！
+    [rid] => 4
+    [aid] => 25
+    [create_date] => 2013-07-08 09:35:42
+)
+Array
+(
+    [message] => 逆子～逆子～2週間後の検診までになおるかな～
+    [rid] => 28
+    [aid] => 31
+    [create_date] => 2013-07-08 09:35:43
+)
+Array
+(
+    [message] => I'm at 新宿大ガード (新宿区, 東京都) http://t.co/3TNuaSPcRc
+    [rid] => 4
+    [aid] => 27
+    [create_date] => 2013-07-08 09:35:44
+)
+Array
+(
+    [message] => @ikesho0903 なるなるね
+    [rid] => 12
+    [aid] => 19
+    [create_date] => 2013-07-08 09:35:45
+)
+Array
+(
+    [message] => 今から家出する
+    [rid] => 7
+    [aid] => 41
+    [create_date] => 2013-07-08 09:35:45
+)
+Array
+(
+    [message] => おはようございます！
+今日も暑そう…(^_^;)
+    [rid] => 23
+    [aid] => 42
+    [create_date] => 2013-07-08 09:35:46
+)
+Array
+(
+    [message] => @moe2sta_keigo 熱中症いつなるの？
+今でしょ！わーいわーい熱中症だあ
+    [rid] => 13
+    [aid] => 18
+    [create_date] => 2013-07-08 09:35:48
+)
+Array
+(
+    [message] => @yuitoto6 おれのん？w
+    [rid] => 19
+    [aid] => 14
+    [create_date] => 2013-07-08 09:35:48
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => 朱印まちの間すぐ近くの文芸のこみちへ。遊歩道に文豪の碑が並んでいる。周りが普通の住宅街であるので視界狭くして進む。 http://t.co/vKCaceFyfZ
+    [rid] => 14
+    [aid] => 21
+    [create_date] => 2013-07-08 09:35:50
+)
+Array
+(
+    [message] => 店長代わってからﾊﾞｲﾄたくさん辞めて、毎週日曜は店長24時間労働とか面白すぎる(笑) 因果応報やんなぁ。 
+二度と戻らないと思ったﾃﾞﾆｰｽﾞに情で戻ってきてる自分お疲れ様です。こんな性格だと苦労するわ。
+    [rid] => 25
+    [aid] => 28
+    [create_date] => 2013-07-08 09:35:50
+)
+Array
+(
+    [message] => @orangeleopard44 おはよう！おなかお大事に(=ﾟωﾟ)ﾉ
+    [rid] => 14
+    [aid] => 2
+    [create_date] => 2013-07-08 09:35:50
+)
+Array
+(
+    [message] => おはよー！起床しました。皆さん起きました？楽しい一日を願います。
+    [rid] => 6
+    [aid] => 28
+    [create_date] => 2013-07-08 09:35:51
+)
+Array
+(
+    [message] => めっちゃねむーい
+つか小岩井カフェオレってやつ
+ちょーうまし(｡-_-｡)
+
+仙台の天気よージメジメするわー
+    [rid] => 24
+    [aid] => 27
+    [create_date] => 2013-07-08 09:35:52
+)
+Array
+(
+    [message] => 直君が今日から長〜い
+出張に行っちゃったww
+仕事も辞めて物凄く暇
+なるし、new catも来たし
+皆泊まりに来てね( ´ ▽ ` )ﾉ http://t.co/ar3b9ZJxsc
+    [rid] => 26
+    [aid] => 11
+    [create_date] => 2013-07-08 09:35:52
+)
+Array
+(
+    [message] => 田町から走ったら間に合う
+    [rid] => 11
+    [aid] => 20
+    [create_date] => 2013-07-08 09:35:52
+)
+Array
+(
+    [message] => こうやって少しずつ近づくんだ
+    [rid] => 30
+    [aid] => 23
+    [create_date] => 2013-07-08 09:35:52
+)
+Array
+(
+    [message] => @sapana_k: ナマステ〜（^人^）本日の日替わりカレーは【ホウレンソウとチキン】のカレーでございます！SPラッシーはカシスラッシーです(^^)本日もご来店お待ちしております(^O^)／
+    [rid] => 27
+    [aid] => 45
+    [create_date] => 2013-07-08 09:35:53
+)
+Array
+(
+    [message] => ご宿泊ありがとうございます。　RT  @hoshino0uzisama 元首相も泊まったという、レトロな旅館でした http://t.co/pfPKUjzHOs
+    [rid] => 2
+    [aid] => 50
+    [create_date] => 2013-07-08 09:35:53
+)
+Array
+(
+    [message] => @mikann1324 あれはきっと外国語なんだよ！(V)o\o(V)
+    [rid] => 13
+    [aid] => 23
+    [create_date] => 2013-07-08 09:35:55
+)
+Array
+(
+    [message] => @iroironurie 今日からまた頑張ろう‼
+    [rid] => 11
+    [aid] => 32
+    [create_date] => 2013-07-08 09:35:56
+)
+Array
+(
+    [message] => I'm at 宇佐美 41号名犬小牧SS http://t.co/mosJRoP67f
+    [rid] => 9
+    [aid] => 5
+    [create_date] => 2013-07-08 09:35:57
+)
+Array
+(
+    [message] => 使い物にならんやつばっか。ほんまくそやわ。
+    [rid] => 14
+    [aid] => 35
+    [create_date] => 2013-07-08 09:35:58
+)
+Array
+(
+    [message] => でも暑いから走りたくないw
+    [rid] => 14
+    [aid] => 5
+    [create_date] => 2013-07-08 09:35:59
+)
+Array
+(
+    [message] => ES GRACIOSO PORQUE NO TENGO WA :)
+    [rid] => 30
+    [aid] => 45
+    [create_date] => 2013-07-08 09:35:59
+)
+Array
+(
+    [message] => 電車2本も乗り遅れた(　ﾟдﾟ)
+まじばか！18歳最後の日なのに(泣)
+    [rid] => 15
+    [aid] => 39
+    [create_date] => 2013-07-08 09:35:59
+)
+Array
+(
+    [message] => @akaringo0315 
+なんで？
+    [rid] => 14
+    [aid] => 47
+    [create_date] => 2013-07-08 09:36:00
+)
+Array
+(
+    [message] => I'm at 新宿駅 (Shinjuku Sta.) (新宿区 / 渋谷区, 東京都) w/ 78 others http://t.co/pyBE44gRCa
+    [rid] => 24
+    [aid] => 31
+    [create_date] => 2013-07-08 09:36:00
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => @Adan2JP むせると最低野郎達がやってくるのでNG
+    [rid] => 3
+    [aid] => 5
+    [create_date] => 2013-07-08 09:36:02
+)
+Array
+(
+    [message] => やびゃい手洗い講習忘れたった( ´ ▽ ` )ﾉ休んでしまた( ´ ▽ ` )ﾉへたれた( ´ ▽ ` )ﾉ喉痛すぎておかしい喋れない
+    [rid] => 14
+    [aid] => 35
+    [create_date] => 2013-07-08 09:36:02
+)
+Array
+(
+    [message] => @tsrs1972 今日は板橋か。
+    [rid] => 22
+    [aid] => 19
+    [create_date] => 2013-07-08 09:36:02
+)
+Array
+(
+    [message] => どいちゅもうむり
+    [rid] => 19
+    [aid] => 38
+    [create_date] => 2013-07-08 09:36:05
+)
+Array
+(
+    [message] => 可愛いから許そう(=´∀｀)人(´∀｀=)
+    [rid] => 20
+    [aid] => 30
+    [create_date] => 2013-07-08 09:36:06
+)
+Array
+(
+    [message] => I'm at 武庫之荘駅 (Mukonoso Sta.) (尼崎市, 兵庫県) http://t.co/N8U64oCVS4
+    [rid] => 16
+    [aid] => 21
+    [create_date] => 2013-07-08 09:36:07
+)
+Array
+(
+    [message] => @reinpk nope didn't get a chance unfortunately! We ended up get there a bit too late and just ran around with the deer lol
+    [rid] => 30
+    [aid] => 9
+    [create_date] => 2013-07-08 09:36:08
+)
+Array
+(
+    [message] => 走った〜間に合った〜あっつ
+    [rid] => 3
+    [aid] => 11
+    [create_date] => 2013-07-08 09:36:09
+)
+Array
+(
+    [message] => あついねー @ ホテルグランドヒル市ヶ谷 http://t.co/AV4RuPX2Gl
+    [rid] => 27
+    [aid] => 49
+    [create_date] => 2013-07-08 09:36:10
+)
+Array
+(
+    [message] => @ChocoronY なんでなんでなんでなんでなんでなんで(゜ロ゜;
+    [rid] => 13
+    [aid] => 8
+    [create_date] => 2013-07-08 09:36:11
+)
+Array
+(
+    [message] => ディズニーなうなう。 http://t.co/uFNCsEAYnQ
+    [rid] => 14
+    [aid] => 30
+    [create_date] => 2013-07-08 09:36:12
+)
+Array
+(
+    [message] => あれ？俺暑苦しくね？
+    [rid] => 6
+    [aid] => 48
+    [create_date] => 2013-07-08 09:36:13
+)
+Array
+(
+    [message] => 今から仕事ヽ(´o｀；
+メチャ緊張~してる。・°°・(＞_＜)・°°・。
+早く 18時にならないかな(＞人＜;)
+上がり症を治す方法ってあるのかな？
+    [rid] => 26
+    [aid] => 4
+    [create_date] => 2013-07-08 09:36:13
+)
+Array
+(
+    [message] => @_R12K_ しったげあぢな(/ _ ; )
+    [rid] => 3
+    [aid] => 8
+    [create_date] => 2013-07-08 09:36:13
+)
+Array
+(
+    [message] => OLも早くLIVEしてください
+    [rid] => 12
+    [aid] => 31
+    [create_date] => 2013-07-08 09:36:13
+)
+Array
+(
+    [message] => I'm at 大泉学園駅 (Ōizumi-gakuen Sta.) (練馬区, 東京都) w/ 2 others http://t.co/atOANs6EwG
+    [rid] => 6
+    [aid] => 25
+    [create_date] => 2013-07-08 09:36:13
+)
+Array
+(
+    [message] => I'm at 尼なんたらの聖地 http://t.co/uRSIKHUKOC
+    [rid] => 22
+    [aid] => 32
+    [create_date] => 2013-07-08 09:36:14
+)
+Array
+(
+    [message] => Как же я долго собирала эти сраные пазлы,ну нааах их разбрасывть по хате
+    [rid] => 6
+    [aid] => 21
+    [create_date] => 2013-07-08 09:36:15
+)
+Array
+(
+    [message] => ムフーってなんだ
+    [rid] => 30
+    [aid] => 40
+    [create_date] => 2013-07-08 09:36:15
+)
+Array
+(
+    [message] => 東武伊勢崎線 北千住駅にタッチ！ http://t.co/w956SRbdHm
+    [rid] => 5
+    [aid] => 32
+    [create_date] => 2013-07-08 09:36:15
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(551): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...', Array)
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#6 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#7 {main}
+Array
+(
+    [message] => 学校行こう
+    [rid] => 12
+    [aid] => 33
+    [create_date] => 2013-07-08 09:36:17
+)
+Array
+(
+    [message] => きつねかわいい！！！(7875回目)
+    [rid] => 2
+    [aid] => 18
+    [create_date] => 2013-07-08 09:36:18
+)
+Array
+(
+    [message] => きつねかわいい！！！(7876回目)
+    [rid] => 25
+    [aid] => 7
+    [create_date] => 2013-07-08 09:36:18
+)
+Array
+(
+    [message] => きつねかわいい！！！(7877回目)
+    [rid] => 17
+    [aid] => 36
+    [create_date] => 2013-07-08 09:36:18
+)
+Array
+(
+    [message] => きつねかわいい！！！(7878回目)
+    [rid] => 4
+    [aid] => 49
+    [create_date] => 2013-07-08 09:36:18
+)
+Array
+(
+    [message] => きつねかわいい！！！(7879回目)
+    [rid] => 26
+    [aid] => 27
+    [create_date] => 2013-07-08 09:36:18
+)
+Array
+(
+    [message] => きつねかわいい！！！(7880回目)
+    [rid] => 17
+    [aid] => 2
+    [create_date] => 2013-07-08 09:36:19
+)
+Array
+(
+    [message] => きつねかわいい！！！(7881回目)
+    [rid] => 15
+    [aid] => 20
+    [create_date] => 2013-07-08 09:36:19
+)
+Array
+(
+    [message] => これから球技大会！
+    [rid] => 3
+    [aid] => 30
+    [create_date] => 2013-07-08 09:36:19
+)
+Array
+(
+    [message] => きつねかわいい！！！(7882回目)
+    [rid] => 17
+    [aid] => 24
+    [create_date] => 2013-07-08 09:36:19
+)
+Array
+(
+    [message] => きつねかわいい！！！(7883回目)
+    [rid] => 7
+    [aid] => 36
+    [create_date] => 2013-07-08 09:36:19
+)
+Array
+(
+    [message] => きつねかわいい！！！(7884回目)
+    [rid] => 29
+    [aid] => 46
+    [create_date] => 2013-07-08 09:36:19
+)
+Array
+(
+    [message] => きつねかわいい！！！(7885回目)
+    [rid] => 11
+    [aid] => 8
+    [create_date] => 2013-07-08 09:36:20
+)
+Array
+(
+    [message] => きつねかわいい！！！(7886回目)
+    [rid] => 10
+    [aid] => 17
+    [create_date] => 2013-07-08 09:36:20
+)
+Array
+(
+    [message] => きつねかわいい！！！(7887回目)
+    [rid] => 28
+    [aid] => 24
+    [create_date] => 2013-07-08 09:36:20
+)
+Array
+(
+    [message] => きつねかわいい！！！(7888回目)
+    [rid] => 30
+    [aid] => 15
+    [create_date] => 2013-07-08 09:36:20
+)
+Array
+(
+    [message] => I'm at 白楽駅 (Hakuraku Sta.) (横浜市, 神奈川県) http://t.co/4dHRgpl7x2
+    [rid] => 4
+    [aid] => 1
+    [create_date] => 2013-07-08 09:36:20
+)
+Array
+(
+    [message] => きつねかわいい！！！(7889回目)
+    [rid] => 20
+    [aid] => 48
+    [create_date] => 2013-07-08 09:36:20
+)
+Array
+(
+    [message] => きつねかわいい！！！(7890回目)
+    [rid] => 5
+    [aid] => 11
+    [create_date] => 2013-07-08 09:36:20
+)
+Array
+(
+    [message] => きつねかわいい！！！(7891回目)
+    [rid] => 20
+    [aid] => 13
+    [create_date] => 2013-07-08 09:36:20
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => きつねかわいい！！！(7897回目)
+    [rid] => 6
+    [aid] => 26
+    [create_date] => 2013-07-08 09:36:22
+)
+Array
+(
+    [message] => きつねかわいい！！！(7898回目)
+    [rid] => 24
+    [aid] => 36
+    [create_date] => 2013-07-08 09:36:22
+)
+Array
+(
+    [message] => きつねかわいい！！！(7899回目)
+    [rid] => 17
+    [aid] => 14
+    [create_date] => 2013-07-08 09:36:22
+)
+Array
+(
+    [message] => きつねかわいい！！！(7900回目)
+    [rid] => 4
+    [aid] => 33
+    [create_date] => 2013-07-08 09:36:23
+)
+Array
+(
+    [message] => きつねかわいい！！！(7901回目)
+    [rid] => 26
+    [aid] => 33
+    [create_date] => 2013-07-08 09:36:23
+)
+Array
+(
+    [message] => みんな何かしらの画像はらなTweet見てくれへんのわかってるから、いまなんか画像はって呟こうと思って画像みたらこれあってわろた。電車なぅ。（笑）
+
+新しいスタンプ！っていって貼ってきたからな。それわおもろい。🍞🍞🍞ぱん http://t.co/wVKnmVIi8f
+    [rid] => 4
+    [aid] => 3
+    [create_date] => 2013-07-08 09:36:23
+)
+Array
+(
+    [message] => きつねかわいい！！！(7902回目)
+    [rid] => 11
+    [aid] => 5
+    [create_date] => 2013-07-08 09:36:23
+)
+Array
+(
+    [message] => 暑い！！なんだこれ！！なんだこれ！！
+    [rid] => 29
+    [aid] => 35
+    [create_date] => 2013-07-08 09:36:24
+)
+Array
+(
+    [message] => @DONKICHI_TA それが一番だね。昨日寝る寸前にゴキブリ出たあせった
+    [rid] => 7
+    [aid] => 14
+    [create_date] => 2013-07-08 09:36:25
+)
+Array
+(
+    [message] => やべっ溶けた。
+    [rid] => 1
+    [aid] => 8
+    [create_date] => 2013-07-08 09:36:25
+)
+Array
+(
+    [message] => きつねかわいい！！！(7903回目)
+    [rid] => 23
+    [aid] => 1
+    [create_date] => 2013-07-08 09:36:27
+)
+Array
+(
+    [message] => きつねかわいい！！！(7904回目)
+    [rid] => 14
+    [aid] => 44
+    [create_date] => 2013-07-08 09:36:27
+)
+Array
+(
+    [message] => いけめんww http://t.co/y6597Em2OD
+    [rid] => 1
+    [aid] => 5
+    [create_date] => 2013-07-08 09:36:27
+)
+Array
+(
+    [message] => きつねかわいい！！！(7905回目)
+    [rid] => 25
+    [aid] => 8
+    [create_date] => 2013-07-08 09:36:27
+)
+Array
+(
+    [message] => きつねかわいい！！！(7906回目)
+    [rid] => 10
+    [aid] => 25
+    [create_date] => 2013-07-08 09:36:27
+)
+Array
+(
+    [message] => 外は暑いらしいなぁ…
+会社は涼しいけど…
+これから入浴介助だから、
+暑くなるなぁ……
+
+午後もだからキツイなぁ
+    [rid] => 13
+    [aid] => 24
+    [create_date] => 2013-07-08 09:36:28
+)
+Array
+(
+    [message] => きつねかわいい！！！(7907回目)
+    [rid] => 30
+    [aid] => 10
+    [create_date] => 2013-07-08 09:36:28
+)
+Array
+(
+    [message] => きつねかわいい！！！(7908回目)
+    [rid] => 6
+    [aid] => 28
+    [create_date] => 2013-07-08 09:36:28
+)
+Array
+(
+    [message] => きつねかわいい！！！(7909回目)
+    [rid] => 15
+    [aid] => 15
+    [create_date] => 2013-07-08 09:36:28
+)
+Array
+(
+    [message] => それはそうかと
+    [rid] => 6
+    [aid] => 17
+    [create_date] => 2013-07-08 09:36:28
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => きつねかわいい！！！(7920回目)
+    [rid] => 29
+    [aid] => 16
+    [create_date] => 2013-07-08 09:36:30
+)
+Array
+(
+    [message] => @yurikaccho3 
+わー！ゆりゆりきんきんありがと♥
+変態やろが（笑）いこいこ٩꒰⍢ ꒱۶⁼³₌₃
+あいたいぜーゆっぴ
+    [rid] => 12
+    [aid] => 15
+    [create_date] => 2013-07-08 09:36:30
+)
+Array
+(
+    [message] => きつねかわいい！！！(7921回目)
+    [rid] => 13
+    [aid] => 18
+    [create_date] => 2013-07-08 09:36:30
+)
+Array
+(
+    [message] => グロボなくてもドライ窒素さえあればシュレンクテクニックで七割方空気不安定なものでも扱える
+    [rid] => 30
+    [aid] => 32
+    [create_date] => 2013-07-08 09:36:30
+)
+Array
+(
+    [message] => @Daniel_A_P *0*
+    [rid] => 19
+    [aid] => 2
+    [create_date] => 2013-07-08 09:36:30
+)
+Array
+(
+    [message] => きつねかわいい！！！(7922回目)
+    [rid] => 24
+    [aid] => 19
+    [create_date] => 2013-07-08 09:36:30
+)
+Array
+(
+    [message] => きつねかわいい！！！(7923回目)
+    [rid] => 1
+    [aid] => 12
+    [create_date] => 2013-07-08 09:36:31
+)
+Array
+(
+    [message] => きつねかわいい！！！(7924回目)
+    [rid] => 8
+    [aid] => 2
+    [create_date] => 2013-07-08 09:36:31
+)
+Array
+(
+    [message] => きつねかわいい！！！(7925回目)
+    [rid] => 10
+    [aid] => 4
+    [create_date] => 2013-07-08 09:36:31
+)
+Array
+(
+    [message] => @k3s2xx 
+
+やっぱり
+大人しくなったでしょ？
+    [rid] => 6
+    [aid] => 32
+    [create_date] => 2013-07-08 09:36:31
+)
+Array
+(
+    [message] => きつねかわいい！！！(7927回目)
+    [rid] => 17
+    [aid] => 31
+    [create_date] => 2013-07-08 09:36:31
+)
+Array
+(
+    [message] => きつねかわいい！！！(7928回目)
+    [rid] => 4
+    [aid] => 29
+    [create_date] => 2013-07-08 09:36:31
+)
+Array
+(
+    [message] => きつねかわいい！！！(7926回目)
+    [rid] => 25
+    [aid] => 15
+    [create_date] => 2013-07-08 09:36:31
+)
+Array
+(
+    [message] => きつねかわいい！！！(7929回目)
+    [rid] => 4
+    [aid] => 14
+    [create_date] => 2013-07-08 09:36:32
+)
+Array
+(
+    [message] => 南向き信号待ちなうなうo(｀ω´ )o @ 喜志南交差点に写真つきタッチ！ http://t.co/SNKl0oGpHQ http://t.co/IdeOR8KqdJ
+    [rid] => 18
+    [aid] => 15
+    [create_date] => 2013-07-08 09:36:32
+)
+Array
+(
+    [message] => きつねかわいい！！！(7930回目)
+    [rid] => 19
+    [aid] => 27
+    [create_date] => 2013-07-08 09:36:32
+)
+Array
+(
+    [message] => きつねかわいい！！！(7931回目)
+    [rid] => 19
+    [aid] => 50
+    [create_date] => 2013-07-08 09:36:32
+)
+Array
+(
+    [message] => きつねかわいい！！！(7932回目)
+    [rid] => 25
+    [aid] => 1
+    [create_date] => 2013-07-08 09:36:32
+)
+Array
+(
+    [message] => きつねかわいい！！！(7933回目)
+    [rid] => 11
+    [aid] => 42
+    [create_date] => 2013-07-08 09:36:32
+)
+Array
+(
+    [message] => きつねかわいい！！！(7934回目)
+    [rid] => 20
+    [aid] => 49
+    [create_date] => 2013-07-08 09:36:32
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => きつねかわいい！！！(7939回目)
+    [rid] => 26
+    [aid] => 21
+    [create_date] => 2013-07-08 09:36:34
+)
+Array
+(
+    [message] => 今日学校だり～。就職関係のやつ、
+    [rid] => 11
+    [aid] => 45
+    [create_date] => 2013-07-08 09:36:34
+)
+Array
+(
+    [message] => ムフー！ジャパン
+    [rid] => 20
+    [aid] => 30
+    [create_date] => 2013-07-08 09:36:34
+)
+Array
+(
+    [message] => きつねかわいい！！！(7940回目)
+    [rid] => 28
+    [aid] => 50
+    [create_date] => 2013-07-08 09:36:34
+)
+Array
+(
+    [message] => 東急不動産、今日の高値で刺さった！嬉しい！
+    [rid] => 20
+    [aid] => 7
+    [create_date] => 2013-07-08 09:36:34
+)
+Array
+(
+    [message] => きつねかわいい！！！(7941回目)
+    [rid] => 19
+    [aid] => 12
+    [create_date] => 2013-07-08 09:36:34
+)
+Array
+(
+    [message] => きつねかわいい！！！(7942回目)
+    [rid] => 22
+    [aid] => 37
+    [create_date] => 2013-07-08 09:36:35
+)
+Array
+(
+    [message] => きつねかわいい！！！(7943回目)
+    [rid] => 24
+    [aid] => 27
+    [create_date] => 2013-07-08 09:36:35
+)
+Array
+(
+    [message] => きつねかわいい！！！(7944回目)
+    [rid] => 1
+    [aid] => 45
+    [create_date] => 2013-07-08 09:36:35
+)
+Array
+(
+    [message] => きつねかわいい！！！(7945回目)
+    [rid] => 25
+    [aid] => 31
+    [create_date] => 2013-07-08 09:36:35
+)
+Array
+(
+    [message] => きつねかわいい！！！(7946回目)
+    [rid] => 6
+    [aid] => 21
+    [create_date] => 2013-07-08 09:36:35
+)
+Array
+(
+    [message] => きつねかわいい！！！(7947回目)
+    [rid] => 5
+    [aid] => 41
+    [create_date] => 2013-07-08 09:36:35
+)
+Array
+(
+    [message] => きつねかわいい！！！(7948回目)
+    [rid] => 12
+    [aid] => 49
+    [create_date] => 2013-07-08 09:36:36
+)
+Array
+(
+    [message] => @mochimochi0417 おめでとうーーーー！
+    [rid] => 25
+    [aid] => 37
+    [create_date] => 2013-07-08 09:36:36
+)
+Array
+(
+    [message] => きつねかわいい！！！(7949回目)
+    [rid] => 24
+    [aid] => 23
+    [create_date] => 2013-07-08 09:36:36
+)
+Array
+(
+    [message] => きつねかわいい！！！(7950回目)
+    [rid] => 21
+    [aid] => 33
+    [create_date] => 2013-07-08 09:36:36
+)
+Array
+(
+    [message] => 大家都盼著你們快快長大〜〜〜〜〜💖 http://t.co/6jRCt1ZqxA
+    [rid] => 26
+    [aid] => 2
+    [create_date] => 2013-07-08 09:36:36
+)
+Array
+(
+    [message] => きつねかわいい！！！(7951回目)
+    [rid] => 17
+    [aid] => 26
+    [create_date] => 2013-07-08 09:36:36
+)
+Array
+(
+    [message] => きつねかわいい！！！(7952回目)
+    [rid] => 19
+    [aid] => 24
+    [create_date] => 2013-07-08 09:36:36
+)
+Array
+(
+    [message] => @ntkt0220 
+そーゆー事言ってるとほんとに行くぞ
+    [rid] => 16
+    [aid] => 15
+    [create_date] => 2013-07-08 09:36:36
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => I'm at 青柳アンダー (山形市) http://t.co/Nbwz4bYOuZ
+    [rid] => 4
+    [aid] => 38
+    [create_date] => 2013-07-08 09:37:02
+)
+Array
+(
+    [message] => @iyokan34215 ばんばてい私も大好き♥おっちゃんも大好き♥MUJIに家族で来てくれた時、奥さんも娘さんも明るくて良い家族やったー
+    [rid] => 22
+    [aid] => 31
+    [create_date] => 2013-07-08 09:37:02
+)
+Array
+(
+    [message] => 《リゾートウェザー》 TDR周辺の風向・風速は、9時現在 南南東の風(城前)4m/sです。ショーやパレードには影響がないでしょう。 http://t.co/Si4ixJTu8E
+    [rid] => 28
+    [aid] => 13
+    [create_date] => 2013-07-08 09:37:02
+)
+Array
+(
+    [message] => 《リゾートウェザー》 東京ディズニーリゾート周辺の気温は、9時現在 28.7℃です。 http://t.co/DV2ig3G3Nv
+    [rid] => 10
+    [aid] => 25
+    [create_date] => 2013-07-08 09:37:02
+)
+Array
+(
+    [message] => I'm at 首都高 谷町JCT (港区, 東京都) http://t.co/SEEeUAlaYY
+    [rid] => 27
+    [aid] => 28
+    [create_date] => 2013-07-08 09:37:03
+)
+Array
+(
+    [message] => 明日絶対いのっぴ研行く
+    [rid] => 1
+    [aid] => 40
+    [create_date] => 2013-07-08 09:37:03
+)
+Array
+(
+    [message] => @nokia 
+WORLD TOP RANKING
+IT FIELD
+FINLAND 
+RT @finland: Finland Name Day: 08-07, Turkka, Turo
+    [rid] => 7
+    [aid] => 3
+    [create_date] => 2013-07-08 09:37:03
+)
+Array
+(
+    [message] => ほめられた
+    [rid] => 16
+    [aid] => 1
+    [create_date] => 2013-07-08 09:37:03
+)
+Array
+(
+    [message] => @ami_0720 
+いいなーあ(´・ω・`)
+    [rid] => 11
+    [aid] => 26
+    [create_date] => 2013-07-08 09:37:03
+)
+Array
+(
+    [message] => 9 名前:風吹けば名無し :2013/07/08(月) 09:25:32.42 ID:bNb5EuRp
+横浜の投手のこと知りもしない相手チームと解説が過大評価してるだけなんだよ
+
+これこれ
+    [rid] => 16
+    [aid] => 7
+    [create_date] => 2013-07-08 09:37:04
+)
+Array
+(
+    [message] => I'm at 地酒ショップタカセイ (大崎市, 宮城県) http://t.co/HUQ8HNQtH6
+    [rid] => 5
+    [aid] => 17
+    [create_date] => 2013-07-08 09:37:04
+)
+Array
+(
+    [message] => 出発 http://t.co/u9icQWd19e
+    [rid] => 25
+    [aid] => 33
+    [create_date] => 2013-07-08 09:37:04
+)
+Array
+(
+    [message] => @mzkc2323 おれも！
+
+ぶかつあるけどなw
+    [rid] => 16
+    [aid] => 22
+    [create_date] => 2013-07-08 09:37:05
+)
+Array
+(
+    [message] => @maribom2008 はい本厄中
+    [rid] => 13
+    [aid] => 17
+    [create_date] => 2013-07-08 09:37:05
+)
+Array
+(
+    [message] => I'm at カインズホーム 飯能店 (飯能市, 埼玉県) http://t.co/fe9tweItTj
+    [rid] => 24
+    [aid] => 12
+    [create_date] => 2013-07-08 09:37:06
+)
+Array
+(
+    [message] => あー面倒くせぇーな(*_*)
+
+なんでバイトの人と食事行かないと行けないの
+
+やだなぁ。明日もバイトなんだよ！
+学校すら行けないしどおすればいいんだ(*_*)
+    [rid] => 13
+    [aid] => 45
+    [create_date] => 2013-07-08 09:37:06
+)
+Array
+(
+    [message] => 天守閣を見上げて。
+雲ひとつない青空。
+絶好の観光日和。 (at 松山城 matsuyama castle) [pic] — https://t.co/7bfWD4P5RK
+    [rid] => 30
+    [aid] => 6
+    [create_date] => 2013-07-08 09:37:06
+)
+Array
+(
+    [message] => I love the darkness I hate the day I love the rain and a listen to coldplay ._.
+    [rid] => 15
+    [aid] => 45
+    [create_date] => 2013-07-08 09:37:09
+)
+Array
+(
+    [message] => スッキリでまた、剛力が歌うぞwwwww
+    [rid] => 12
+    [aid] => 42
+    [create_date] => 2013-07-08 09:37:09
+)
+Array
+(
+    [message] => フォロワーさんによります多分RT @takuuoozora2: そーでも RT @kaz__cat: よくなる時もあるよ？RT @takuuoozora2: 病んでる奴がついった来ると悪化するっていう罠
+    [rid] => 12
+    [aid] => 14
+    [create_date] => 2013-07-08 09:37:09
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(551): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...', Array)
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#6 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#7 {main}
+Array
+(
+    [message] => @sonobrick これのキティちゃんバージョン（笑）（笑） http://t.co/rQ3N3KtdaS
+    [rid] => 12
+    [aid] => 21
+    [create_date] => 2013-07-08 09:37:13
+)
+Array
+(
+    [message] => 暇。この授業本当つまんない。
+    [rid] => 2
+    [aid] => 30
+    [create_date] => 2013-07-08 09:37:13
+)
+Array
+(
+    [message] => 有楽町駅にタッチ！ http://t.co/NY7hQEL3em
+    [rid] => 14
+    [aid] => 28
+    [create_date] => 2013-07-08 09:37:13
+)
+Array
+(
+    [message] => 英語9点だったあ
+    [rid] => 19
+    [aid] => 41
+    [create_date] => 2013-07-08 09:37:16
+)
+Array
+(
+    [message] => 久しぶりに六厘舎で朝つけ。 http://t.co/kaDOt99Rwg
+    [rid] => 2
+    [aid] => 7
+    [create_date] => 2013-07-08 09:37:16
+)
+Array
+(
+    [message] => 10時なったら用意しよっと(=ﾟωﾟ)ﾉ
+まゆみちゃんまだ寝てる(｡-_-｡)
+どないなっとんねん、うちのおかん。
+まぁ可愛いから許す(｡-_-｡)
+まつげの美容液かっちゃろ(｡-_-｡)
+    [rid] => 28
+    [aid] => 11
+    [create_date] => 2013-07-08 09:37:16
+)
+Array
+(
+    [message] => 北千住駅にタッチ！ http://t.co/ZDTNfpLiua
+    [rid] => 15
+    [aid] => 37
+    [create_date] => 2013-07-08 09:37:17
+)
+Array
+(
+    [message] => @vinte_e_sete そっちが謝る理由がないですよ？普通にしてくださいなー。
+    [rid] => 27
+    [aid] => 1
+    [create_date] => 2013-07-08 09:37:19
+)
+Array
+(
+    [message] => Scheduled medical check after surgery... (@ 君津中央病院) [pic]: http://t.co/FqBwUg1Lv1
+    [rid] => 5
+    [aid] => 15
+    [create_date] => 2013-07-08 09:37:20
+)
+Array
+(
+    [message] => @tise0609 ちせさんのテンションだけ上げさせて俺は速効で寝るってスタイルうううううww
+    [rid] => 11
+    [aid] => 47
+    [create_date] => 2013-07-08 09:37:20
+)
+Array
+(
+    [message] => ナマステ〜（^人^）本日の日替わりカレーは【ホウレンソウとチキン】のカレーでございます！SPラッシーはカシスラッシーです(^^)本日もご来店お待ちしております(^O^)／
+    [rid] => 16
+    [aid] => 38
+    [create_date] => 2013-07-08 09:37:20
+)
+Array
+(
+    [message] => カインズホーム飯能店にタッチ！ http://t.co/o9J11YZxip
+    [rid] => 25
+    [aid] => 26
+    [create_date] => 2013-07-08 09:37:22
+)
+Array
+(
+    [message] => @Shu__ishikawa 
+フォローありがと！
+(◜▿(◜▿‾(◜▿‾(´▿｀)‾▿◝)‾▿◝)▿◝)
+    [rid] => 27
+    [aid] => 17
+    [create_date] => 2013-07-08 09:37:22
+)
+Array
+(
+    [message] => @iamclareng @maejimalig @VANNDAM @rialalalaa @ishietantrums nalilibugan na naman  yan si Maeji kay Van bwahahahahaha jk :( =))
+    [rid] => 12
+    [aid] => 13
+    [create_date] => 2013-07-08 09:37:22
+)
+Array
+(
+    [message] => あつすぎる！
+    [rid] => 5
+    [aid] => 39
+    [create_date] => 2013-07-08 09:37:22
+)
+Array
+(
+    [message] => 今日生きていられるかな～冷房つかない日…苦笑いだ
+    [rid] => 16
+    [aid] => 27
+    [create_date] => 2013-07-08 09:37:23
+)
+Array
+(
+    [message] => あぁ～俺が発表しようとして徹夜して勉強した所が発表されてしまった。ココロオレタ。
+    [rid] => 6
+    [aid] => 29
+    [create_date] => 2013-07-08 09:37:25
+)
+Array
+(
+    [message] => 今日のお休みは酒々井アウトレットに行ってみようかな。
+    [rid] => 4
+    [aid] => 33
+    [create_date] => 2013-07-08 09:37:27
+)
+Array
+(
+    [message] => おはよう
+    [rid] => 4
+    [aid] => 37
+    [create_date] => 2013-07-08 09:37:28
+)
+Array
+(
+    [message] => たづみうるさい
+    [rid] => 14
+    [aid] => 10
+    [create_date] => 2013-07-08 09:37:31
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => @8lightning15 いなくなっちゃうよ？！（笑）
+    [rid] => 27
+    [aid] => 19
+    [create_date] => 2013-07-08 09:37:33
+)
+Array
+(
+    [message] => いいねが欲しいねん
+http://t.co/OYLO1czpc6
+    [rid] => 12
+    [aid] => 17
+    [create_date] => 2013-07-08 09:37:33
+)
+Array
+(
+    [message] => 暑いけど、FMのCOCOROのサザン特集はいい感じ。
+    [rid] => 4
+    [aid] => 14
+    [create_date] => 2013-07-08 09:37:34
+)
+Array
+(
+    [message] => @asmWR11 
+ゆーちゃいどこなう？
+    [rid] => 11
+    [aid] => 14
+    [create_date] => 2013-07-08 09:37:34
+)
+Array
+(
+    [message] => え、情報赤点なんだけどww
+    [rid] => 17
+    [aid] => 34
+    [create_date] => 2013-07-08 09:37:35
+)
+Array
+(
+    [message] => I'm at 桜駅 (Sakura Sta.) (名古屋市南区, 愛知県) http://t.co/uLovtD3kig
+    [rid] => 7
+    [aid] => 4
+    [create_date] => 2013-07-08 09:37:36
+)
+Array
+(
+    [message] => 鬼の通話時間（笑）気付いてたら寝てたっつーオチ（笑）ゆるーい感じの電話楽で楽しくていいよネ。うん( Ü )♡んで病院なーう。涼しくて調子いいっ http://t.co/fXL7oWfnoP
+    [rid] => 14
+    [aid] => 2
+    [create_date] => 2013-07-08 09:37:37
+)
+Array
+(
+    [message] => @Nachupy ｽｸﾊﾞの人とか乗り遅れたら大変そうwww
+    [rid] => 18
+    [aid] => 16
+    [create_date] => 2013-07-08 09:37:37
+)
+Array
+(
+    [message] => @schalkeuchida 
+もちろん！
+いつ遊べるんー？
+私今ずっと空いてるよw
+みはるの学校まで迎えに行くから早い内に会おう！
+    [rid] => 12
+    [aid] => 49
+    [create_date] => 2013-07-08 09:37:38
+)
+Array
+(
+    [message] => @killy96 おはようございますー！しかし、なんて夢だ...( ﾟωﾟ)
+    [rid] => 17
+    [aid] => 27
+    [create_date] => 2013-07-08 09:37:38
+)
+Array
+(
+    [message] => 渋谷なう。
+朝帰りつら。満喫寝にくかったー
+    [rid] => 23
+    [aid] => 4
+    [create_date] => 2013-07-08 09:37:39
+)
+Array
+(
+    [message] => I'm at コメダ珈琲店 豊明店 (豊明市, 愛知県) http://t.co/P5DFTUozyM
+    [rid] => 2
+    [aid] => 47
+    [create_date] => 2013-07-08 09:37:39
+)
+Array
+(
+    [message] => どんどん痩せるお。
+痩せたい人には夜勤勧めるぜ！
+    [rid] => 19
+    [aid] => 10
+    [create_date] => 2013-07-08 09:37:40
+)
+Array
+(
+    [message] => 打ち合わせ (@ 岡山県立岡山朝日高等学校) http://t.co/OVOl5o1D2Z
+    [rid] => 18
+    [aid] => 38
+    [create_date] => 2013-07-08 09:37:40
+)
+Array
+(
+    [message] => もしやでっていうとらぎこは同じ風呂に…………（意味深）（意味深）
+    [rid] => 28
+    [aid] => 2
+    [create_date] => 2013-07-08 09:37:41
+)
+Array
+(
+    [message] => @yk777aaa おk
+    [rid] => 29
+    [aid] => 40
+    [create_date] => 2013-07-08 09:37:42
+)
+Array
+(
+    [message] => @unununchi @rhsk512 @skskpandaman みんな月曜日からおつかれさまです！
+    [rid] => 12
+    [aid] => 17
+    [create_date] => 2013-07-08 09:37:42
+)
+Array
+(
+    [message] => 外は日が降ってる。布団干したけど、熱くなって夜眠れないかも。
+    [rid] => 4
+    [aid] => 25
+    [create_date] => 2013-07-08 09:37:43
+)
+Array
+(
+    [message] => 今日電車乗ってて隣の女の人の画面がふと見えてしまってその時見えたのが
+LINEのトーク画面でグループ名がノーブラーズだった。
+なんか1人で気まずかった。
+    [rid] => 18
+    [aid] => 24
+    [create_date] => 2013-07-08 09:37:43
+)
+Array
+(
+    [message] => 土曜日もとんといって、とんと三昧♡笑 ぼむさん仕事かー(´･_･`)“@MCBIGBOMB: いいなぁ〜行きたすぎる。。。RT @maya0814: TONTO BBQめーっちゃ晴天^ ^楽しみ〜♡焼けそうだ！！”
+    [rid] => 23
+    [aid] => 8
+    [create_date] => 2013-07-08 09:37:43
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => 歩いてもしんどい。もしかしたら自転車の方が楽だったり？ (@ 南行徳駅 (Minami-gyotoku Sta.) (T19) w/ 2 others) http://t.co/A0LebmOuf9
+    [rid] => 5
+    [aid] => 49
+    [create_date] => 2013-07-08 09:37:45
+)
+Array
+(
+    [message] => @Nax_xGai 二限から授業で、二限体育だよ、この暑さ、死んだ(￣▽￣)
+    [rid] => 7
+    [aid] => 30
+    [create_date] => 2013-07-08 09:37:47
+)
+Array
+(
+    [message] => @Lhant_Sophie みーとぅー
+    [rid] => 30
+    [aid] => 40
+    [create_date] => 2013-07-08 09:37:47
+)
+Array
+(
+    [message] => こないだの高崎さんを調子いいってデニーが言ったから無能とか言われてるけど、結局のところほんとに高崎ってあんなもんだと思うぞ
+    [rid] => 27
+    [aid] => 19
+    [create_date] => 2013-07-08 09:37:47
+)
+Array
+(
+    [message] => さぁ、ゆー・えす・えーに出発です(*￣∇￣)ノ ANA だから尻餅はつかないはず(￣▽￣;) @ 成田国際空港にタッチ！ http://t.co/OhISO1QqOb
+    [rid] => 23
+    [aid] => 23
+    [create_date] => 2013-07-08 09:37:48
+)
+Array
+(
+    [message] => あ、昨日の京都Growlyでのライブをつぶやいてますー。楽しみにしてた初めての　ゆれる。３ピースのハードな音の鋭さが格好良かったー！！！まるでナンバガを思い起こさせる感じで、ぐいぐい身体に来たー(*^。^*) 酔っ払ってたのに頭振り過ぎてちょっと酔いが悪い感じに回ったけど、最高！
+    [rid] => 27
+    [aid] => 26
+    [create_date] => 2013-07-08 09:37:48
+)
+Array
+(
+    [message] => アート以外で日とうで貰えて楽な仕事ないかな？
+    [rid] => 16
+    [aid] => 49
+    [create_date] => 2013-07-08 09:37:48
+)
+Array
+(
+    [message] => 寝坊だっだっだっだっいんべーだー(≧∀≦)笑
+    [rid] => 14
+    [aid] => 7
+    [create_date] => 2013-07-08 09:37:50
+)
+Array
+(
+    [message] => @KentaroNaji30 ざまわみろ
+    [rid] => 5
+    [aid] => 2
+    [create_date] => 2013-07-08 09:37:50
+)
+Array
+(
+    [message] => 初海外、無事イミグレ通過！
+    [rid] => 27
+    [aid] => 5
+    [create_date] => 2013-07-08 09:37:51
+)
+Array
+(
+    [message] => I'm at レインボーブリッジ http://t.co/xSrulonNXs
+    [rid] => 2
+    [aid] => 42
+    [create_date] => 2013-07-08 09:37:51
+)
+Array
+(
+    [message] => どーしよ、先どっちいこ
+
+精神科、整形外科
+    [rid] => 27
+    [aid] => 23
+    [create_date] => 2013-07-08 09:37:51
+)
+Array
+(
+    [message] => ビール大量に欲しい。つか電車すずしっ。
+    [rid] => 5
+    [aid] => 1
+    [create_date] => 2013-07-08 09:37:51
+)
+Array
+(
+    [message] => 株式会社ふわふわにタッチ！ http://t.co/vdy2J4ggna
+    [rid] => 29
+    [aid] => 39
+    [create_date] => 2013-07-08 09:37:52
+)
+Array
+(
+    [message] => コス参戦気持ちいい
+
+気持ちいい
+
+ﾝｷﾞﾓﾁｲｲｯ!!ﾝｷﾞﾓﾁｲｲｯ!!
+    [rid] => 15
+    [aid] => 36
+    [create_date] => 2013-07-08 09:37:52
+)
+Array
+(
+    [message] => I'm at 東京メトロ 丸ノ内線 大手町駅 (M18) (千代田区, 東京都) w/ 4 others http://t.co/3u4uCwgZRw
+    [rid] => 28
+    [aid] => 32
+    [create_date] => 2013-07-08 09:37:53
+)
+Array
+(
+    [message] => ふぁぼ乞食
+    [rid] => 20
+    [aid] => 7
+    [create_date] => 2013-07-08 09:37:53
+)
+Array
+(
+    [message] => @MkN_7 わかた♡♡せぷいれ寄れるかな？(;ω;)
+    [rid] => 7
+    [aid] => 34
+    [create_date] => 2013-07-08 09:37:54
+)
+Array
+(
+    [message] => 今日の日本一 @ 富士山 http://t.co/oK9rJkIEyF
+    [rid] => 28
+    [aid] => 6
+    [create_date] => 2013-07-08 09:37:54
+)
+Array
+(
+    [message] => amaonのタブレット、kindle fireが昨日まで3000円引きだった。タブレットは迷いに迷っていたけれど、渡りに船と決めてしまった。http://t.co/IRqIm6X6BQ　楽しみ
+    [rid] => 1
+    [aid] => 35
+    [create_date] => 2013-07-08 09:37:55
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => ^o^他、らかjf6(29444やひど
+    [rid] => 17
+    [aid] => 47
+    [create_date] => 2013-07-08 09:37:57
+)
+Array
+(
+    [message] => @34_ksb 久しぶりやなゆーし(￣∇￣)
+(笑)すまんすまん(笑)
+    [rid] => 7
+    [aid] => 4
+    [create_date] => 2013-07-08 09:37:57
+)
+Array
+(
+    [message] => 逃げ場がないから死ぬしかない
+    [rid] => 27
+    [aid] => 33
+    [create_date] => 2013-07-08 09:37:59
+)
+Array
+(
+    [message] => なぜか抽選列がトゥモテラ前まで伸びてるw
+    [rid] => 6
+    [aid] => 3
+    [create_date] => 2013-07-08 09:37:59
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}
+Array
+(
+    [message] => PLTとってから初のCTSラウンジなう。手荷物検査場から直結がイイね。 http://t.co/8XgbQzYq7n
+    [rid] => 11
+    [aid] => 23
+    [create_date] => 2013-07-08 09:38:01
+)
+Array
+(
+    [message] => @snoopy_91xtusu @lisxile00 だれかわからないｗ
+    [rid] => 21
+    [aid] => 28
+    [create_date] => 2013-07-08 09:38:02
+)
+Array
+(
+    [message] => なんでこの部屋はCS4なんじゃ／(^o^)＼
+    [rid] => 3
+    [aid] => 8
+    [create_date] => 2013-07-08 09:38:02
+)
+Array
+(
+    [message] => 早く帰りたい。。 (@ ファミマ!! 大阪ステーションシティ店) http://t.co/PisZmu2ntW
+    [rid] => 27
+    [aid] => 3
+    [create_date] => 2013-07-08 09:38:02
+)
+Array
+(
+    [message] => @picopico2828 ﾃﾞｰﾄとか羨ましい(-_-)このお。
+    [rid] => 25
+    [aid] => 36
+    [create_date] => 2013-07-08 09:38:02
+)
+Array
+(
+    [message] => おはようございます(￣^￣)ゞ (@ 西宮北口駅 (Nishinomiya-kitaguchi sta.) w/ 6 others) http://t.co/MsSqOCO9IQ
+    [rid] => 12
+    [aid] => 35
+    [create_date] => 2013-07-08 09:38:03
+)
+Array
+(
+    [message] => バイクでの最高速140キロに更新～(^o^)
+    [rid] => 8
+    [aid] => 18
+    [create_date] => 2013-07-08 09:38:04
+)
+Array
+(
+    [message] => โปรแกรมท่องเที่ยว AS2A08 : MAGIC Special โอซาก้า-เกียวโต-โตเกียว 7 วัน 4 คืน (TG): โอซาก้า-เกียวโต-โตเกียว 7 ว... http://t.co/ZkcxURMlvY
+    [rid] => 4
+    [aid] => 16
+    [create_date] => 2013-07-08 09:38:04
+)
+Array
+(
+    [message] => みんなオレが髪切ったことに
+気付いてくれてるw
+
+何人かは今の方がいいって
+言ってくれてるけど、
+個人的には今の髪型嫌だw
+伸びろ、浅井の髪の毛！
+    [rid] => 26
+    [aid] => 43
+    [create_date] => 2013-07-08 09:38:04
+)
+Array
+(
+    [message] => 夏全開(*^^*)・・・(；´Д｀)
+    [rid] => 3
+    [aid] => 47
+    [create_date] => 2013-07-08 09:38:04
+)
+Array
+(
+    [message] => @Skywalker_120 まじめに、願う笑（≧∇≦）天の川見る前に寝てた
+    [rid] => 13
+    [aid] => 35
+    [create_date] => 2013-07-08 09:38:05
+)
+Array
+(
+    [message] => @pokopoko86 
+
+だいじょうぶだよー（つд；*)ありがと！
+    [rid] => 26
+    [aid] => 28
+    [create_date] => 2013-07-08 09:38:05
+)
+Array
+(
+    [message] => @merontei ストラクチャーデッキ2つ買って出来るデッキだからwwwwwwwww
+    [rid] => 15
+    [aid] => 43
+    [create_date] => 2013-07-08 09:38:05
+)
+Array
+(
+    [message] => @keiutmi7 あぶなかったな！
+    [rid] => 16
+    [aid] => 46
+    [create_date] => 2013-07-08 09:38:06
+)
+Array
+(
+    [message] => @rukawa_rina おはよーさんです
+    [rid] => 8
+    [aid] => 33
+    [create_date] => 2013-07-08 09:38:07
+)
+Array
+(
+    [message] => I'm at 渋谷駅 (Shibuya Sta.) (渋谷区, 東京都) w/ 33 others http://t.co/anFonmKYsD
+    [rid] => 21
+    [aid] => 31
+    [create_date] => 2013-07-08 09:38:07
+)
+Array
+(
+    [message] => @ruyun_me2 気になってたけど内輪ネタ多そうでスルーしてたけど、ちょいと興味でたwww
+    [rid] => 4
+    [aid] => 20
+    [create_date] => 2013-07-08 09:38:08
+)
+Array
+(
+    [message] => 月曜まじ起きれん。
+普通に寝坊
+遅刻嫌やから地下鉄から行こー
+待っとけ、ばーみんはむ
+    [rid] => 5
+    [aid] => 10
+    [create_date] => 2013-07-08 09:38:08
+)
+Array
+(
+    [message] => @tmp57g4a よっしゃー＼(^o^)／わらわら エンドレスサマーやな笑笑
+    [rid] => 17
+    [aid] => 2
+    [create_date] => 2013-07-08 09:38:08
+)
+Array
+(
+    [message] => イナートカラムってグロボ以外でどうやるの知ってる人おせーて
+    [rid] => 8
+    [aid] => 19
+    [create_date] => 2013-07-08 09:38:09
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(551): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...', Array)
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#6 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#7 {main}
+Array
+(
+    [message] => まあ開けよ
+http://t.co/ro2TxSFI7M
+    [rid] => 23
+    [aid] => 31
+    [create_date] => 2013-07-08 09:38:11
+)
+Array
+(
+    [message] => 化学工学なー
+    [rid] => 2
+    [aid] => 1
+    [create_date] => 2013-07-08 09:38:11
+)
+Array
+(
+    [message] => @ryoko4911 今日やばい！！！
+    [rid] => 29
+    [aid] => 10
+    [create_date] => 2013-07-08 09:38:12
+)
+Array
+(
+    [message] => 観測できましたか？こ@itmsyr: そっか今日七夕〜。STAR WALKで天の川観測しよ。RT @iPhone_joshibu: 【星めぐりの夜】今日は七夕！神秘的なアプリと一緒に夜空を見よう！
+http://t.co/v44Nw130Ri 
+ #joshibu
+    [rid] => 10
+    [aid] => 41
+    [create_date] => 2013-07-08 09:38:12
+)
+Array
+(
+    [message] => @studio_202 でも、テカテカしてもかっこいい男はかわりませんよー（＾∇＾）。
+    [rid] => 1
+    [aid] => 20
+    [create_date] => 2013-07-08 09:38:14
+)
+Array
+(
+    [message] => @kokomi5530 お疲れさまでした
+    [rid] => 23
+    [aid] => 23
+    [create_date] => 2013-07-08 09:38:14
+)
+Array
+(
+    [message] => I'm at 熊谷大橋 (熊谷市, 埼玉県) http://t.co/rzjG35AOsR
+    [rid] => 3
+    [aid] => 29
+    [create_date] => 2013-07-08 09:38:14
+)
+Array
+(
+    [message] => Doce de leite &amp; bolacha 😍 sou gorda mesmo ' 😌👌 http://t.co/LPqqwod6UU
+    [rid] => 30
+    [aid] => 29
+    [create_date] => 2013-07-08 09:38:15
+)
+Array
+(
+    [message] => I'm at 名古屋駅 (Nagoya Sta.) (名古屋市, 愛知県) w/ 26 others http://t.co/JcNYJq2VSN
+    [rid] => 13
+    [aid] => 26
+    [create_date] => 2013-07-08 09:38:15
+)
+Array
+(
+    [message] => I'm at 宇都宮駅 (Utsunomiya Sta.) w/ @y8_maitter @janomaqt http://t.co/bZnJdsZGLb
+    [rid] => 15
+    [aid] => 35
+    [create_date] => 2013-07-08 09:38:15
+)
+Array
+(
+    [message] => 南向き信号待ちなうなうo(｀ω´ )o @ 中野町3丁目交差点に写真つきタッチ！ http://t.co/WwUcKFKM4g http://t.co/V2cYRn0VKc
+    [rid] => 5
+    [aid] => 10
+    [create_date] => 2013-07-08 09:38:15
+)
+Array
+(
+    [message] => @dm_hw127 僕もただはら先輩とキスしたいです///
+    [rid] => 9
+    [aid] => 14
+    [create_date] => 2013-07-08 09:38:16
+)
+Array
+(
+    [message] => 暑い。暑い。
+
+死にそう・・・。
+暑～い
+    [rid] => 18
+    [aid] => 22
+    [create_date] => 2013-07-08 09:38:16
+)
+Array
+(
+    [message] => まじ暑すぎて死ぬぅぅぅぅ
+    [rid] => 14
+    [aid] => 6
+    [create_date] => 2013-07-08 09:38:18
+)
+Array
+(
+    [message] => 今日ははよねよ。
+    [rid] => 14
+    [aid] => 35
+    [create_date] => 2013-07-08 09:38:18
+)
+Array
+(
+    [message] => @opjodailaw31yh ゴーリキー彩芽。
+    [rid] => 15
+    [aid] => 10
+    [create_date] => 2013-07-08 09:38:19
+)
+Array
+(
+    [message] => @rererenore0430 俺は永遠の二番目だからさ。笑
+    [rid] => 9
+    [aid] => 27
+    [create_date] => 2013-07-08 09:38:20
+)
+Array
+(
+    [message] => @starbucks #mochafrappe 😋 @ Starbucks Coffee 浅草駅前店 http://t.co/6cDrmpHWId
+    [rid] => 6
+    [aid] => 13
+    [create_date] => 2013-07-08 09:38:20
+)
+Array
+(
+    [message] => 久々にコナミのサイト見てくる
+    [rid] => 22
+    [aid] => 26
+    [create_date] => 2013-07-08 09:38:20
+)
+Array
+(
+    [message] => @rarirurenro 始まってるけど始まってない(笑)
+    [rid] => 2
+    [aid] => 37
+    [create_date] => 2013-07-08 09:38:20
+)
+Trying to put documents.....
+exception 'Elastica\Exception\ClientException' with message 'No enabled connection' in /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php:431
+Stack trace:
+#0 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(530): Elastica\Client->getConnection()
+#1 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Bulk.php(269): Elastica\Client->request('/_bulk', 'PUT', '{"index":{"_ind...')
+#2 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Client.php(259): Elastica\Bulk->send()
+#3 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Index.php(123): Elastica\Client->addDocuments(Array)
+#4 /Users/tanaka/workspace/elastica-sample/vendor/ruflin/elastica/lib/Elastica/Type.php(167): Elastica\Index->addDocuments(Array)
+#5 /Users/tanaka/workspace/elastica-sample/twitter_stream.php(80): Elastica\Type->addDocuments(Array)
+#6 {main}

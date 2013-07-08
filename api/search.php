@@ -54,23 +54,26 @@ $query = new Elastica\Query($query);
 $query->setSort(array(array('create_date' => array('order' => 'desc'))));
 $query->setSize(5000);
 
-$start_time = microtime(true);
-$result_set = $chat_type->search($query);
-$end_time = microtime(true);
-
-$data = array();
-while ($result = $result_set->current()) {
-	$d = $result->getSource();
-	$d['_id'] = $result->getId();
-	$data[] = $d;
-	$result_set->next();
+$response = array();
+try {
+	$start_time = microtime(true);
+	$result_set = $chat_type->search($query);
+	$end_time = microtime(true);
+	
+	$data = array();
+	while ($result = $result_set->current()) {
+		$d = $result->getSource();
+		$d['_id'] = $result->getId();
+		$data[] = $d;
+		$result_set->next();
+	}
+	$response['count'] = $result_set->count();
+	$response['data'] = $data;
+	$response['time'] = $end_time - $start_time;
+} catch (\Exception $e) {
+	header("HTTP/1.1 500 Internal Server Error");
+	$response['message'] = $e;
 }
-
-$response = array(
-	'count'=> $result_set->count(),
-	'data' => $data,
-	'time' => $end_time - $start_time,
-);
 
 header("Content-Type: application/json; charset=utf-8");
 echo json_encode($response);

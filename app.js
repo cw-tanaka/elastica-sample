@@ -6,6 +6,20 @@ $(function() {
 				rid: null,
 				message: null
 			};
+		},
+		validate: function() {
+			if (! this.get('id')) {
+				return 'Cannot set id';
+			}
+		},
+		sync: function(method, model, options) {
+			//TODO: RESTful API
+			if (method === "delete") {
+				this.url = "./api/delete.php"
+			}
+			
+			method = "read";
+			Backbone.sync(method, model, options);
 		}
 	});
 	
@@ -48,14 +62,17 @@ $(function() {
 	var DeleteChatFormView = Backbone.View.extend({
 		el: '#delete-form',
 		events: {
-			'click #delete-btn': 'deleteSubmit'
+			'click #delete-btn': 'submit'
 		},
 		render: function() {
 			return this;
 		},
 		submit: function() {
+			var id = this.$('input').val();
 			var model = new ChatModel({id: this.id});
-			model.destroy();
+			if (model.isValid()) {
+				model.destroy();
+			}
 		}
 	});
 	var ChatListView = Backbone.View.extend({
