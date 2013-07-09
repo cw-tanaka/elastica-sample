@@ -1,4 +1,5 @@
-$(function() {
+(function($) {
+	
 	/*
 	 * Extend Underscore
 	 */
@@ -59,11 +60,12 @@ $(function() {
 			return response.data;
 		},
 		search: function(params, options) {
-			params = _.defaults({
-				aid: null,
-				rid: null,
-				message: null
-			}, params);
+			_.isObject(params) || (params = {});
+			params = _.pick(params || {}, [
+				'aid',
+				'rid',
+				'message'
+			]);
 			
 			options = _.defaults({}, options);
 			
@@ -73,9 +75,9 @@ $(function() {
 					this.reset(collection.models);
 					_.isFunction(options.success) && options.success.apply(this, arguments);
 				}, this),
-				error: function(err) {
+				error: _.bind(function(err) {
 					_.isFunction(options.error) && options.error.apply(this, arguments);
-				}
+				}, this)
 			});
 		}
 	});
@@ -87,6 +89,9 @@ $(function() {
 	
 	var AppView = Backbone.View.extend({
 		el: '#container',
+		
+		view: {},
+		
 		initialize: function() {
 			// Render init view
 			var chat_collection = new ChatCollection({});
@@ -100,43 +105,56 @@ $(function() {
 				}
 			});
 			
+			new DeleteChatFormView({collection: chat_collection});
+			new SearchChatFormView({collection: chat_collection});
 		}
 	});
 	
-	var FormView = Backbone.View.extend({
-		submit: function() {
-		}
-	});
-	
-	var SearchChatFormView = FormView.extend({
+	var SearchChatFormView = Backbone.View.extend({
 		el: '#search-form',
+		
+		/**
+		 * @type ChatCollection
+		 */
+		collection: null,
+		
 		events: {
 			'click #search-btn': 'submit'
 		},
-		render: function() {
-			return this;
-		},
+		
 		submit: function() {
+			if (! this.collection) {
+				return;
+			}
+			
 			var attrs = {};
 			this.$('.param').each(function() {
 				var $this = $(this);
 				attrs[$this.attr('name')] = $this.val();
 			});
-			
+			this.collection.search(attrs);
 		}
 	});
 	
 	var DeleteChatFormView = Backbone.View.extend({
 		el: '#delete-form',
+		
+		/**
+		 * @type ChatCollection
+		 */
+		collection: null,
+		
 		events: {
 			'click #delete-btn': 'submit'
 		},
-		render: function() {
-			return this;
-		},
+		
 		submit: function() {
+			if (! this.collection) {
+				return;
+			}
+			
 			var id = this.$('input').val();
-			var model = app.get('collection').findWhere({id: id});
+			var model = this.collection.findWhere({id: id});
 			if (model.isValid()) {
 				model.destroy();
 			}
@@ -153,8 +171,8 @@ $(function() {
 		
 		initialize: function() {
 			// Listen some events
-			this.listenTo(this.collection, 'add',    this.render);
-			this.listenTo(this.collection, 'remove', this.render);
+			this.listenTo(this.collection, 'remove', this.removeChat);
+			this.listenTo(this.collection, 'reset',  this.render);
 		},
 		
 		render: function() {
@@ -169,23 +187,36 @@ $(function() {
 			});
 			this.$('ul').html(html);
 			return this;
+		},
+		
+		removeChat: function() {
+			
 		}
 	});
 	
 	var ChatView = Backbone.View.extend({
-		tagName: 'li',
-		render: (function() {
-			var tmpl = $('#chat-list-template').html();
-			return function() {
-				if (! this.model) {
-					return this;
-				}
-				var html = _.template(tmpl, this.model.attributes);
-				this.$el.html(html);
+		
+		/**
+		 * @type ChatModel
+		 */
+		model: null,
+		
+		template: $('#chat-list-template').html(),
+		
+		render: function() {
+			if (! this.model) {
 				return this;
-			};
-		})(),
+			}
+			
+			var html = _.template(this.template, this.model.attributes);
+			this.$el.html(html);
+			return this;
+		}
 	});
 	
-	var app = new AppView();
-});
+	var app;
+	$(function() {
+		app = new AppView();
+	});
+	
+})(jQuery);
