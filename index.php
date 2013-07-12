@@ -52,6 +52,25 @@ $(function() {
 		});
 	});
 	
+	$('#update-btn').click(function() {
+		var updid = $('#update-chat-id').val();
+		var msg = $('#update-message').val();
+		if (! updid) {
+			return;
+		}
+		var url = './api/update.php?id=' + updid + '&message=' + msg;
+		$.ajax({
+			url: url,
+			type: 'GET',
+			success: function() {
+				search();
+			},
+			error: function(err) {
+				console.log(err);
+			}
+		});
+	});
+	
 	search();
 });
 </script>
@@ -79,6 +98,12 @@ $(function() {
 			<h3>Delete Chat</h3>
 			ID:<input class="param" id="delete-chat-id"></input>
 			<button id="delete-btn">delete</button>
+		</div>
+		<div id="update-form">
+			<h3>Update Chat</h3>
+			ID:  <input class="param" id="update-chat-id"></input>
+			Chat:<input class="param" id="update-message"></input>
+			<button id="update-btn">update</button>
 		</div>
 		<div id="chat-info">
 			<p>Hit: <span id="chat-count">0</span></p>
