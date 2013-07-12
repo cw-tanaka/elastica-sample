@@ -2,9 +2,11 @@
 require_once '../vendor/autoload.php';
 
 $param_key = array(
-	'message',
-	'aid'    ,
-	'rid'    ,
+	'message'   ,
+	'aid'       ,
+	'rid'       ,
+	'date_from' ,
+	'date_to'   ,
 );
 
 $param = array();
@@ -43,6 +45,19 @@ if (! empty($param['aid'])) {
 	$aid = explode(',', $param['aid']);
 	$aid_filter->setTerms('aid', $aid);
 	$filter_list[] = $aid_filter;
+}
+
+if (! empty($param['date_from']) || ! empty($param['date_to'])) {
+	$date_param = array();
+	if (! empty($param['date_from'])) {
+		$date_param["gte"] = date("Y-m-d H:i:s", strtotime($param['date_from']));
+	}
+	if (! empty($param['date_to'])) {
+		$date_param["lte"] = date("Y-m-d H:i:s", strtotime($param['date_to']));
+	}
+	
+	$date_filter = new Elastica\Filter\NumericRange("create_date", $date_param);
+	$filter_list[] = $date_filter;
 }
 
 if (!empty($filter_list)) {

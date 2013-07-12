@@ -16,7 +16,7 @@ $(function() {
 					var chat = chat_list[i];
 					html +=
 						'<li>' +
-						'<b>(id, aid, rid) = (' + chat._id + ', ' + chat.aid + ', ' + chat.rid + ')</b>:&nbsp;' + chat.message +
+						'<b>(id, aid, rid, create_date) = (' + chat._id + ', ' + chat.aid + ', ' + chat.rid + ', ' + chat.create_date + ')</b>:&nbsp;' + chat.message +
 						'</li>';
 				}
 				html += '</ul>';
@@ -90,6 +90,11 @@ $(function() {
 				<li>
 					<label for="se-aid">UserId</label>
 					<input class="param" type="text" id="se-aid" name="aid"></input>
+				</li>
+				<li>
+					<label>Date</label>
+					From:<input class="param" type="text" id="se-date-from" name="date_from"></input>
+					To:<input class="param" type="text" id="se-date-to"   name="date_to"></input>
 				</li>
 			</ul>
 			<button id="search-btn">search</button>
