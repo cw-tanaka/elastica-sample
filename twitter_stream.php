@@ -9,12 +9,12 @@ $client->setConfig(array('timeout' => 10));
 $client->setConfig(array('connections' => array(
     'timeout' => 10
 )));
-$chat_type = $client->getIndex('cw')->getType('chat'); 
+$chat_type = $client->getIndex('cw')->getType('chat');
 
-$consumer_key       = 'IoatSl870Tb4E4VgIk9A';
-$consumer_secret    = 'cJzqoHVjn4MwlTy4GTgfJEjFWmzD5a9Wa5HZ1YDCWU';
-$oauth_token        = '55829681-SPnZFSTwgf45IJL4mgSjmr4JbI5O4Z1iMPQcs7io';
-$oauth_token_secret = '5xgShaENvPktCylBFMavFt1BK12QZDrPZVxpDyUcs';
+$consumer_key       = 'XXXX';
+$consumer_secret    = 'XXXX';
+$oauth_token        = 'XXXX';
+$oauth_token_secret = 'XXXX';
 
 $url = 'https://stream.twitter.com/1.1/statuses/filter.json';
 
@@ -89,4 +89,23 @@ while($cnt--) {
         sleep(1);
         fclose($fp);
     }
+$fp = fsockopen("ssl://stream.twitter.com", 443);
+if ($fp) {
+    fwrite($fp, "GET " . $url . ($get_parameters ? '?' . http_build_query($get_parameters) : '') . " HTTP/1.0\r\n"
+                . "Host: stream.twitter.com\r\n"
+                . 'Authorization: OAuth ' . str_replace('+', '%20', http_build_query($oauth_parameters, '', ','))  . "\r\n"
+                . "\r\n");
+    while (!feof($fp)) {
+        $tweet = json_decode(fgets($fp));
+        $data = array(
+            'message' => $tweet->text,
+            'rid' => rand(1, 30),
+            'aid' => rand(1, 50),
+            'create_date' => date('Y-m-d H:i:s')
+        );
+        $chat_type->addDocument(new Elastica\Document('', $data));
+
+        echo print_r($data, true);
+    }
+    fclose($fp);
 }

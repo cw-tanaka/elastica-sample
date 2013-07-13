@@ -2,9 +2,11 @@
 require_once '../vendor/autoload.php';
 
 $param_key = array(
-	'message',
-	'aid'    ,
-	'rid'    ,
+	'message'   ,
+	'aid'       ,
+	'rid'       ,
+	'date_from' ,
+	'date_to'   ,
 );
 
 $param = array();
@@ -45,6 +47,19 @@ if (! empty($param['aid'])) {
 	$filter_list[] = $aid_filter;
 }
 
+if (! empty($param['date_from']) || ! empty($param['date_to'])) {
+	$date_param = array();
+	if (! empty($param['date_from'])) {
+		$date_param["gte"] = date("Y-m-d H:i:s", strtotime($param['date_from']));
+	}
+	if (! empty($param['date_to'])) {
+		$date_param["lte"] = date("Y-m-d H:i:s", strtotime($param['date_to']));
+	}
+	
+	$date_filter = new Elastica\Filter\NumericRange("create_date", $date_param);
+	$filter_list[] = $date_filter;
+}
+
 if (!empty($filter_list)) {
 	$filter->setFilters($filter_list);
 	$query = new Elastica\Query\Filtered($query, $filter);
@@ -54,26 +69,23 @@ $query = new Elastica\Query($query);
 $query->setSort(array(array('create_date' => array('order' => 'desc'))));
 $query->setSize(5000);
 
-$response = array();
-try {
-	$start_time = microtime(true);
-	$result_set = $chat_type->search($query);
-	$end_time = microtime(true);
-	
-	$data = array();
-	while ($result = $result_set->current()) {
-		$d = $result->getSource();
-		$d['_id'] = $result->getId();
-		$data[] = $d;
-		$result_set->next();
-	}
-	$response['count'] = $result_set->count();
-	$response['data'] = $data;
-	$response['time'] = $end_time - $start_time;
-} catch (\Exception $e) {
-	header("HTTP/1.1 500 Internal Server Error");
-	$response['message'] = $e->__toString();
+$start_time = microtime(true);
+$result_set = $chat_type->search($query);
+$end_time = microtime(true);
+
+$data = array();
+while ($result = $result_set->current()) {
+	$d = $result->getSource();
+	$d['_id'] = $result->getId();
+	$data[] = $d;
+	$result_set->next();
 }
+
+$response = array(
+	'count'=> $result_set->count(),
+	'data' => $data,
+	'time' => $end_time - $start_time,
+);
 
 header("Content-Type: application/json; charset=utf-8");
 echo json_encode($response);
