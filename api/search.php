@@ -76,7 +76,7 @@ $end_time = microtime(true);
 $data = array();
 while ($result = $result_set->current()) {
 	$d = $result->getSource();
-	$d['_id'] = $result->getId();
+	$d['id'] = $result->getId();
 	$data[] = $d;
 	$result_set->next();
 }
