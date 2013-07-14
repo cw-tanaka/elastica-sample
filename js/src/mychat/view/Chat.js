@@ -56,7 +56,7 @@
          * @constructor
          */
         initialize: function() {
-            _.bindAll(this, 'finishEditableView');
+            _.bindAll(this, 'changeToNormalView');
             this.listenTo(this.model, 'destroy', this.fadeOutView);
             this.render();
         },
