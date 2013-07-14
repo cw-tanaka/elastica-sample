@@ -1,8 +1,12 @@
+/**
+ * @module (none)
+ */
 (function($, _, Backbone) {
 
     /**
-     * Extend Underscore module
-     * @module _
+     * Extend of [Underscore](http://underscorejs.org)
+     * @class _
+     * @static
      */
     _.extend(_, {
 
@@ -10,7 +14,6 @@
          * Compact object data.
          * Delete the object key if this value is false or empty value.
          * 
-         * @namespace _
          * @method compactObject
          * @static
          * @param {Object} obj Target object to compact
@@ -29,8 +32,27 @@
         /**
          * Namespace utility.
          * 
+         * @example
+         *     _.namespace('hogehoge.foo.bar');
+         * 
+         *     typeof hogehoge === "object";          // true
+         *     typeof hogehoge.foo === "object";      // true
+         *     typeof hogehoge.foo.bar === "object";  // true
+         *     _.isEmpty(hogehoge.foo.bar)            // true
+         * 
+         *     var MYAPP = {};
+         *     _.namespace('module.view', MYAPP);
+         *     typeof MYAPP.module.view === "object"   // true
+         * 
+         *     var obj = {};
+         *     obj.some_attr = "some value";
+         *     _.namespace('obj.bra.bra');
+         * 
+         *     typeof obj.bra.bra === "object"  // true
+         *     obj.some_attr === "some value"   // true
+         * 
+         * 
          * @beta
-         * @namespace _
          * @method namespace
          * @static
          * @param {String} string Namespace string.

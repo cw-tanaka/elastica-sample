@@ -1,3 +1,6 @@
+/**
+ * @module model
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.model');

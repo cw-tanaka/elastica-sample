@@ -1,3 +1,6 @@
+/**
+ * @module collection
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.collection');

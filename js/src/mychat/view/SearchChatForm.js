@@ -1,3 +1,6 @@
+/**
+ * @module view
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.view');

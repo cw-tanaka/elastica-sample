@@ -12625,11 +12625,15 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 }).call(this);
 
+/**
+ * @module (none)
+ */
 (function($, _, Backbone) {
 
     /**
-     * Extend Underscore module
-     * @module _
+     * Extend of [Underscore](http://underscorejs.org)
+     * @class _
+     * @static
      */
     _.extend(_, {
 
@@ -12637,7 +12641,6 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
          * Compact object data.
          * Delete the object key if this value is false or empty value.
          * 
-         * @namespace _
          * @method compactObject
          * @static
          * @param {Object} obj Target object to compact
@@ -12656,8 +12659,27 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
         /**
          * Namespace utility.
          * 
+         * @example
+         *     _.namespace('hogehoge.foo.bar');
+         * 
+         *     typeof hogehoge === "object";          // true
+         *     typeof hogehoge.foo === "object";      // true
+         *     typeof hogehoge.foo.bar === "object";  // true
+         *     _.isEmpty(hogehoge.foo.bar)            // true
+         * 
+         *     var MYAPP = {};
+         *     _.namespace('module.view', MYAPP);
+         *     typeof MYAPP.module.view === "object"   // true
+         * 
+         *     var obj = {};
+         *     obj.some_attr = "some value";
+         *     _.namespace('obj.bra.bra');
+         * 
+         *     typeof obj.bra.bra === "object"  // true
+         *     obj.some_attr === "some value"   // true
+         * 
+         * 
          * @beta
-         * @namespace _
          * @method namespace
          * @static
          * @param {String} string Namespace string.
@@ -12680,6 +12702,9 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 })(jQuery, _, Backbone);
 
 
+/**
+ * @module model
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.model');
@@ -12759,6 +12784,9 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
     };
 })(jQuery, _, Backbone);
 
+/**
+ * @module collection
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.collection');
@@ -12863,6 +12891,9 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
     });
 })(jQuery, _, Backbone);
 
+/**
+ * @module view
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.view');
@@ -12956,6 +12987,9 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
     });
 })(jQuery, _, Backbone);
 
+/**
+ * @module view
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.view');
@@ -13112,6 +13146,9 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 })(jQuery, _, Backbone);
 
+/**
+ * @module view
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.view');
@@ -13166,6 +13203,9 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 })(jQuery, _, Backbone);
 
+/**
+ * @module view
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.view');
@@ -13224,6 +13264,9 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 })(jQuery, _, Backbone);
 
+/**
+ * @module view
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.view');
@@ -13293,6 +13336,9 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 })(jQuery, _, Backbone);
 
+/**
+ * @module view
+ */
 (function($, _, Backbone) {
 
     _.namespace('mychat.view');
@@ -13352,6 +13398,9 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
     });
 })(jQuery, _, Backbone);
 
+/**
+ * @module view
+ */
 (function($, _, Backbone) {
 
     /**
@@ -13406,28 +13455,31 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
     });
 })(jQuery, _, Backbone);
 
+/**
+ * This application module
+ * @module mychat
+ * @main
+ */
 (function($, _, Backbone) {
 
-    /**
-     * This application module
-     * @module mychat
-     */
-    _.namespace('mychat');
 
     /**
-     * Export variables.
+     * Export variables
      * 
-     * @module mychat
-     * @submodule exports
+     * @namespace mychat
+     * @class exports
+     * @static
      */
     _.namespace('mychat.exports');
 
     $(function() {
 
         /**
-         * AppView instance.
+         * {{#crossLink "mychat.view.App"}}{{/crossLink}} instance.
+         * 
          * @property appView
-         * @namespace mychat.exports
+         * @readonly
+         * @type {Object}
          */
         mychat.exports.appView = new mychat.view.App();
     });

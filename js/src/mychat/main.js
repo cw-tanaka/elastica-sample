@@ -1,25 +1,28 @@
+/**
+ * This application module
+ * @module mychat
+ * @main
+ */
 (function($, _, Backbone) {
 
-    /**
-     * This application module
-     * @module mychat
-     */
-    _.namespace('mychat');
 
     /**
-     * Export variables.
+     * Export variables
      * 
-     * @module mychat
-     * @submodule exports
+     * @namespace mychat
+     * @class exports
+     * @static
      */
     _.namespace('mychat.exports');
 
     $(function() {
 
         /**
-         * AppView instance.
+         * {{#crossLink "mychat.view.App"}}{{/crossLink}} instance.
+         * 
          * @property appView
-         * @namespace mychat.exports
+         * @readonly
+         * @type {Object}
          */
         mychat.exports.appView = new mychat.view.App();
     });
