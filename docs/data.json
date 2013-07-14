@@ -1,0 +1,771 @@
+{
+    "project": {
+        "name": "elastica-sample",
+        "description": "Elastica sample project",
+        "version": "0.0.1"
+    },
+    "files": {
+        "app.js": {
+            "name": "app.js",
+            "modules": {
+                "_": 1,
+                "mychat": 1,
+                "model": 1,
+                "collection": 1,
+                "view": 1
+            },
+            "classes": {
+                "mychat.model.Chat": 1,
+                "mychat.collection.Chat": 1,
+                "mychat.view.App": 1,
+                "mychat.view.SearchChatForm": 1,
+                "mychat.view.SendChatForm": 1,
+                "mychat.view.ChatContainer": 1,
+                "mychat.view.ChatInfo": 1,
+                "mychat.view.ChatList": 1,
+                "mychat.view.Chat": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "_": 1,
+                "mychat.model": 1,
+                "mychat.model.Chat": 1,
+                "mychat.collection": 1,
+                "mychat.view": 1
+            }
+        }
+    },
+    "modules": {
+        "_": {
+            "name": "_",
+            "submodules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {
+                "_": 1
+            },
+            "tag": "module",
+            "file": "app.js",
+            "line": 3,
+            "description": "Extend Underscore module"
+        },
+        "mychat": {
+            "name": "mychat",
+            "submodules": {
+                "model": 1,
+                "collection": 1
+            },
+            "classes": {
+                "mychat.model.Chat": 1,
+                "mychat.collection.Chat": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "mychat.model": 1,
+                "mychat.model.Chat": 1,
+                "mychat.collection": 1,
+                "mychat.view": 1
+            },
+            "tag": "module",
+            "file": "app.js",
+            "line": 166,
+            "description": "This application module."
+        },
+        "model": {
+            "name": "model",
+            "submodules": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {
+                "mychat.model": 1,
+                "mychat.model.Chat": 1
+            },
+            "module": "mychat",
+            "namespace": "",
+            "file": "app.js",
+            "line": 77,
+            "description": "Model module"
+        },
+        "collection": {
+            "name": "collection",
+            "submodules": {},
+            "classes": {
+                "mychat.model.Chat": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {
+                "mychat.collection": 1
+            },
+            "module": "mychat",
+            "namespace": "",
+            "file": "app.js",
+            "line": 84,
+            "description": "Model module"
+        },
+        "view": {
+            "name": "view",
+            "submodules": {},
+            "classes": {
+                "mychat.collection.Chat": 1,
+                "mychat.view.App": 1,
+                "mychat.view.SearchChatForm": 1,
+                "mychat.view.SendChatForm": 1,
+                "mychat.view.ChatContainer": 1,
+                "mychat.view.ChatInfo": 1,
+                "mychat.view.ChatList": 1,
+                "mychat.view.Chat": 1
+            },
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {
+                "mychat.view": 1
+            },
+            "module": "app",
+            "namespace": "",
+            "file": "app.js",
+            "line": 494,
+            "description": "View module",
+            "type": "{String} element"
+        },
+        "app": {
+            "name": "app",
+            "submodules": {
+                "view": 1
+            },
+            "classes": {
+                "mychat.view.App": 1,
+                "mychat.view.SearchChatForm": 1,
+                "mychat.view.SendChatForm": 1,
+                "mychat.view.ChatContainer": 1,
+                "mychat.view.ChatInfo": 1,
+                "mychat.view.ChatList": 1,
+                "mychat.view.Chat": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "mychat.view": 1
+            },
+            "file": "app.js",
+            "line": 494
+        }
+    },
+    "classes": {
+        "mychat.model.Chat": {
+            "name": "mychat.model.Chat",
+            "shortname": "mychat.model.Chat",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "mychat",
+            "submodule": "collection",
+            "namespace": "mychat.model.Chat",
+            "file": "app.js",
+            "line": 84,
+            "description": "Chat model",
+            "extends": "Backbone.Model"
+        },
+        "mychat.collection.Chat": {
+            "name": "mychat.collection.Chat",
+            "shortname": "mychat.collection.Chat",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "mychat",
+            "submodule": "view",
+            "namespace": "mychat.collection",
+            "file": "app.js",
+            "line": 166,
+            "description": "Chat Collection",
+            "extends": "Backbone.Collection"
+        },
+        "mychat.view.App": {
+            "name": "mychat.view.App",
+            "shortname": "mychat.view.App",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view",
+            "file": "app.js",
+            "line": 306,
+            "description": "Application view",
+            "extends": "Backbone.View",
+            "is_constructor": 1
+        },
+        "mychat.view.SearchChatForm": {
+            "name": "mychat.view.SearchChatForm",
+            "shortname": "mychat.view.SearchChatForm",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view",
+            "file": "app.js",
+            "line": 328,
+            "description": "Form view for searching chat.",
+            "extends": "Backbone.View"
+        },
+        "mychat.view.SendChatForm": {
+            "name": "mychat.view.SendChatForm",
+            "shortname": "mychat.view.SendChatForm",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view",
+            "file": "app.js",
+            "line": 376,
+            "description": "Form view for sending chat.",
+            "extends": "Backbone.View"
+        },
+        "mychat.view.ChatContainer": {
+            "name": "mychat.view.ChatContainer",
+            "shortname": "mychat.view.ChatContainer",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view",
+            "file": "app.js",
+            "line": 411,
+            "description": "Chat container view",
+            "extends": "Backbone.View"
+        },
+        "mychat.view.ChatInfo": {
+            "name": "mychat.view.ChatInfo",
+            "shortname": "mychat.view.ChatInfo",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view",
+            "file": "app.js",
+            "line": 426,
+            "description": "Form view for sending chat.",
+            "extends": "Backbone.View"
+        },
+        "mychat.view.ChatList": {
+            "name": "mychat.view.ChatList",
+            "shortname": "mychat.view.ChatList",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view",
+            "file": "app.js",
+            "line": 452,
+            "description": "Chat list view",
+            "extends": "Backbone.View"
+        },
+        "mychat.view.Chat": {
+            "name": "mychat.view.Chat",
+            "shortname": "mychat.view.Chat",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view",
+            "file": "app.js",
+            "line": 494,
+            "description": "Chat view",
+            "extends": "Backbone.View"
+        }
+    },
+    "classitems": [
+        {
+            "file": "app.js",
+            "line": 9,
+            "description": "Compact object data.\nDelete the object key if this value is false or empty value.",
+            "itemtype": "method",
+            "name": "compactObject",
+            "static": 1,
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "Target object to compact",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Compacted object.",
+                "type": "Object"
+            },
+            "class": "mychat.model.Chat",
+            "module": "_",
+            "namespace": "_"
+        },
+        {
+            "file": "app.js",
+            "line": 29,
+            "description": "Namespace utility.",
+            "beta": 1,
+            "itemtype": "method",
+            "name": "namespace",
+            "static": 1,
+            "params": [
+                {
+                    "name": "string",
+                    "description": "Namespace string.",
+                    "type": "String"
+                },
+                {
+                    "name": "base",
+                    "description": "Base object of this namespace.",
+                    "type": "Object",
+                    "optional": true
+                }
+            ],
+            "class": "mychat.model.Chat",
+            "module": "_",
+            "namespace": "_"
+        },
+        {
+            "file": "app.js",
+            "line": 94,
+            "description": "User id",
+            "itemtype": "property",
+            "name": "userId",
+            "type": "{Int}",
+            "class": "mychat.model.Chat",
+            "module": "mychat",
+            "submodule": "model",
+            "namespace": "mychat.model"
+        },
+        {
+            "file": "app.js",
+            "line": 101,
+            "description": "Room id",
+            "itemtype": "property",
+            "name": "rid",
+            "type": "{Int}",
+            "class": "mychat.model.Chat",
+            "module": "mychat",
+            "submodule": "model",
+            "namespace": "mychat.model"
+        },
+        {
+            "file": "app.js",
+            "line": 109,
+            "description": "Message",
+            "required": 1,
+            "itemtype": "property",
+            "name": "message",
+            "type": "{String}",
+            "class": "mychat.model.Chat",
+            "module": "mychat",
+            "submodule": "model",
+            "namespace": "mychat.model"
+        },
+        {
+            "file": "app.js",
+            "line": 120,
+            "description": "Validation method.\nWe check:\n- {{#crossLink \"ChatMode:message\"}}message{{/crossLink}} is required.",
+            "params": [
+                {
+                    "name": "attrs",
+                    "description": "Attributes this model",
+                    "type": "Object"
+                }
+            ],
+            "class": "mychat.model.Chat",
+            "module": "mychat",
+            "submodule": "model",
+            "namespace": "mychat.model"
+        },
+        {
+            "file": "app.js",
+            "line": 134,
+            "description": "Submit event of saving chat",
+            "itemtype": "method",
+            "name": "",
+            "static": 1,
+            "params": [
+                {
+                    "name": "message",
+                    "description": "Chat message",
+                    "type": "String"
+                },
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "success",
+                            "description": "callback function of success",
+                            "type": "Function",
+                            "optional": true
+                        },
+                        {
+                            "name": "error",
+                            "description": "callback function of error",
+                            "type": "Function",
+                            "optional": true
+                        }
+                    ]
+                }
+            ],
+            "class": "mychat.model.Chat",
+            "module": "mychat",
+            "submodule": "model",
+            "namespace": "mychat.model.Chat"
+        },
+        {
+            "file": "app.js",
+            "line": 175,
+            "description": "API server URL",
+            "itemtype": "property",
+            "name": "url",
+            "type": "{String}",
+            "class": "mychat.collection.Chat",
+            "module": "mychat",
+            "submodule": "collection",
+            "namespace": "mychat.collection"
+        },
+        {
+            "file": "app.js",
+            "line": 183,
+            "description": "Fetching chat data time from api server. (seconds)",
+            "itemtype": "property",
+            "name": "fetchTime",
+            "type": "{Int}",
+            "class": "mychat.collection.Chat",
+            "module": "mychat",
+            "submodule": "collection",
+            "namespace": "mychat.collection"
+        },
+        {
+            "file": "app.js",
+            "line": 191,
+            "description": "Model data",
+            "itemtype": "property",
+            "name": "model",
+            "type": "{ChatModel}",
+            "class": "mychat.collection.Chat",
+            "module": "mychat",
+            "submodule": "collection",
+            "namespace": "mychat.collection"
+        },
+        {
+            "file": "app.js",
+            "line": 199,
+            "itemtype": "method",
+            "name": "initialize",
+            "is_constructor": 1,
+            "class": "mychat.collection.Chat",
+            "module": "mychat",
+            "submodule": "collection",
+            "namespace": "mychat.collection"
+        },
+        {
+            "file": "app.js",
+            "line": 207,
+            "description": "Parse response data",
+            "access": "protected",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "parse",
+            "params": [
+                {
+                    "name": "response",
+                    "description": "Response data from api server.",
+                    "type": "Object"
+                }
+            ],
+            "class": "mychat.collection.Chat",
+            "module": "mychat",
+            "submodule": "collection",
+            "namespace": "mychat.collection"
+        },
+        {
+            "file": "app.js",
+            "line": 219,
+            "description": "Search chat data.",
+            "async": 1,
+            "itemtype": "method",
+            "name": "searchChat",
+            "params": [
+                {
+                    "name": "params",
+                    "description": "Response data from api server.",
+                    "type": "Object",
+                    "props": [
+                        {
+                            "name": "user_id",
+                            "description": "User id.",
+                            "type": "Int",
+                            "optional": true
+                        },
+                        {
+                            "name": "rid",
+                            "description": "Room id.",
+                            "type": "Int",
+                            "optional": true
+                        },
+                        {
+                            "name": "message",
+                            "description": "Message.",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "name": "options",
+                    "description": "Response data from api server.",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "success",
+                            "description": "Callback function of success.",
+                            "type": "Function",
+                            "optional": true
+                        },
+                        {
+                            "name": "error",
+                            "description": "Callback function of error.",
+                            "type": "Function",
+                            "optional": true
+                        }
+                    ]
+                }
+            ],
+            "class": "mychat.collection.Chat",
+            "module": "mychat",
+            "submodule": "collection",
+            "namespace": "mychat.collection"
+        },
+        {
+            "file": "app.js",
+            "line": 255,
+            "description": "Fetch all chat data from server.",
+            "async": 1,
+            "itemtype": "method",
+            "name": "fetchAllChat",
+            "params": [
+                {
+                    "name": "params",
+                    "description": "Response data from api server.",
+                    "type": "Object",
+                    "props": [
+                        {
+                            "name": "user_id",
+                            "description": "User id.",
+                            "type": "Int",
+                            "optional": true
+                        },
+                        {
+                            "name": "rid",
+                            "description": "Room id.",
+                            "type": "Int",
+                            "optional": true
+                        },
+                        {
+                            "name": "message",
+                            "description": "Message.",
+                            "type": "String"
+                        }
+                    ]
+                },
+                {
+                    "name": "options",
+                    "description": "Response data from api server.",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "success",
+                            "description": "Callback function of success.",
+                            "type": "Function",
+                            "optional": true
+                        },
+                        {
+                            "name": "error",
+                            "description": "Callback function of error.",
+                            "type": "Function",
+                            "optional": true
+                        }
+                    ]
+                }
+            ],
+            "class": "mychat.collection.Chat",
+            "module": "mychat",
+            "submodule": "collection",
+            "namespace": "mychat.collection"
+        },
+        {
+            "file": "app.js",
+            "line": 292,
+            "description": "Element",
+            "type": "{String} element",
+            "class": "mychat.view.App",
+            "module": "mychat",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        },
+        {
+            "file": "app.js",
+            "line": 337,
+            "description": "Element",
+            "type": "{String} element",
+            "class": "mychat.view.SearchChatForm",
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        },
+        {
+            "file": "app.js",
+            "line": 344,
+            "type": "ChatCollection",
+            "class": "mychat.view.SearchChatForm",
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        },
+        {
+            "file": "app.js",
+            "line": 349,
+            "description": "Events map",
+            "type": "{Object}",
+            "class": "mychat.view.SearchChatForm",
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        },
+        {
+            "file": "app.js",
+            "line": 357,
+            "description": "Submit event of searching chat",
+            "type": "{String} element",
+            "class": "mychat.view.SearchChatForm",
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        },
+        {
+            "file": "app.js",
+            "line": 384,
+            "description": "Element",
+            "type": "{String} element",
+            "class": "mychat.view.SendChatForm",
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        },
+        {
+            "file": "app.js",
+            "line": 391,
+            "type": "ChatCollection",
+            "class": "mychat.view.SendChatForm",
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        },
+        {
+            "file": "app.js",
+            "line": 396,
+            "description": "Events map",
+            "type": "{Object}",
+            "class": "mychat.view.SendChatForm",
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        },
+        {
+            "file": "app.js",
+            "line": 462,
+            "type": "ChatCollection",
+            "class": "mychat.view.ChatList",
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        },
+        {
+            "file": "app.js",
+            "line": 502,
+            "type": "ChatModel",
+            "class": "mychat.view.Chat",
+            "module": "app",
+            "submodule": "view",
+            "namespace": "mychat.view"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: params with param",
+            "line": " app.js:120"
+        },
+        {
+            "message": "Missing item type\nValidation method.\nWe check:\n- {{#crossLink \"ChatMode:message\"}}message{{/crossLink}} is required.",
+            "line": " app.js:120"
+        },
+        {
+            "message": "Missing item type\nElement",
+            "line": " app.js:292"
+        },
+        {
+            "message": "Missing item type\nElement",
+            "line": " app.js:337"
+        },
+        {
+            "message": "Missing item type",
+            "line": " app.js:344"
+        },
+        {
+            "message": "Missing item type\nEvents map",
+            "line": " app.js:349"
+        },
+        {
+            "message": "Missing item type\nSubmit event of searching chat",
+            "line": " app.js:357"
+        },
+        {
+            "message": "Missing item type\nElement",
+            "line": " app.js:384"
+        },
+        {
+            "message": "Missing item type",
+            "line": " app.js:391"
+        },
+        {
+            "message": "Missing item type\nEvents map",
+            "line": " app.js:396"
+        },
+        {
+            "message": "Missing item type",
+            "line": " app.js:462"
+        },
+        {
+            "message": "Missing item type",
+            "line": " app.js:502"
+        }
+    ]
+}
