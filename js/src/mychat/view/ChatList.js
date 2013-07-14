@@ -14,16 +14,30 @@
         el: '#chat-list',
 
         /**
-         * @type ChatCollection
+         * {{#crossLink "mychat.collection.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property collection
+         * @type {Object} 
          */
         collection: null,
 
+        /**
+         * {{#crossLink "mychat.collection.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property collection
+         * @type {Object} 
+         */
         initialize: function() {
             // Listen some events
             this.listenTo(this.collection, 'reset',  this.render);
             this.render();
         },
 
+        /**
+         * Render this view.
+         * 
+         * @chainable
+         */
         render: function() {
             if (! this.collection) {
                 return this;
@@ -38,6 +52,11 @@
             return this;
         },
 
+        /**
+         * Add chat view.
+         * 
+         * @param {Object} model   {{#crossLink "mychat.model.Chat"}}{{/crossLink}} instance.
+         */
         addChatView: function(model) {
             var view = new mychat.view.Chat({model: model});
             view.$el.hide();

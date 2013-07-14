@@ -35,13 +35,40 @@
         /**
          * Element
          * 
+         * @property el
          * @type {String} element
          */
         el: '#container',
 
         /**
+         * {{#crossLink "mychat.view.ChatContainer"}}{{/crossLink}} instance.
+         * 
+         * @property chatContaierView
+         * @type {Object} 
+         */
+        chatContainerView: null,
+
+        /**
+         * {{#crossLink "mychat.view.SearchChatForm"}}{{/crossLink}} instance.
+         * 
+         * @property searchChatFormView
+         * @type {Object} 
+         */
+        searchChatFormView: null,
+
+        /**
+         * {{#crossLink "mychat.view.SendChatForm"}}{{/crossLink}} instance.
+         * 
+         * @property sendChatFormView
+         * @type {Object} 
+         */
+        sendChatFormView: null,
+
+        /**
+         * Constructor
+         *
+         * @method initialize
          * @constructor
-         * @class mychat.view.App
          */
         initialize: function() {
             var collection = mychat.collection;

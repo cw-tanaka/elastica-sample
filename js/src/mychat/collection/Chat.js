@@ -12,14 +12,6 @@
     mychat.collection.Chat = Backbone.Collection.extend({
 
         /**
-         * API server URL
-         * 
-         * @property url
-         * @type {String}
-         */
-        url: "./api/search.php",
-
-        /**
          * Fetching chat data time from api server. (seconds)
          * 
          * @property fetchTime
@@ -31,7 +23,7 @@
          * Model data
          * 
          * @property model
-         * @type {ChatModel}
+         * @type {mychat.model.Chat}
          */
         model: mychat.model.Chat,
 
@@ -99,7 +91,7 @@
          * @param {Object} params  Response data from api server.
          *   @param {Int} [params.user_id]  User id.
          *   @param {Int} [params.rid]      Room id.
-         *   @param {String} params.message  Message.
+         *   @param {String} params.message  Keyword for search.
          * @param {Object} [options] Response data from api server.
          *   @param {Function} [options.success]  Callback function of success.
          *   @param {Function} [options.error]    Callback function of error.

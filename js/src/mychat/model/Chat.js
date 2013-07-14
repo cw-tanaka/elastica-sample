@@ -41,9 +41,14 @@
         /**
          * Validation method.
          * We check:
-         * - {{#crossLink "ChatMode:message"}}message{{/crossLink}} is required.
          * 
+         * - A message is required.
+         * 
+         * @method validate
          * @params {Object} attrs Attributes this model
+         *   @params {Int} [attrs.userId] User id.
+         *   @params {Int} [attrs.rid] Room id.
+         *   @params {Int} attrs.message Message id.
          */
         validate: function(attrs) {
             if (! attrs.message) {
@@ -55,12 +60,13 @@
     var ChatModel = mychat.model.Chat;
 
     /**
-     * Submit event of saving chat
+     * Create new {{#crossLink "mychat.model.Chat"}}{{/crossLink}}.
      * 
-     * @method
      * @static
+     * @async
+     * @method create
      * @namespace mychat.model.Chat
-     * @param {String} message Chat message
+     * @param {Object} attrs Chat model attributes.
      * @param {Object} [options]
      *   @param {Function} [options.success] callback function of success
      *   @param {Function} [options.error]   callback function of error

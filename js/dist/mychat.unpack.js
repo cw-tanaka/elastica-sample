@@ -12723,9 +12723,14 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
         /**
          * Validation method.
          * We check:
-         * - {{#crossLink "ChatMode:message"}}message{{/crossLink}} is required.
          * 
+         * - A message is required.
+         * 
+         * @method validate
          * @params {Object} attrs Attributes this model
+         *   @params {Int} [attrs.userId] User id.
+         *   @params {Int} [attrs.rid] Room id.
+         *   @params {Int} attrs.message Message id.
          */
         validate: function(attrs) {
             if (! attrs.message) {
@@ -12737,12 +12742,13 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
     var ChatModel = mychat.model.Chat;
 
     /**
-     * Submit event of saving chat
+     * Create new {{#crossLink "mychat.model.Chat"}}{{/crossLink}}.
      * 
-     * @method
      * @static
+     * @async
+     * @method create
      * @namespace mychat.model.Chat
-     * @param {String} message Chat message
+     * @param {Object} attrs Chat model attributes.
      * @param {Object} [options]
      *   @param {Function} [options.success] callback function of success
      *   @param {Function} [options.error]   callback function of error
@@ -12767,14 +12773,6 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
     mychat.collection.Chat = Backbone.Collection.extend({
 
         /**
-         * API server URL
-         * 
-         * @property url
-         * @type {String}
-         */
-        url: "./api/search.php",
-
-        /**
          * Fetching chat data time from api server. (seconds)
          * 
          * @property fetchTime
@@ -12786,7 +12784,7 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
          * Model data
          * 
          * @property model
-         * @type {ChatModel}
+         * @type {mychat.model.Chat}
          */
         model: mychat.model.Chat,
 
@@ -12854,7 +12852,7 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
          * @param {Object} params  Response data from api server.
          *   @param {Int} [params.user_id]  User id.
          *   @param {Int} [params.rid]      Room id.
-         *   @param {String} params.message  Message.
+         *   @param {String} params.message  Keyword for search.
          * @param {Object} [options] Response data from api server.
          *   @param {Function} [options.success]  Callback function of success.
          *   @param {Function} [options.error]    Callback function of error.
@@ -12902,13 +12900,40 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
         /**
          * Element
          * 
+         * @property el
          * @type {String} element
          */
         el: '#container',
 
         /**
+         * {{#crossLink "mychat.view.ChatContainer"}}{{/crossLink}} instance.
+         * 
+         * @property chatContaierView
+         * @type {Object} 
+         */
+        chatContainerView: null,
+
+        /**
+         * {{#crossLink "mychat.view.SearchChatForm"}}{{/crossLink}} instance.
+         * 
+         * @property searchChatFormView
+         * @type {Object} 
+         */
+        searchChatFormView: null,
+
+        /**
+         * {{#crossLink "mychat.view.SendChatForm"}}{{/crossLink}} instance.
+         * 
+         * @property sendChatFormView
+         * @type {Object} 
+         */
+        sendChatFormView: null,
+
+        /**
+         * Constructor
+         *
+         * @method initialize
          * @constructor
-         * @class mychat.view.App
          */
         initialize: function() {
             var collection = mychat.collection;
@@ -12938,18 +12963,35 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
     /**
      * Chat view
      * 
-     * @namespace mychat.view
      * @class Chat
+     * @namespace mychat.view
      * @extends Backbone.View
      */
     mychat.view.Chat = Backbone.View.extend({
+
         /**
-         * @type ChatModel
+         * {{#crossLink "mychat.model.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property model
+         * @type {Object}
          */
         model: null,
 
+        /**
+         * Editing state flag.
+         * If this flag is true, chat state is editing curretly.
+         * 
+         * @property isEditing
+         * @type {Boolean}
+         */
         isEditing: false,
 
+        /**
+         * Events map
+         * 
+         * @property events
+         * @type {Object}
+         */
         events: {
             'dblclick  .message':  'changeToEditableView',
             'click .delete-chat':  'removeChat',
@@ -12957,14 +12999,32 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
             'keypress .edit-message':  'enterOnEditMessage'
         },
 
+        /**
+         * Template html of this view
+         * 
+         * @property template
+         * @type {String}
+         */
+        template: $('#chat-list-template').html(),
+
+        /**
+         * Constructor
+         *
+         * @method initialize
+         * @constructor
+         */
         initialize: function() {
             _.bindAll(this, 'finishEditableView');
             this.listenTo(this.model, 'destroy', this.fadeOutView);
             this.render();
         },
 
-        template: $('#chat-list-template').html(),
-
+        /**
+         * Render this view.
+         *
+         * @method render
+         * @chainable
+         */
         render: function() {
             if (! this.model) {
                 return this;
@@ -12975,22 +13035,42 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
             return this;
         },
 
+        /**
+         * Remove chat event.
+         *
+         * @event removeChat
+         */
         removeChat: function() {
             this.model.destroy();
         },
 
+        /**
+         * Update chat event.
+         *
+         * @event updateChat
+         */
         updateChat: function() {
             var new_message = this.$('.edit-message').val();
             this.model.save({
                 message: new_message
-            }).always(this.finishEditableView);
+            }).always(this.changeToNormalView);
         },
 
+        /**
+         * Enter event on editing message.
+         *
+         * @event enterOnEditMessage
+         */
         enterOnEditMessage: function(e) {
             if (e.keyCode != 13) return;     // keyCode === 13 : EnterKey
             this.updateChat();
         },
 
+        /**
+         * Change to editing view.
+         *
+         * @method changeToEditableView
+         */
         changeToEditableView: function() {
             this.$('.message').hide();
             this.$('.delete-chat').hide();
@@ -12998,19 +13078,34 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
             this.isEditing = true;
         },
 
-        finishEditableView: function() {
+        /**
+         * Change to normal view.
+         *
+         * @method changeToNormalView
+         */
+        changeToNormalView: function() {
             this.$('.message').show();
             this.$('.delete-chat').show();
             this.$('.edit-message').hide();
-            this.updateView();
+            this.refresh();
             this.isEditing = false;
         },
 
+        /**
+         * Fadeout this view
+         *
+         * @method fadeOutView
+         */
         fadeOutView: function() {
             this.$el.fadeOut();
         },
 
-        updateView: function(model) {
+        /**
+         * Synchronize HTML view and this {{#crossLink "mychat.view.Chat/model:property"}}model{{/crossLink}}
+         *
+         * @method updateView
+         */
+        refresh: function() {
             this.$('.message').text(this.model.get('message'));
         }
     });
@@ -13032,15 +13127,40 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
      */
     mychat.view.ChatContainer = Backbone.View.extend({
 
+        /**
+         * {{#crossLink "mychat.collection.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property collection
+         * @type {Object} 
+         */
         collection: null,
 
+        /**
+         * {{#crossLink "mychat.view.ChatInfo"}}{{/crossLink}} instance.
+         * 
+         * @property chatInfoView
+         * @type {Object} 
+         */
         chatInfoView: null,
 
+        /**
+         * {{#crossLink "mychat.view.ChatList"}}{{/crossLink}} instance.
+         * 
+         * @property chatListView
+         * @type {Object} 
+         */
         chatListView: null,
 
+        /**
+         * Constructor
+         *
+         * @method initialize
+         * @constructor
+         */
         initialize: function() {
-            this.chatInfoView = new mychat.view.ChatInfo({collection: this.collection});
-            this.chatListView = new mychat.view.ChatList({collection: this.collection});
+            var view = mychat.view;
+            this.chatInfoView = new view.ChatInfo({collection: this.collection});
+            this.chatListView = new view.ChatList({collection: this.collection});
         }
     });
 
@@ -13058,18 +13178,44 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
      * @extends Backbone.View
      */
     mychat.view.ChatInfo = Backbone.View.extend({
+
+        /**
+         * Element
+         * 
+         * @property el
+         * @type {String} element
+         */
         el: '#chat-info',
+
+        /**
+         * {{#crossLink "mychat.collection.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property collection
+         * @type {Object} 
+         */
         collection: null,
+
+        /**
+         * Constructor
+         *
+         * @method initialize
+         * @constructor
+         */
         initialize: function() {
             this.listenTo(this.collection, 'reset',   this.render);
             this.listenTo(this.collection, 'destroy', this.render);
             this.render();
         },
+
+        /**
+         * Render this view.
+         * 
+         * @chainable
+         */
         render: function() {
             if (! this.collection) {
                 return;
             }
-
             this.$('#chat-count').text(this.collection.length);
             this.$('#chat-response-time').text(this.collection.fetchTime);
             return this;
@@ -13094,16 +13240,30 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
         el: '#chat-list',
 
         /**
-         * @type ChatCollection
+         * {{#crossLink "mychat.collection.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property collection
+         * @type {Object} 
          */
         collection: null,
 
+        /**
+         * {{#crossLink "mychat.collection.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property collection
+         * @type {Object} 
+         */
         initialize: function() {
             // Listen some events
             this.listenTo(this.collection, 'reset',  this.render);
             this.render();
         },
 
+        /**
+         * Render this view.
+         * 
+         * @chainable
+         */
         render: function() {
             if (! this.collection) {
                 return this;
@@ -13118,6 +13278,11 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
             return this;
         },
 
+        /**
+         * Add chat view.
+         * 
+         * @param {Object} model   {{#crossLink "mychat.model.Chat"}}{{/crossLink}} instance.
+         */
         addChatView: function(model) {
             var view = new mychat.view.Chat({model: model});
             view.$el.hide();
@@ -13144,17 +13309,22 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
         /**
          * Element
          * 
+         * @property el
          * @type {String} element
          */
         el: '#search-form',
 
         /**
-         * @type ChatCollection
+         * {{#crossLink "mychat.collection.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property collection
+         * @type {Object}
          */
         collection: null,
 
         /**
          * Events map
+         * @property events
          * @type {Object}
          */
         events: {
@@ -13164,7 +13334,8 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
         /**
          * Submit event of searching chat
          * 
-         * @type {String} element
+         * @event submit
+         * @async
          */
         submit: function() {
             if (! this.collection) {
@@ -13191,26 +13362,38 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
      * @extends Backbone.View
      */
     mychat.view.SendChatForm = Backbone.View.extend({
+
         /**
          * Element
          * 
+         * @property el
          * @type {String} element
          */
         el: '#insert-form',
 
         /**
-         * @type ChatCollection
+         * {{#crossLink "mychat.collection.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property collection
+         * @type {Object}
          */
         collection: null,
 
         /**
          * Events map
+         * @property events
          * @type {Object}
          */
         events: {
             'click #insert-btn': 'sendChat'
         },
 
+        /**
+         * Send chat.
+         * 
+         * @event sendChat
+         * @async
+         */
         sendChat: function() {
             var message = this.$('input').val();
             var ChatModel = mychat.model.Chat;
@@ -13224,9 +13407,28 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 })(jQuery, _, Backbone);
 
 (function($, _, Backbone) {
+
+    /**
+     * This application module
+     * @module mychat
+     */
+    _.namespace('mychat');
+
+    /**
+     * Export variables.
+     * 
+     * @module mychat
+     * @submodule exports
+     */
     _.namespace('mychat.exports');
 
     $(function() {
+
+        /**
+         * AppView instance.
+         * @property appView
+         * @namespace mychat.exports
+         */
         mychat.exports.appView = new mychat.view.App();
     });
 })(jQuery, _, Backbone);

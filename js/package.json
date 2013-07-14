@@ -1,6 +1,6 @@
 {
-  "name": "elastica-sample",
-  "description": "Elastica sample project",
+  "name": "mychat",
+  "description": "My chat system.",
   "version": "0.0.1",
   "devDependencies": {
     "grunt-contrib-clean": "~0.4.0",

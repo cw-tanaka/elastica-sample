@@ -14,17 +14,22 @@
         /**
          * Element
          * 
+         * @property el
          * @type {String} element
          */
         el: '#search-form',
 
         /**
-         * @type ChatCollection
+         * {{#crossLink "mychat.collection.Chat"}}{{/crossLink}} instance.
+         * 
+         * @property collection
+         * @type {Object}
          */
         collection: null,
 
         /**
          * Events map
+         * @property events
          * @type {Object}
          */
         events: {
@@ -34,7 +39,8 @@
         /**
          * Submit event of searching chat
          * 
-         * @type {String} element
+         * @event submit
+         * @async
          */
         submit: function() {
             if (! this.collection) {
