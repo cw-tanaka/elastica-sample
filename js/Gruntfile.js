@@ -1,11 +1,3 @@
-/*
- * grunt-bull-template
- * https://github.com/tan-yuki/grunt-bull-template
- *
- * Copyright (c) 2013 tan-yuki
- * Licensed under the MIT license.
- */
-
 'use strict';
 
 module.exports = function(grunt) {
@@ -15,8 +7,8 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     watch: {
-      files: ['app.js'],
-      tasks: ['yuidoc'],
+      files: ['./src/**/*.js', 'Gruntfile.js'],
+      tasks: ['yuidoc', 'concat'],
       options: {
         interrupt: true,
       }
@@ -28,19 +20,32 @@ module.exports = function(grunt) {
         description: '<%= pkg.description %>',
         version: '<%= pkg.version %>',
         options: {
-          paths: ['.'],
+          paths: ['./src/'],
           outdir: 'docs/'
         }
+      }
+    },
+
+    concat: {
+      dist: {
+        src: [
+            './vendor/jquery.js',
+            './vendor/underscore.js',
+            './vendor/backbone.js',
+            './src/util/**/*.js',
+            './src/mychat/model/**/*.js',
+            './src/mychat/collection/**/*.js',
+            './src/mychat/view/**/*.js',
+            './src/mychat/*.js'
+        ],
+        dest: './dist/mychat.unpack.js'
       }
     }
   });
 
-  // Actually load this plugin's task(s).
-//  grunt.loadTasks('tasks');
-
-  // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-yuidoc');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 
 };

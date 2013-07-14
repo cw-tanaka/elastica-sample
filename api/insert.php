@@ -3,7 +3,7 @@ require_once '../vendor/autoload.php';
 
 $param_key = array(
 	'message',
-	'aid',
+	'userId',
 	'rid',
 );
 
@@ -24,8 +24,8 @@ $chat_type = $client->getIndex('cw')->getType('chat');
 
 $chat = array(
 	'message' => $param['message'],
-	'rid' => $param['room_id'],
-	'aid' => $param['user_id'],
+	'rid' => $param['rid'],
+	'aid' => $param['userId'],
 	'create_date' => date('Y-m-d H:i:s'),
 );
 

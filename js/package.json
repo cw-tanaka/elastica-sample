@@ -1,0 +1,13 @@
+{
+  "name": "elastica-sample",
+  "description": "Elastica sample project",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "yuidocjs": "~0.3.44",
+    "grunt-contrib-yuidoc": "~0.4.0",
+    "grunt-contrib-concat": "~0.3.0"
+  }
+}
