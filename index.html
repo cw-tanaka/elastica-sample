@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div id="container">
+			<h3>Search Chat</h3>
+			<div id="search-form">
+				<ul>
+					<li>
+						<label for="se-message">Chat</label>
+						<input class="param" id="se-message" name="message"></input>
+					</li>
+					<li>
+						<label for="se-rid">RoomId</label>
+						<input class="param" type="text" id="se-rid" name="room_id"></input>
+					</li>
+					<li>
+						<label for="se-aid">UserId</label>
+						<input class="param" type="text" id="se-uid" name="user_id"></input>
+					</li>
+					<li>
+						<label>Date</label>
+						From:<input class="param" type="text" id="se-date-from" name="date_from"></input>
+						To:<input class="param" type="text" id="se-date-to"   name="date_to"></input>
+					</li>
+				</ul>
+				<button id="search-btn">search</button>
+			</div>
+			<div id="insert-form">
+				<h3>Send Chat</h3>
+				message:<input type="text" class="param" id="send-message"></input>
+				<button id="insert-btn">send</button>
+			</div>
+			<div id="chat-container">
+				<div id="chat-info">
+					<p>Hit: <span id="chat-count">0</span></p>
+					<p>Time: <span id="chat-response-time"></span> (sec)</p>
+				</div>
+				<div id="chat-list">
+					<ul>
+						<!-- template #chat-list-template -->
+					</ul>
+				</div>
+			</div>
+		</div><!-- /#container -->
+		<script type="text/template" id="chat-list-template">
+			<li>
+			<span class="subinfo"><b>(id, user_id, room_id) = (<%= id %>, <%= userId %>, <%= rid %>)</b></span>:&nbsp;
+			<span class="message"><%= message %></span>
+			<input class="edit-message" type="text" name="message" class="param" style="display:none;"></input>
+			<button class="delete-chat">Delete</button>
+			</li>
+		</script>
+		<script type="text/javascript" src="./js/dist/mychat.unpack.js"></script>
+	</body>
+</html>
+
